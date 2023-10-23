@@ -1,0 +1,2709 @@
+<?xml version='1.0' encoding='utf-8'?>
+<produits>
+  <produit>
+    <index>0</index>
+    <Identifiant>86</Identifiant>
+    <Description>Diffuseur d'huile parfumée (ananas et mangue)</Description>
+    <Marque>GLADE</Marque>
+    <Poids>350</Poids>
+    <Prix>6.99</Prix>
+    <Prix_ref>6.99/UNITE</Prix_ref>
+    <Popularité>4</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>1</index>
+    <Identifiant>540</Identifiant>
+    <Description>Sauce pour pâtes champignons</Description>
+    <Marque>MAMMA DORA</Marque>
+    <Poids>680</Poids>
+    <Prix>2.99</Prix>
+    <Prix_ref>0.44/100ML</Prix_ref>
+    <Popularité>5</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>2</index>
+    <Identifiant>665</Identifiant>
+    <Description>Soupe thai au cari rouge</Description>
+    <Marque>HAIKU</Marque>
+    <Poids>398</Poids>
+    <Prix>3.19</Prix>
+    <Prix_ref>0.80/100ML</Prix_ref>
+    <Popularité>3</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>3</index>
+    <Identifiant>311</Identifiant>
+    <Description>Chandelle hawaiian aloha</Description>
+    <Marque>FEBREZE</Marque>
+    <Poids>155</Poids>
+    <Prix>4.99</Prix>
+    <Prix_ref>3.22/100Gr</Prix_ref>
+    <Popularité>4</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>4</index>
+    <Identifiant>134</Identifiant>
+    <Description>Croustilles naturelle</Description>
+    <Marque>OLD DUTCH</Marque>
+    <Poids>270</Poids>
+    <Prix>2.75</Prix>
+    <Prix_ref>1.02/100Gr</Prix_ref>
+    <Popularité>5</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>5</index>
+    <Identifiant>903</Identifiant>
+    <Description>Activia. yogourt probiotique citron</Description>
+    <Marque>DANONE</Marque>
+    <Poids>650</Poids>
+    <Prix>3.5</Prix>
+    <Prix_ref>0.54/100Gr</Prix_ref>
+    <Popularité>10</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>6</index>
+    <Identifiant>133</Identifiant>
+    <Description>Bière 5%</Description>
+    <Marque>SLEEMAN</Marque>
+    <Poids>341</Poids>
+    <Prix>14.99</Prix>
+    <Prix_ref>0.37/100ML</Prix_ref>
+    <Popularité>8</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>7</index>
+    <Identifiant>750</Identifiant>
+    <Description>Fromage mozzarella en tranches</Description>
+    <Marque>P'TIT QUÉBEC</Marque>
+    <Poids>240</Poids>
+    <Prix>4.99</Prix>
+    <Prix_ref>2.08/100Gr</Prix_ref>
+    <Popularité>7</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>8</index>
+    <Identifiant>241</Identifiant>
+    <Description>Café moulu gourmet tourbillon mocha K-Cup 12un</Description>
+    <Marque>FOLGERS</Marque>
+    <Poids>108</Poids>
+    <Prix>8.79</Prix>
+    <Prix_ref>8.14/100Gr</Prix_ref>
+    <Popularité>8</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>9</index>
+    <Identifiant>425</Identifiant>
+    <Description>Grains entiers du domaine crème noisette</Description>
+    <Marque>MELITTA</Marque>
+    <Poids>907</Poids>
+    <Prix>14.99</Prix>
+    <Prix_ref>1.65/100Gr</Prix_ref>
+    <Popularité>7</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>10</index>
+    <Identifiant>588</Identifiant>
+    <Description>P'tit Québec. Fromage en tranche Suisse</Description>
+    <Marque>P'TIT QUÉBEC</Marque>
+    <Poids>220</Poids>
+    <Prix>4.99</Prix>
+    <Prix_ref>2.27/100Gr</Prix_ref>
+    <Popularité>9</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>11</index>
+    <Identifiant>476</Identifiant>
+    <Description>Yogourt probiotique activia bleuets</Description>
+    <Marque>DANONE</Marque>
+    <Poids>650</Poids>
+    <Prix>3.5</Prix>
+    <Prix_ref>0.54/100Gr</Prix_ref>
+    <Popularité>9</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>12</index>
+    <Identifiant>370</Identifiant>
+    <Description>Bières trio d'été canadian 67</Description>
+    <Marque>MOLSON</Marque>
+    <Poids>341</Poids>
+    <Prix>14.99</Prix>
+    <Prix_ref>0.37/100ML</Prix_ref>
+    <Popularité>0</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>13</index>
+    <Identifiant>396</Identifiant>
+    <Description>Lait sans lactose 1%</Description>
+    <Marque>NATREL</Marque>
+    <Poids>350</Poids>
+    <Prix>4.99</Prix>
+    <Prix_ref>0.25/100ML</Prix_ref>
+    <Popularité>5</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>14</index>
+    <Identifiant>356</Identifiant>
+    <Description>Café torrefaction pike place infuse</Description>
+    <Marque>STARBUCKS</Marque>
+    <Poids>340</Poids>
+    <Prix>9.99</Prix>
+    <Prix_ref>2.94/100Gr</Prix_ref>
+    <Popularité>3</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>15</index>
+    <Identifiant>764</Identifiant>
+    <Description>Barre Dipps caramel et noix</Description>
+    <Marque>QUAKER</Marque>
+    <Poids>187</Poids>
+    <Prix>2.0</Prix>
+    <Prix_ref>1.07/100Gr</Prix_ref>
+    <Popularité>2</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>16</index>
+    <Identifiant>717</Identifiant>
+    <Description>Café ordinaire verona infuse</Description>
+    <Marque>STARBUCKS</Marque>
+    <Poids>340</Poids>
+    <Prix>9.99</Prix>
+    <Prix_ref>2.94/100Gr</Prix_ref>
+    <Popularité>1</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>17</index>
+    <Identifiant>269</Identifiant>
+    <Description>Diffuseur d'huile parfumée (lavande)</Description>
+    <Marque>GLADE</Marque>
+    <Poids>350</Poids>
+    <Prix>6.99</Prix>
+    <Prix_ref>6.99/UNITE</Prix_ref>
+    <Popularité>2</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>18</index>
+    <Identifiant>126</Identifiant>
+    <Description>Brume odorane. recharge lavande et vanille</Description>
+    <Marque>GLADE</Marque>
+    <Poids>350</Poids>
+    <Prix>4.99</Prix>
+    <Prix_ref>4.99/UNITE</Prix_ref>
+    <Popularité>8</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>19</index>
+    <Identifiant>495</Identifiant>
+    <Description>Boisson aux amandes non sucrée</Description>
+    <Marque>ALMOND FRESH</Marque>
+    <Poids>890</Poids>
+    <Prix>3.79</Prix>
+    <Prix_ref>0.20/100ML</Prix_ref>
+    <Popularité>0</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>20</index>
+    <Identifiant>382</Identifiant>
+    <Description>Bouillon de poulet 25% moins de sodium</Description>
+    <Marque>CAMPBELL'S</Marque>
+    <Poids>284</Poids>
+    <Prix>1.25</Prix>
+    <Prix_ref>0.44/100ML</Prix_ref>
+    <Popularité>9</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>21</index>
+    <Identifiant>441</Identifiant>
+    <Description>Croustilles rip-l légèrement salées</Description>
+    <Marque>OLD DUTCH</Marque>
+    <Poids>270</Poids>
+    <Prix>2.75</Prix>
+    <Prix_ref>1.02/100Gr</Prix_ref>
+    <Popularité>4</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>22</index>
+    <Identifiant>847</Identifiant>
+    <Description>Miel crémeux pur et naturel</Description>
+    <Marque>COMPLIMENTS</Marque>
+    <Poids>500</Poids>
+    <Prix>5.99</Prix>
+    <Prix_ref>1.20/100Gr</Prix_ref>
+    <Popularité>8</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>23</index>
+    <Identifiant>958</Identifiant>
+    <Description>Café décaféiné Colombien suprême k-cup (12)</Description>
+    <Marque>FOLGERS</Marque>
+    <Poids>108</Poids>
+    <Prix>8.79</Prix>
+    <Prix_ref>8.14/100Gr</Prix_ref>
+    <Popularité>3</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>24</index>
+    <Identifiant>263</Identifiant>
+    <Description>Sauce cuisson Chow Mein</Description>
+    <Marque>BLUE DRAGON</Marque>
+    <Poids>350</Poids>
+    <Prix>2.99</Prix>
+    <Prix_ref>0.85/100ML</Prix_ref>
+    <Popularité>6</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>25</index>
+    <Identifiant>225</Identifiant>
+    <Description>Bière bud light platinum 6%</Description>
+    <Marque>LABATT</Marque>
+    <Poids>340</Poids>
+    <Prix>14.99</Prix>
+    <Prix_ref>0.37/100ML</Prix_ref>
+    <Popularité>5</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>26</index>
+    <Identifiant>732</Identifiant>
+    <Description>Chandelle parfumée (murmure d'ange)</Description>
+    <Marque>GLADE</Marque>
+    <Poids>350</Poids>
+    <Prix>3.99</Prix>
+    <Prix_ref>3.99/UNITE</Prix_ref>
+    <Popularité>8</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>27</index>
+    <Identifiant>520</Identifiant>
+    <Description>Cubes de cire lavande et vanille</Description>
+    <Marque>GLADE</Marque>
+    <Poids>350</Poids>
+    <Prix>3.99</Prix>
+    <Prix_ref>0.67/UNITE</Prix_ref>
+    <Popularité>10</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>28</index>
+    <Identifiant>658</Identifiant>
+    <Description>Wish for More vin rouge Espagne</Description>
+    <Marque>WISH FOR</Marque>
+    <Poids>750</Poids>
+    <Prix>9.69</Prix>
+    <Prix_ref>1.29/100ML</Prix_ref>
+    <Popularité>7</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>29</index>
+    <Identifiant>493</Identifiant>
+    <Description>Bière blonde de luxe 5.2%</Description>
+    <Marque>STELLA ARTOIS</Marque>
+    <Poids>330</Poids>
+    <Prix>19.99</Prix>
+    <Prix_ref>0.50/100ML</Prix_ref>
+    <Popularité>1</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>30</index>
+    <Identifiant>371</Identifiant>
+    <Description>Vin blanc Élaboré au Canada - Délicat et Léger </Description>
+    <Marque>MEDITERRA</Marque>
+    <Poids>350</Poids>
+    <Prix>9.99</Prix>
+    <Prix_ref>1.00/100ML</Prix_ref>
+    <Popularité>5</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>31</index>
+    <Identifiant>402</Identifiant>
+    <Description>Lait Fraises</Description>
+    <Marque>QUEBON</Marque>
+    <Poids>473</Poids>
+    <Prix>1.0</Prix>
+    <Prix_ref>0.21/100ML</Prix_ref>
+    <Popularité>0</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>32</index>
+    <Identifiant>673</Identifiant>
+    <Description>Yogourt moment citron 8% </Description>
+    <Marque>IOGO</Marque>
+    <Poids>500</Poids>
+    <Prix>2.99</Prix>
+    <Prix_ref>0.60/100Gr</Prix_ref>
+    <Popularité>10</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>33</index>
+    <Identifiant>167</Identifiant>
+    <Description>Tisane en sachets (douceur nocturne)</Description>
+    <Marque>LA COURTISANE</Marque>
+    <Poids>20</Poids>
+    <Prix>3.19</Prix>
+    <Prix_ref>0.16/UNITE</Prix_ref>
+    <Popularité>5</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>34</index>
+    <Identifiant>927</Identifiant>
+    <Description>Thé en sachets (vert-grenade)</Description>
+    <Marque>TETLEY</Marque>
+    <Poids>24</Poids>
+    <Prix>2.5</Prix>
+    <Prix_ref>0.10/UNITE</Prix_ref>
+    <Popularité>8</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>35</index>
+    <Identifiant>675</Identifiant>
+    <Description>Liquide nettoyant agrumes d'été</Description>
+    <Marque>M.NET</Marque>
+    <Poids>800</Poids>
+    <Prix>2.5</Prix>
+    <Prix_ref>0.31/100ML</Prix_ref>
+    <Popularité>0</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>36</index>
+    <Identifiant>270</Identifiant>
+    <Description>Bouillon de boeuf 25% moins de sel </Description>
+    <Marque>CAMPBELL'S</Marque>
+    <Poids>284</Poids>
+    <Prix>1.25</Prix>
+    <Prix_ref>0.44/100ML</Prix_ref>
+    <Popularité>5</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>37</index>
+    <Identifiant>611</Identifiant>
+    <Description>Brume odorante. recharge hawaiian breeze</Description>
+    <Marque>GLADE</Marque>
+    <Poids>350</Poids>
+    <Prix>4.99</Prix>
+    <Prix_ref>4.99/UNITE</Prix_ref>
+    <Popularité>7</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>38</index>
+    <Identifiant>868</Identifiant>
+    <Description>Sauce à l'orange sans gluten </Description>
+    <Marque>SAN-J</Marque>
+    <Poids>296</Poids>
+    <Prix>3.99</Prix>
+    <Prix_ref>1.35/100ML</Prix_ref>
+    <Popularité>4</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>39</index>
+    <Identifiant>132</Identifiant>
+    <Description>Amooza twist mozzarella</Description>
+    <Marque>KRAFT</Marque>
+    <Poids>252</Poids>
+    <Prix>4.99</Prix>
+    <Prix_ref>1.98/100Gr</Prix_ref>
+    <Popularité>4</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>40</index>
+    <Identifiant>979</Identifiant>
+    <Description>Brume odorante sur demande. recharge source pure</Description>
+    <Marque>GLADE</Marque>
+    <Poids>350</Poids>
+    <Prix>4.99</Prix>
+    <Prix_ref>4.99/UNITE</Prix_ref>
+    <Popularité>1</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>41</index>
+    <Identifiant>125</Identifiant>
+    <Description>Brevage Chocolat</Description>
+    <Marque>QUEBON</Marque>
+    <Poids>473</Poids>
+    <Prix>1.0</Prix>
+    <Prix_ref>0.21/100ML</Prix_ref>
+    <Popularité>6</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>42</index>
+    <Identifiant>139</Identifiant>
+    <Description>Bière japonaise 5%</Description>
+    <Marque>SAPPORO</Marque>
+    <Poids>340</Poids>
+    <Prix>19.99</Prix>
+    <Prix_ref>0.49/100ML</Prix_ref>
+    <Popularité>10</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>43</index>
+    <Identifiant>900</Identifiant>
+    <Description>Nettoyeur salle de bains</Description>
+    <Marque>VIM</Marque>
+    <Poids>950</Poids>
+    <Prix>3.99</Prix>
+    <Prix_ref>0.42/100ML</Prix_ref>
+    <Popularité>4</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>44</index>
+    <Identifiant>528</Identifiant>
+    <Description>Thé en sachets (vert-décaféiné)</Description>
+    <Marque>TETLEY</Marque>
+    <Poids>24</Poids>
+    <Prix>2.5</Prix>
+    <Prix_ref>0.10/UNITE</Prix_ref>
+    <Popularité>3</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>45</index>
+    <Identifiant>341</Identifiant>
+    <Description>Boisson à la noix de coco</Description>
+    <Marque>ALMOND FRESH</Marque>
+    <Poids>180</Poids>
+    <Prix>3.79</Prix>
+    <Prix_ref>0.20/100ML</Prix_ref>
+    <Popularité>10</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>46</index>
+    <Identifiant>877</Identifiant>
+    <Description>Chandelle bruines</Description>
+    <Marque>FEBREZE</Marque>
+    <Poids>155</Poids>
+    <Prix>4.99</Prix>
+    <Prix_ref>3.22/100Gr</Prix_ref>
+    <Popularité>2</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>47</index>
+    <Identifiant>646</Identifiant>
+    <Description>Vin rouge argentine</Description>
+    <Marque>WISH FOR A KISS</Marque>
+    <Poids>750</Poids>
+    <Prix>9.69</Prix>
+    <Prix_ref>1.29/100ML</Prix_ref>
+    <Popularité>5</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>48</index>
+    <Identifiant>959</Identifiant>
+    <Description>Café K-Cup espresso 12 dosettes</Description>
+    <Marque>FOLGERS</Marque>
+    <Poids>126</Poids>
+    <Prix>8.79</Prix>
+    <Prix_ref>6.98/100Gr</Prix_ref>
+    <Popularité>4</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>49</index>
+    <Identifiant>195</Identifiant>
+    <Description>Fromage havarti en tranches</Description>
+    <Marque>KRAFT</Marque>
+    <Poids>220</Poids>
+    <Prix>4.99</Prix>
+    <Prix_ref>2.27/100Gr</Prix_ref>
+    <Popularité>5</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>50</index>
+    <Identifiant>906</Identifiant>
+    <Description>Brisures de chocolat </Description>
+    <Marque>CLIF BAR</Marque>
+    <Poids>408</Poids>
+    <Prix>6.49</Prix>
+    <Prix_ref>1.59/100Gr</Prix_ref>
+    <Popularité>3</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>51</index>
+    <Identifiant>980</Identifiant>
+    <Description>Café colombien suprême</Description>
+    <Marque>FOLGERS</Marque>
+    <Poids>108</Poids>
+    <Prix>8.79</Prix>
+    <Prix_ref>8.14/100Gr</Prix_ref>
+    <Popularité>7</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>52</index>
+    <Identifiant>897</Identifiant>
+    <Description>Croustilles rip-l nature</Description>
+    <Marque>OLD DUTCH</Marque>
+    <Poids>270</Poids>
+    <Prix>2.75</Prix>
+    <Prix_ref>1.02/100Gr</Prix_ref>
+    <Popularité>4</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>53</index>
+    <Identifiant>437</Identifiant>
+    <Description>Thé sachets vert plus</Description>
+    <Marque>TETLEY</Marque>
+    <Poids>20</Poids>
+    <Prix>2.5</Prix>
+    <Prix_ref>0.13/UNITE</Prix_ref>
+    <Popularité>0</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>54</index>
+    <Identifiant>148</Identifiant>
+    <Description>Torréfaction noirains entiers du domaine</Description>
+    <Marque>MELITTA</Marque>
+    <Poids>907</Poids>
+    <Prix>14.99</Prix>
+    <Prix_ref>1.65/100Gr</Prix_ref>
+    <Popularité>7</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>55</index>
+    <Identifiant>701</Identifiant>
+    <Description>Vin rouge</Description>
+    <Marque>NICOLAS LALOUX</Marque>
+    <Poids>350</Poids>
+    <Prix>9.99</Prix>
+    <Prix_ref>1.00/100ML</Prix_ref>
+    <Popularité>10</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>56</index>
+    <Identifiant>39</Identifiant>
+    <Description>Vin blanc France</Description>
+    <Marque>LA PECHE MIGNONNE</Marque>
+    <Poids>750</Poids>
+    <Prix>16.65</Prix>
+    <Prix_ref>2.22/100ML</Prix_ref>
+    <Popularité>9</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>57</index>
+    <Identifiant>256</Identifiant>
+    <Description>Nettoyant Fleur rose </Description>
+    <Marque>VIM</Marque>
+    <Poids>500</Poids>
+    <Prix>2.99</Prix>
+    <Prix_ref>0.60/100ML</Prix_ref>
+    <Popularité>7</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>58</index>
+    <Identifiant>714</Identifiant>
+    <Description>Amooza twist mozzarella-cheddar</Description>
+    <Marque>KRAFT</Marque>
+    <Poids>252</Poids>
+    <Prix>4.99</Prix>
+    <Prix_ref>1.98/100Gr</Prix_ref>
+    <Popularité>2</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>59</index>
+    <Identifiant>599</Identifiant>
+    <Description>Tartinade caramel au beurre</Description>
+    <Marque>DORA</Marque>
+    <Poids>454</Poids>
+    <Prix>2.99</Prix>
+    <Prix_ref>0.66/100Gr</Prix_ref>
+    <Popularité>10</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>60</index>
+    <Identifiant>559</Identifiant>
+    <Description>Vin blanc</Description>
+    <Marque>NICOLAS LALOUX</Marque>
+    <Poids>350</Poids>
+    <Prix>9.99</Prix>
+    <Prix_ref>1.00/100ML</Prix_ref>
+    <Popularité>5</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>61</index>
+    <Identifiant>574</Identifiant>
+    <Description>Pods Détergent à lessive en sachet fraîcheur d'océan</Description>
+    <Marque>TIDE</Marque>
+    <Poids>140</Poids>
+    <Prix>5.0</Prix>
+    <Prix_ref>0.36/BRASSEE</Prix_ref>
+    <Popularité>2</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>62</index>
+    <Identifiant>136</Identifiant>
+    <Description>Effaceur magique</Description>
+    <Marque>M.NET</Marque>
+    <Poids>350</Poids>
+    <Prix>2.5</Prix>
+    <Prix_ref>1.25/UNITE</Prix_ref>
+    <Popularité>3</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>63</index>
+    <Identifiant>723</Identifiant>
+    <Description>Wish for Fame vin rosée Espagne</Description>
+    <Marque>WISH FOR</Marque>
+    <Poids>750</Poids>
+    <Prix>9.69</Prix>
+    <Prix_ref>1.29/100ML</Prix_ref>
+    <Popularité>0</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>64</index>
+    <Identifiant>353</Identifiant>
+    <Description>Bonbonsanny smith</Description>
+    <Marque>MAYNARDS</Marque>
+    <Poids>170</Poids>
+    <Prix>1.99</Prix>
+    <Prix_ref>1.17/100Gr</Prix_ref>
+    <Popularité>7</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>65</index>
+    <Identifiant>592</Identifiant>
+    <Description>Yogourt méditerranée citron</Description>
+    <Marque>LIBERTÉ</Marque>
+    <Poids>500</Poids>
+    <Prix>2.99</Prix>
+    <Prix_ref>0.60/100Gr</Prix_ref>
+    <Popularité>7</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>66</index>
+    <Identifiant>888</Identifiant>
+    <Description>Vin rouge 11%</Description>
+    <Marque>L'AUBERGE</Marque>
+    <Poids>750</Poids>
+    <Prix>8.19</Prix>
+    <Prix_ref>1.09/100ML</Prix_ref>
+    <Popularité>9</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>67</index>
+    <Identifiant>221</Identifiant>
+    <Description>Yogourt méiterranéen cerise noire 9%</Description>
+    <Marque>LIBERTE</Marque>
+    <Poids>500</Poids>
+    <Prix>2.99</Prix>
+    <Prix_ref>0.60/100Gr</Prix_ref>
+    <Popularité>5</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>68</index>
+    <Identifiant>581</Identifiant>
+    <Description>Céréales Froot Loops (format géant)</Description>
+    <Marque>KELLOGG'S</Marque>
+    <Poids>825</Poids>
+    <Prix>7.49</Prix>
+    <Prix_ref>0.91/100Gr</Prix_ref>
+    <Popularité>7</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>69</index>
+    <Identifiant>106</Identifiant>
+    <Description>Fromage rapé mozzarella écrémé</Description>
+    <Marque>COMPLIMENTS</Marque>
+    <Poids>200</Poids>
+    <Prix>3.49</Prix>
+    <Prix_ref>1.75/100Gr</Prix_ref>
+    <Popularité>6</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>70</index>
+    <Identifiant>470</Identifiant>
+    <Description>Vin blanc France</Description>
+    <Marque>WISH FOR STYLE</Marque>
+    <Poids>750</Poids>
+    <Prix>9.69</Prix>
+    <Prix_ref>1.29/100ML</Prix_ref>
+    <Popularité>8</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>71</index>
+    <Identifiant>827</Identifiant>
+    <Description>Café torréfaction française</Description>
+    <Marque>STARBUCKS</Marque>
+    <Poids>10</Poids>
+    <Prix>10.99</Prix>
+    <Prix_ref>1.10/UNITE</Prix_ref>
+    <Popularité>7</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>72</index>
+    <Identifiant>736</Identifiant>
+    <Description>Cubes de cire Pomme cannelle</Description>
+    <Marque>GLADE</Marque>
+    <Poids>350</Poids>
+    <Prix>3.99</Prix>
+    <Prix_ref>0.67/UNITE</Prix_ref>
+    <Popularité>3</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>73</index>
+    <Identifiant>750</Identifiant>
+    <Description>Fromage cheddar doux en tranches</Description>
+    <Marque>P'TIT QUÉBEC</Marque>
+    <Poids>240</Poids>
+    <Prix>4.99</Prix>
+    <Prix_ref>2.08/100Gr</Prix_ref>
+    <Popularité>2</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>74</index>
+    <Identifiant>49</Identifiant>
+    <Description>Yogourt Moment 8% pomme caramel</Description>
+    <Marque>IOGO</Marque>
+    <Poids>400</Poids>
+    <Prix>2.99</Prix>
+    <Prix_ref>0.75/100Gr</Prix_ref>
+    <Popularité>4</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>75</index>
+    <Identifiant>675</Identifiant>
+    <Description>Sauce cuisson aigre-douce</Description>
+    <Marque>BLUE DRAGON</Marque>
+    <Poids>350</Poids>
+    <Prix>2.99</Prix>
+    <Prix_ref>0.85/100ML</Prix_ref>
+    <Popularité>9</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>76</index>
+    <Identifiant>403</Identifiant>
+    <Description>Bière crown</Description>
+    <Marque>BUDWEISER</Marque>
+    <Poids>340</Poids>
+    <Prix>14.99</Prix>
+    <Prix_ref>0.37/100ML</Prix_ref>
+    <Popularité>4</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>77</index>
+    <Identifiant>213</Identifiant>
+    <Description>Recharge cubes de cire pure vanille</Description>
+    <Marque>GLADE</Marque>
+    <Poids>350</Poids>
+    <Prix>3.99</Prix>
+    <Prix_ref>0.67/UNITE</Prix_ref>
+    <Popularité>7</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>78</index>
+    <Identifiant>562</Identifiant>
+    <Description>Thé sachets vert plus forme</Description>
+    <Marque>TETLEY</Marque>
+    <Poids>20</Poids>
+    <Prix>2.5</Prix>
+    <Prix_ref>0.13/UNITE</Prix_ref>
+    <Popularité>4</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>79</index>
+    <Identifiant>199</Identifiant>
+    <Description>Brume odorante sur demande. lessive fraîche</Description>
+    <Marque>GLADE</Marque>
+    <Poids>350</Poids>
+    <Prix>7.99</Prix>
+    <Prix_ref>799.00/UNITE</Prix_ref>
+    <Popularité>4</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>80</index>
+    <Identifiant>732</Identifiant>
+    <Description>Crème nettoyante (fraîcheur)</Description>
+    <Marque>VIM</Marque>
+    <Poids>500</Poids>
+    <Prix>2.99</Prix>
+    <Prix_ref>0.60/100ML</Prix_ref>
+    <Popularité>10</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>81</index>
+    <Identifiant>992</Identifiant>
+    <Description>Wish for Love vin rouge Australie</Description>
+    <Marque>WISH FOR</Marque>
+    <Poids>750</Poids>
+    <Prix>9.69</Prix>
+    <Prix_ref>1.29/100ML</Prix_ref>
+    <Popularité>2</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>82</index>
+    <Identifiant>835</Identifiant>
+    <Description>Détergent vaisselle parfum pluie rafraîchissante</Description>
+    <Marque>DAWN</Marque>
+    <Poids>591</Poids>
+    <Prix>2.5</Prix>
+    <Prix_ref>0.42/100ML</Prix_ref>
+    <Popularité>6</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>83</index>
+    <Identifiant>141</Identifiant>
+    <Description>Purificateur d'air (pluie des prés)</Description>
+    <Marque>FEBREZE</Marque>
+    <Poids>275</Poids>
+    <Prix>3.5</Prix>
+    <Prix_ref>1.27/100Gr</Prix_ref>
+    <Popularité>5</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>84</index>
+    <Identifiant>797</Identifiant>
+    <Description>Yogourt riche et onctueux noix de coco</Description>
+    <Marque>LIBERTÉ</Marque>
+    <Poids>500</Poids>
+    <Prix>2.99</Prix>
+    <Prix_ref>0.60/100Gr</Prix_ref>
+    <Popularité>8</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>85</index>
+    <Identifiant>335</Identifiant>
+    <Description>Verona dark K-cup </Description>
+    <Marque>STARBUCKS</Marque>
+    <Poids>10</Poids>
+    <Prix>10.99</Prix>
+    <Prix_ref>1.10/UNITE</Prix_ref>
+    <Popularité>7</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>86</index>
+    <Identifiant>515</Identifiant>
+    <Description>Café moulu</Description>
+    <Marque>MAXWELL HOUSE</Marque>
+    <Poids>326</Poids>
+    <Prix>5.99</Prix>
+    <Prix_ref>1.84/100Gr</Prix_ref>
+    <Popularité>3</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>87</index>
+    <Identifiant>47</Identifiant>
+    <Description>Lait au chocolat 1%</Description>
+    <Marque>QUÉBON</Marque>
+    <Poids>473</Poids>
+    <Prix>1.0</Prix>
+    <Prix_ref>0.21/100ML</Prix_ref>
+    <Popularité>7</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>88</index>
+    <Identifiant>549</Identifiant>
+    <Description>Lait de coco (léger)</Description>
+    <Marque>HAIKU</Marque>
+    <Poids>398</Poids>
+    <Prix>1.69</Prix>
+    <Prix_ref>0.42/100ML</Prix_ref>
+    <Popularité>5</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>89</index>
+    <Identifiant>43</Identifiant>
+    <Description>Torréfaction pike place. K-cup</Description>
+    <Marque>STARBUCKS</Marque>
+    <Poids>10</Poids>
+    <Prix>10.99</Prix>
+    <Prix_ref>1.10/UNITE</Prix_ref>
+    <Popularité>1</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>90</index>
+    <Identifiant>913</Identifiant>
+    <Description>Thé sachets vert plus</Description>
+    <Marque>TETLEY</Marque>
+    <Poids>20</Poids>
+    <Prix>2.5</Prix>
+    <Prix_ref>0.13/UNITE</Prix_ref>
+    <Popularité>0</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>91</index>
+    <Identifiant>281</Identifiant>
+    <Description>Soupe Condensée (Crème de poulet )</Description>
+    <Marque>CAMPBELL'S</Marque>
+    <Poids>284</Poids>
+    <Prix>1.25</Prix>
+    <Prix_ref>0.44/100ML</Prix_ref>
+    <Popularité>8</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>92</index>
+    <Identifiant>685</Identifiant>
+    <Description>Rip-l crème sure aneth</Description>
+    <Marque>OLD DUTCH</Marque>
+    <Poids>270</Poids>
+    <Prix>2.75</Prix>
+    <Prix_ref>1.02/100Gr</Prix_ref>
+    <Popularité>5</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>93</index>
+    <Identifiant>731</Identifiant>
+    <Description>Eau de javel concentrée</Description>
+    <Marque>CLOROX</Marque>
+    <Poids>200</Poids>
+    <Prix>2.5</Prix>
+    <Prix_ref>0.13/100ML</Prix_ref>
+    <Popularité>4</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>94</index>
+    <Identifiant>840</Identifiant>
+    <Description>Lait écrémé sans lactose</Description>
+    <Marque>NATREL</Marque>
+    <Poids>350</Poids>
+    <Prix>4.99</Prix>
+    <Prix_ref>0.25/100ML</Prix_ref>
+    <Popularité>2</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>95</index>
+    <Identifiant>670</Identifiant>
+    <Description>Wish for Sun vin blanc Italie</Description>
+    <Marque>WISH FOR</Marque>
+    <Poids>750</Poids>
+    <Prix>9.69</Prix>
+    <Prix_ref>1.29/100ML</Prix_ref>
+    <Popularité>1</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>96</index>
+    <Identifiant>588</Identifiant>
+    <Description>Yogourt Moment 8% framboise</Description>
+    <Marque>IOGO</Marque>
+    <Poids>400</Poids>
+    <Prix>2.99</Prix>
+    <Prix_ref>0.75/100Gr</Prix_ref>
+    <Popularité>1</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>97</index>
+    <Identifiant>989</Identifiant>
+    <Description>Bâton frais fraicheur des prés</Description>
+    <Marque>FEBREZE</Marque>
+    <Poids>750</Poids>
+    <Prix>3.5</Prix>
+    <Prix_ref>63.64/100ML</Prix_ref>
+    <Popularité>7</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>98</index>
+    <Identifiant>266</Identifiant>
+    <Description>Pinces bouche air auto ciel frais </Description>
+    <Marque>FEBREZE</Marque>
+    <Poids>750</Poids>
+    <Prix>3.5</Prix>
+    <Prix_ref>175.00/100ML</Prix_ref>
+    <Popularité>8</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>99</index>
+    <Identifiant>528</Identifiant>
+    <Description>Café sumatra</Description>
+    <Marque>STARBUCKS</Marque>
+    <Poids>750</Poids>
+    <Prix>10.99</Prix>
+    <Prix_ref>9.16/100Gr</Prix_ref>
+    <Popularité>5</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>100</index>
+    <Identifiant>508</Identifiant>
+    <Description>Thé en sachets (vert-citron-miel)</Description>
+    <Marque>TETLEY</Marque>
+    <Poids>235</Poids>
+    <Prix>2.5</Prix>
+    <Prix_ref>0.10/UNITE</Prix_ref>
+    <Popularité>10</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>101</index>
+    <Identifiant>10</Identifiant>
+    <Description>Ultra bière 4% en canettes</Description>
+    <Marque>MICHELOB</Marque>
+    <Poids>350</Poids>
+    <Prix>14.99</Prix>
+    <Prix_ref>0.35/100ML</Prix_ref>
+    <Popularité>5</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>102</index>
+    <Identifiant>175</Identifiant>
+    <Description>The sachet </Description>
+    <Marque>TETLEY</Marque>
+    <Poids>350</Poids>
+    <Prix>2.59</Prix>
+    <Prix_ref>0.07/UNITE</Prix_ref>
+    <Popularité>3</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>103</index>
+    <Identifiant>72</Identifiant>
+    <Description>Fromage rapé mozzarella</Description>
+    <Marque>COMPLIMENTS</Marque>
+    <Poids>200</Poids>
+    <Prix>3.49</Prix>
+    <Prix_ref>1.75/100Gr</Prix_ref>
+    <Popularité>2</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>104</index>
+    <Identifiant>994</Identifiant>
+    <Description>Croustilles sel et vinaigre </Description>
+    <Marque>OLD DUTCH</Marque>
+    <Poids>270</Poids>
+    <Prix>2.75</Prix>
+    <Prix_ref>1.02/100Gr</Prix_ref>
+    <Popularité>4</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>105</index>
+    <Identifiant>493</Identifiant>
+    <Description>Bière rousse 4%</Description>
+    <Marque>SLEEMAN</Marque>
+    <Poids>340</Poids>
+    <Prix>14.99</Prix>
+    <Prix_ref>0.37/100ML</Prix_ref>
+    <Popularité>0</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>106</index>
+    <Identifiant>943</Identifiant>
+    <Description>Mélange maison. torréfaction moyenne. K-cup</Description>
+    <Marque>STARBUCKS</Marque>
+    <Poids>350</Poids>
+    <Prix>10.99</Prix>
+    <Prix_ref>1.10/UNITE</Prix_ref>
+    <Popularité>10</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>107</index>
+    <Identifiant>264</Identifiant>
+    <Description>Café mélange reveil matin</Description>
+    <Marque>BRÛLERIE SAINT-DENIS</Marque>
+    <Poids>225</Poids>
+    <Prix>8.99</Prix>
+    <Prix_ref>4.00/100Gr</Prix_ref>
+    <Popularité>5</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>108</index>
+    <Identifiant>570</Identifiant>
+    <Description>Bière sélection cannettes</Description>
+    <Marque>SLEEMAN</Marque>
+    <Poids>235</Poids>
+    <Prix>14.99</Prix>
+    <Prix_ref>0.35/100ML</Prix_ref>
+    <Popularité>3</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>109</index>
+    <Identifiant>842</Identifiant>
+    <Description>Bière 5.5% canettes</Description>
+    <Marque>MOLSON</Marque>
+    <Poids>380</Poids>
+    <Prix>23.99</Prix>
+    <Prix_ref>0.34/100ML</Prix_ref>
+    <Popularité>5</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>110</index>
+    <Identifiant>738</Identifiant>
+    <Description>Fromage monterey jack en tranches</Description>
+    <Marque>KRAFT</Marque>
+    <Poids>220</Poids>
+    <Prix>4.99</Prix>
+    <Prix_ref>2.27/100Gr</Prix_ref>
+    <Popularité>10</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>111</index>
+    <Identifiant>657</Identifiant>
+    <Description>Croustilles BBQ</Description>
+    <Marque>OLD DUTCH</Marque>
+    <Poids>270</Poids>
+    <Prix>2.75</Prix>
+    <Prix_ref>1.02/100Gr</Prix_ref>
+    <Popularité>2</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>112</index>
+    <Identifiant>35</Identifiant>
+    <Description>Détergent à lessive (rosée matinale)</Description>
+    <Marque>BIO-VERT</Marque>
+    <Poids>750</Poids>
+    <Prix>4.99</Prix>
+    <Prix_ref>0.36/100ML</Prix_ref>
+    <Popularité>6</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>113</index>
+    <Identifiant>642</Identifiant>
+    <Description>Détergent lave-vaisselle (30 pastilles)</Description>
+    <Marque>BIO-VERT</Marque>
+    <Poids>600</Poids>
+    <Prix>5.99</Prix>
+    <Prix_ref>1.00/100Gr</Prix_ref>
+    <Popularité>7</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>114</index>
+    <Identifiant>378</Identifiant>
+    <Description>Bière 3% d'alcool (Tangerine twist) 235</Description>
+    <Marque>CANADIAN 67</Marque>
+    <Poids>235</Poids>
+    <Prix>14.99</Prix>
+    <Prix_ref>0.35/100ML</Prix_ref>
+    <Popularité>2</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>115</index>
+    <Identifiant>837</Identifiant>
+    <Description>Bière</Description>
+    <Marque>SLEEMAN</Marque>
+    <Poids>340</Poids>
+    <Prix>14.99</Prix>
+    <Prix_ref>0.37/100ML</Prix_ref>
+    <Popularité>6</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>116</index>
+    <Identifiant>136</Identifiant>
+    <Description>Désodorisant textile (Printemps)</Description>
+    <Marque>FEBREZE</Marque>
+    <Poids>275</Poids>
+    <Prix>3.5</Prix>
+    <Prix_ref>1.27/100Gr</Prix_ref>
+    <Popularité>8</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>117</index>
+    <Identifiant>973</Identifiant>
+    <Description>Lait Noisettes</Description>
+    <Marque>QUEBON</Marque>
+    <Poids>473</Poids>
+    <Prix>1.0</Prix>
+    <Prix_ref>0.21/100ML</Prix_ref>
+    <Popularité>7</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>118</index>
+    <Identifiant>181</Identifiant>
+    <Description>Céréales Corn Pops (format géant)</Description>
+    <Marque>KELLOGG'S</Marque>
+    <Poids>730</Poids>
+    <Prix>7.49</Prix>
+    <Prix_ref>1.03/100Gr</Prix_ref>
+    <Popularité>0</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>119</index>
+    <Identifiant>860</Identifiant>
+    <Description>Sauce pour pâtes</Description>
+    <Marque>MAMMA DORA</Marque>
+    <Poids>680</Poids>
+    <Prix>2.99</Prix>
+    <Prix_ref>0.44/100ML</Prix_ref>
+    <Popularité>7</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>120</index>
+    <Identifiant>903</Identifiant>
+    <Description>Yogourt fraise Champetre 8% </Description>
+    <Marque>IOGO</Marque>
+    <Poids>400</Poids>
+    <Prix>2.99</Prix>
+    <Prix_ref>0.75/100Gr</Prix_ref>
+    <Popularité>3</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>121</index>
+    <Identifiant>900</Identifiant>
+    <Description>Bière Molson canadien 67 légère 3%</Description>
+    <Marque>MOLSON</Marque>
+    <Poids>340</Poids>
+    <Prix>14.99</Prix>
+    <Prix_ref>0.37/100ML</Prix_ref>
+    <Popularité>3</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>122</index>
+    <Identifiant>267</Identifiant>
+    <Description>Bière cream ale. honey brown lager et silver creek lager</Description>
+    <Marque>SLEEMAN</Marque>
+    <Poids>340</Poids>
+    <Prix>14.99</Prix>
+    <Prix_ref>0.37/100ML</Prix_ref>
+    <Popularité>10</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>123</index>
+    <Identifiant>246</Identifiant>
+    <Description>Barre de chocolat Lindor lait</Description>
+    <Marque>LINDT</Marque>
+    <Poids>100</Poids>
+    <Prix>2.5</Prix>
+    <Prix_ref>2.50/100Gr</Prix_ref>
+    <Popularité>1</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>124</index>
+    <Identifiant>329</Identifiant>
+    <Description>Café veranda infuse</Description>
+    <Marque>STARBUCKS</Marque>
+    <Poids>340</Poids>
+    <Prix>9.99</Prix>
+    <Prix_ref>2.94/100Gr</Prix_ref>
+    <Popularité>1</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>125</index>
+    <Identifiant>80</Identifiant>
+    <Description>Miel liquide pur et naturel</Description>
+    <Marque>COMPLIMENTS</Marque>
+    <Poids>500</Poids>
+    <Prix>5.99</Prix>
+    <Prix_ref>1.20/100Gr</Prix_ref>
+    <Popularité>2</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>126</index>
+    <Identifiant>57</Identifiant>
+    <Description>Fromageuyère fondu</Description>
+    <Marque>SWISS KNIGHT</Marque>
+    <Poids>170</Poids>
+    <Prix>5.99</Prix>
+    <Prix_ref>3.52/100Gr</Prix_ref>
+    <Popularité>2</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>127</index>
+    <Identifiant>567</Identifiant>
+    <Description>Grains entiers du domaine espresso </Description>
+    <Marque>MELITTA</Marque>
+    <Poids>907</Poids>
+    <Prix>14.99</Prix>
+    <Prix_ref>1.65/100Gr</Prix_ref>
+    <Popularité>0</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>128</index>
+    <Identifiant>425</Identifiant>
+    <Description>Sauce pour pâtes légumes du potager</Description>
+    <Marque>MAMMA DORA</Marque>
+    <Poids>680</Poids>
+    <Prix>2.99</Prix>
+    <Prix_ref>0.44/100ML</Prix_ref>
+    <Popularité>2</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>129</index>
+    <Identifiant>230</Identifiant>
+    <Description>Détergent à lessive HE (coton frais)</Description>
+    <Marque>BIO-VERT</Marque>
+    <Poids>750</Poids>
+    <Prix>4.99</Prix>
+    <Prix_ref>0.36/100ML</Prix_ref>
+    <Popularité>0</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>130</index>
+    <Identifiant>840</Identifiant>
+    <Description>Bière lager blonde 5.0%</Description>
+    <Marque>HEINEKEN</Marque>
+    <Poids>330</Poids>
+    <Prix>19.99</Prix>
+    <Prix_ref>0.50/100ML</Prix_ref>
+    <Popularité>5</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>131</index>
+    <Identifiant>224</Identifiant>
+    <Description>Soupe won ton</Description>
+    <Marque>HAIKU</Marque>
+    <Poids>398</Poids>
+    <Prix>3.19</Prix>
+    <Prix_ref>0.80/100ML</Prix_ref>
+    <Popularité>5</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>132</index>
+    <Identifiant>223</Identifiant>
+    <Description>Yogourt probiotique activia fraise et rhubarbe</Description>
+    <Marque>DANONE</Marque>
+    <Poids>650</Poids>
+    <Prix>3.5</Prix>
+    <Prix_ref>0.54/100Gr</Prix_ref>
+    <Popularité>5</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>133</index>
+    <Identifiant>22</Identifiant>
+    <Description>Pods Détergent à lessive en sachets</Description>
+    <Marque>TIDE</Marque>
+    <Poids>750</Poids>
+    <Prix>5.0</Prix>
+    <Prix_ref>0.36/BRASSEE</Prix_ref>
+    <Popularité>7</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>134</index>
+    <Identifiant>141</Identifiant>
+    <Description>Bière légère 4%</Description>
+    <Marque>STELLA ARTOIS</Marque>
+    <Poids>330</Poids>
+    <Prix>19.99</Prix>
+    <Prix_ref>0.50/100ML</Prix_ref>
+    <Popularité>4</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>135</index>
+    <Identifiant>82</Identifiant>
+    <Description>Doubleshot moka</Description>
+    <Marque>STARBUCKS</Marque>
+    <Poids>444</Poids>
+    <Prix>2.0</Prix>
+    <Prix_ref>0.45/100ML</Prix_ref>
+    <Popularité>7</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>136</index>
+    <Identifiant>884</Identifiant>
+    <Description>Riz (oriental)</Description>
+    <Marque>MINUTE RICE</Marque>
+    <Poids>750</Poids>
+    <Prix>1.99</Prix>
+    <Prix_ref>0.80/100Gr</Prix_ref>
+    <Popularité>1</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>137</index>
+    <Identifiant>272</Identifiant>
+    <Description>Chandelle parfumée sauge et thym</Description>
+    <Marque>GLADE</Marque>
+    <Poids>750</Poids>
+    <Prix>3.99</Prix>
+    <Prix_ref>3.99/UNITE</Prix_ref>
+    <Popularité>1</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>138</index>
+    <Identifiant>817</Identifiant>
+    <Description>Fromage marbré en tranches</Description>
+    <Marque>KRAFT</Marque>
+    <Poids>240</Poids>
+    <Prix>4.99</Prix>
+    <Prix_ref>2.08/100Gr</Prix_ref>
+    <Popularité>1</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>139</index>
+    <Identifiant>6</Identifiant>
+    <Description>Riz (mélange de légumes)</Description>
+    <Marque>MINUTE RICE</Marque>
+    <Poids>750</Poids>
+    <Prix>1.99</Prix>
+    <Prix_ref>0.80/100Gr</Prix_ref>
+    <Popularité>1</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>140</index>
+    <Identifiant>414</Identifiant>
+    <Description>Tisane en sachets (poire-gingembre)</Description>
+    <Marque>LA COURTISANE</Marque>
+    <Poids>20</Poids>
+    <Prix>3.19</Prix>
+    <Prix_ref>0.16/UNITE</Prix_ref>
+    <Popularité>5</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>141</index>
+    <Identifiant>668</Identifiant>
+    <Description>Pince bouche d'air bruine et pluie des prés</Description>
+    <Marque>FEBREZE</Marque>
+    <Poids>750</Poids>
+    <Prix>3.5</Prix>
+    <Prix_ref>175.00/100ML</Prix_ref>
+    <Popularité>10</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>142</index>
+    <Identifiant>413</Identifiant>
+    <Description>Café moulu colombien</Description>
+    <Marque>MAXWELL HOUSE</Marque>
+    <Poids>311</Poids>
+    <Prix>5.99</Prix>
+    <Prix_ref>1.93/100Gr</Prix_ref>
+    <Popularité>6</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>143</index>
+    <Identifiant>812</Identifiant>
+    <Description>Bière 4%</Description>
+    <Marque>SLEEMAN</Marque>
+    <Poids>340</Poids>
+    <Prix>14.99</Prix>
+    <Prix_ref>0.37/100ML</Prix_ref>
+    <Popularité>4</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>144</index>
+    <Identifiant>312</Identifiant>
+    <Description>Fromage rapé cheddar et mozzarella écrémé</Description>
+    <Marque>COMPLIMENTS</Marque>
+    <Poids>200</Poids>
+    <Prix>3.49</Prix>
+    <Prix_ref>1.75/100Gr</Prix_ref>
+    <Popularité>7</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>145</index>
+    <Identifiant>108</Identifiant>
+    <Description>Bouillon condensé poulet</Description>
+    <Marque>CAMPBELL'S</Marque>
+    <Poids>284</Poids>
+    <Prix>1.25</Prix>
+    <Prix_ref>0.44/100ML</Prix_ref>
+    <Popularité>8</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>146</index>
+    <Identifiant>636</Identifiant>
+    <Description>Bière 6% platinum</Description>
+    <Marque>BUD LIGHT</Marque>
+    <Poids>235</Poids>
+    <Prix>14.99</Prix>
+    <Prix_ref>0.35/100ML</Prix_ref>
+    <Popularité>10</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>147</index>
+    <Identifiant>77</Identifiant>
+    <Description>Tartinade chocolat noisettes</Description>
+    <Marque>DORA</Marque>
+    <Poids>360</Poids>
+    <Prix>3.99</Prix>
+    <Prix_ref>1.11/100Gr</Prix_ref>
+    <Popularité>10</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>148</index>
+    <Identifiant>309</Identifiant>
+    <Description>Café kenya AA mi-noir</Description>
+    <Marque>BRÛLERIE SAINT-DENIS</Marque>
+    <Poids>225</Poids>
+    <Prix>8.99</Prix>
+    <Prix_ref>4.00/100Gr</Prix_ref>
+    <Popularité>9</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>149</index>
+    <Identifiant>465</Identifiant>
+    <Description>Bière lager silver creek 5%</Description>
+    <Marque>SLEEMAN</Marque>
+    <Poids>340</Poids>
+    <Prix>14.99</Prix>
+    <Prix_ref>0.37/100ML</Prix_ref>
+    <Popularité>7</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>150</index>
+    <Identifiant>381</Identifiant>
+    <Description>Brume odorante. recharge lessive fraîche</Description>
+    <Marque>GLADE</Marque>
+    <Poids>750</Poids>
+    <Prix>4.99</Prix>
+    <Prix_ref>4.99/UNITE</Prix_ref>
+    <Popularité>1</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>151</index>
+    <Identifiant>578</Identifiant>
+    <Description>Thé vert (classique)</Description>
+    <Marque>TETLEY</Marque>
+    <Poids>24</Poids>
+    <Prix>2.5</Prix>
+    <Prix_ref>0.10/UNITE</Prix_ref>
+    <Popularité>9</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>152</index>
+    <Identifiant>103</Identifiant>
+    <Description>Lait Chocolat</Description>
+    <Marque>QUEBON</Marque>
+    <Poids>473</Poids>
+    <Prix>1.0</Prix>
+    <Prix_ref>0.21/100ML</Prix_ref>
+    <Popularité>4</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>153</index>
+    <Identifiant>815</Identifiant>
+    <Description>Café ordinaire mélange maison</Description>
+    <Marque>STARBUCKS</Marque>
+    <Poids>340</Poids>
+    <Prix>9.99</Prix>
+    <Prix_ref>2.94/100Gr</Prix_ref>
+    <Popularité>3</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>154</index>
+    <Identifiant>420</Identifiant>
+    <Description>Sauce poivre sichuanais</Description>
+    <Marque>BLUE DRAGON</Marque>
+    <Poids>140</Poids>
+    <Prix>1.49</Prix>
+    <Prix_ref>1.06/100ML</Prix_ref>
+    <Popularité>9</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>155</index>
+    <Identifiant>431</Identifiant>
+    <Description>Croustilles original</Description>
+    <Marque>OLD DUTCH</Marque>
+    <Poids>270</Poids>
+    <Prix>2.75</Prix>
+    <Prix_ref>1.02/100Gr</Prix_ref>
+    <Popularité>5</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>156</index>
+    <Identifiant>929</Identifiant>
+    <Description>Torréfaction riche et corsée. café moulu</Description>
+    <Marque>MAXWELL HOUSE</Marque>
+    <Poids>326</Poids>
+    <Prix>5.99</Prix>
+    <Prix_ref>1.84/100Gr</Prix_ref>
+    <Popularité>2</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>157</index>
+    <Identifiant>619</Identifiant>
+    <Description>Lait partiellement écrémé sans lactose 2%</Description>
+    <Marque>NATREL</Marque>
+    <Poids>750</Poids>
+    <Prix>4.99</Prix>
+    <Prix_ref>0.25/100ML</Prix_ref>
+    <Popularité>9</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>158</index>
+    <Identifiant>583</Identifiant>
+    <Description>Soupe Condensée (Crème de céleri)</Description>
+    <Marque>CAMPBELL'S</Marque>
+    <Poids>284</Poids>
+    <Prix>1.25</Prix>
+    <Prix_ref>0.44/100ML</Prix_ref>
+    <Popularité>5</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>159</index>
+    <Identifiant>24</Identifiant>
+    <Description>Sauce pour pâtes arrabiata</Description>
+    <Marque>MAMMA DORA</Marque>
+    <Poids>680</Poids>
+    <Prix>2.99</Prix>
+    <Prix_ref>0.44/100ML</Prix_ref>
+    <Popularité>2</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>160</index>
+    <Identifiant>849</Identifiant>
+    <Description>Recharge cubes de cire baies fraîche</Description>
+    <Marque>GLADE</Marque>
+    <Poids>750</Poids>
+    <Prix>3.99</Prix>
+    <Prix_ref>0.67/UNITE</Prix_ref>
+    <Popularité>6</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>161</index>
+    <Identifiant>589</Identifiant>
+    <Description>Activi. yogourt probiotique vanille</Description>
+    <Marque>DANONE</Marque>
+    <Poids>650</Poids>
+    <Prix>3.5</Prix>
+    <Prix_ref>0.54/100Gr</Prix_ref>
+    <Popularité>10</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>162</index>
+    <Identifiant>810</Identifiant>
+    <Description>Almond Fresh chocolat</Description>
+    <Marque>EARTH'S OWN</Marque>
+    <Poids>200</Poids>
+    <Prix>3.79</Prix>
+    <Prix_ref>0.20/100ML</Prix_ref>
+    <Popularité>10</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>163</index>
+    <Identifiant>149</Identifiant>
+    <Description>Fromage frais minigo fraise yogourtec</Description>
+    <Marque>YOPLAIT</Marque>
+    <Poids>475</Poids>
+    <Prix>2.49</Prix>
+    <Prix_ref>0.83/100Gr</Prix_ref>
+    <Popularité>10</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>164</index>
+    <Identifiant>794</Identifiant>
+    <Description>Barre énergie fudge chocolat amande</Description>
+    <Marque>CLIF BAR</Marque>
+    <Poids>408</Poids>
+    <Prix>6.49</Prix>
+    <Prix_ref>1.59/100Gr</Prix_ref>
+    <Popularité>3</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>165</index>
+    <Identifiant>87</Identifiant>
+    <Description>Café du matin k-cup (12)</Description>
+    <Marque>FOLGERS</Marque>
+    <Poids>750</Poids>
+    <Prix>8.79</Prix>
+    <Prix_ref>9.16/100Gr</Prix_ref>
+    <Popularité>7</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>166</index>
+    <Identifiant>603</Identifiant>
+    <Description>Yogourt probiotique activia fraises</Description>
+    <Marque>DANONE</Marque>
+    <Poids>650</Poids>
+    <Prix>3.5</Prix>
+    <Prix_ref>0.54/100Gr</Prix_ref>
+    <Popularité>8</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>167</index>
+    <Identifiant>747</Identifiant>
+    <Description>Bière Clear en canette 4% alcool</Description>
+    <Marque>SLEEMAN</Marque>
+    <Poids>235</Poids>
+    <Prix>14.99</Prix>
+    <Prix_ref>0.35/100ML</Prix_ref>
+    <Popularité>8</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>168</index>
+    <Identifiant>870</Identifiant>
+    <Description>Lait Choco Noisette</Description>
+    <Marque>SEALTEST</Marque>
+    <Poids>473</Poids>
+    <Prix>1.0</Prix>
+    <Prix_ref>0.21/100ML</Prix_ref>
+    <Popularité>0</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>169</index>
+    <Identifiant>820</Identifiant>
+    <Description>Bière lager 5.2%</Description>
+    <Marque>SLEEMAN</Marque>
+    <Poids>340</Poids>
+    <Prix>14.99</Prix>
+    <Prix_ref>0.37/100ML</Prix_ref>
+    <Popularité>7</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>170</index>
+    <Identifiant>949</Identifiant>
+    <Description>Bière 5%</Description>
+    <Marque>BECK'S</Marque>
+    <Poids>330</Poids>
+    <Prix>16.99</Prix>
+    <Prix_ref>0.43/100ML</Prix_ref>
+    <Popularité>1</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>171</index>
+    <Identifiant>518</Identifiant>
+    <Description>Café Mélange des fêtes</Description>
+    <Marque>STARBUCKS</Marque>
+    <Poids>283</Poids>
+    <Prix>9.99</Prix>
+    <Prix_ref>3.53/100Gr</Prix_ref>
+    <Popularité>4</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>172</index>
+    <Identifiant>366</Identifiant>
+    <Description>Natura. filtres à café. taille 1x4</Description>
+    <Marque>MELITTA</Marque>
+    <Poids>400</Poids>
+    <Prix>4.89</Prix>
+    <Prix_ref>4.89/UNITE</Prix_ref>
+    <Popularité>2</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>173</index>
+    <Identifiant>25</Identifiant>
+    <Description>Sauce tomate et piment sucrés</Description>
+    <Marque>BLUE DRAGON</Marque>
+    <Poids>350</Poids>
+    <Prix>2.99</Prix>
+    <Prix_ref>0.85/100ML</Prix_ref>
+    <Popularité>0</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>174</index>
+    <Identifiant>371</Identifiant>
+    <Description>Toréfaction originale. café moulu</Description>
+    <Marque>MAXWELL HOUSE</Marque>
+    <Poids>326</Poids>
+    <Prix>5.99</Prix>
+    <Prix_ref>1.84/100Gr</Prix_ref>
+    <Popularité>6</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>175</index>
+    <Identifiant>836</Identifiant>
+    <Description>Nettoyant plancher (bois franc)</Description>
+    <Marque>VIM</Marque>
+    <Poids>400</Poids>
+    <Prix>3.99</Prix>
+    <Prix_ref>0.40/100ML</Prix_ref>
+    <Popularité>5</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>176</index>
+    <Identifiant>330</Identifiant>
+    <Description>Bière lager blonde 5.0%</Description>
+    <Marque>HEINEKEN</Marque>
+    <Poids>400</Poids>
+    <Prix>19.99</Prix>
+    <Prix_ref>0.50/100ML</Prix_ref>
+    <Popularité>10</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>177</index>
+    <Identifiant>339</Identifiant>
+    <Description>Bière canadienne 5%</Description>
+    <Marque>MOLSON</Marque>
+    <Poids>380</Poids>
+    <Prix>23.99</Prix>
+    <Prix_ref>0.34/100ML</Prix_ref>
+    <Popularité>6</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>178</index>
+    <Identifiant>984</Identifiant>
+    <Description>Litière Multi chats</Description>
+    <Marque>CATS PRIDE</Marque>
+    <Poids>550</Poids>
+    <Prix>8.99</Prix>
+    <Prix_ref>0.13/100Gr</Prix_ref>
+    <Popularité>6</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>179</index>
+    <Identifiant>917</Identifiant>
+    <Description>Purificateur d'air vanille clair de lune</Description>
+    <Marque>FEBREZE</Marque>
+    <Poids>275</Poids>
+    <Prix>3.5</Prix>
+    <Prix_ref>1.27/100Gr</Prix_ref>
+    <Popularité>1</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>180</index>
+    <Identifiant>938</Identifiant>
+    <Description>Céréales Raisin Bran</Description>
+    <Marque>KELLOGG'S</Marque>
+    <Poids>350</Poids>
+    <Prix>1.99</Prix>
+    <Prix_ref>0.57/100Gr</Prix_ref>
+    <Popularité>3</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>181</index>
+    <Identifiant>819</Identifiant>
+    <Description>Café moulu décaféiné</Description>
+    <Marque>MAXWELL HOUSE</Marque>
+    <Poids>311</Poids>
+    <Prix>5.99</Prix>
+    <Prix_ref>1.93/100Gr</Prix_ref>
+    <Popularité>0</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>182</index>
+    <Identifiant>401</Identifiant>
+    <Description>Sauce pour pâtes tomates et fines herbes</Description>
+    <Marque>MAMMA DORA</Marque>
+    <Poids>680</Poids>
+    <Prix>2.99</Prix>
+    <Prix_ref>0.44/100ML</Prix_ref>
+    <Popularité>2</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>183</index>
+    <Identifiant>116</Identifiant>
+    <Description>Molson Olson Canadian 67 3%</Description>
+    <Marque>MOLSON</Marque>
+    <Poids>340</Poids>
+    <Prix>14.99</Prix>
+    <Prix_ref>0.37/100ML</Prix_ref>
+    <Popularité>0</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>184</index>
+    <Identifiant>372</Identifiant>
+    <Description>Purificateurs d'air agrumes</Description>
+    <Marque>FEBREZE</Marque>
+    <Poids>275</Poids>
+    <Prix>3.5</Prix>
+    <Prix_ref>1.27/100Gr</Prix_ref>
+    <Popularité>9</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>185</index>
+    <Identifiant>981</Identifiant>
+    <Description>Vin rouge</Description>
+    <Marque>L'ESCALE</Marque>
+    <Poids>750</Poids>
+    <Prix>10.19</Prix>
+    <Prix_ref>1.36/100ML</Prix_ref>
+    <Popularité>3</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>186</index>
+    <Identifiant>570</Identifiant>
+    <Description>Creme nettoyante citron</Description>
+    <Marque>VIM</Marque>
+    <Poids>500</Poids>
+    <Prix>2.99</Prix>
+    <Prix_ref>0.60/100ML</Prix_ref>
+    <Popularité>4</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>187</index>
+    <Identifiant>627</Identifiant>
+    <Description>Yogourtec source fraise</Description>
+    <Marque>YOPLAIT</Marque>
+    <Poids>400</Poids>
+    <Prix>2.99</Prix>
+    <Prix_ref>0.75/100Gr</Prix_ref>
+    <Popularité>5</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>188</index>
+    <Identifiant>92</Identifiant>
+    <Description>Yogourtec source cerise </Description>
+    <Marque>YOPLAIT</Marque>
+    <Poids>400</Poids>
+    <Prix>2.99</Prix>
+    <Prix_ref>0.75/100Gr</Prix_ref>
+    <Popularité>2</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>189</index>
+    <Identifiant>772</Identifiant>
+    <Description>Grains entiers (100% Colombien)</Description>
+    <Marque>MELITTA</Marque>
+    <Poids>907</Poids>
+    <Prix>14.99</Prix>
+    <Prix_ref>1.65/100Gr</Prix_ref>
+    <Popularité>4</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>190</index>
+    <Identifiant>115</Identifiant>
+    <Description>Bouillon condensé consommé</Description>
+    <Marque>CAMPBELL'S</Marque>
+    <Poids>284</Poids>
+    <Prix>1.25</Prix>
+    <Prix_ref>0.44/100ML</Prix_ref>
+    <Popularité>2</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>191</index>
+    <Identifiant>840</Identifiant>
+    <Description>Véranda. torréfaction blonde. K-cup</Description>
+    <Marque>STARBUCKS</Marque>
+    <Poids>400</Poids>
+    <Prix>10.99</Prix>
+    <Prix_ref>9.16/100Gr</Prix_ref>
+    <Popularité>8</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>192</index>
+    <Identifiant>482</Identifiant>
+    <Description>Wish for Glam vin mousseux rosé</Description>
+    <Marque>WISH FOR</Marque>
+    <Poids>750</Poids>
+    <Prix>9.69</Prix>
+    <Prix_ref>1.29/100ML</Prix_ref>
+    <Popularité>8</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>193</index>
+    <Identifiant>481</Identifiant>
+    <Description>Café moulu</Description>
+    <Marque>NOUVELLE ORLEANS</Marque>
+    <Poids>225</Poids>
+    <Prix>8.99</Prix>
+    <Prix_ref>4.00/100Gr</Prix_ref>
+    <Popularité>7</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>194</index>
+    <Identifiant>144</Identifiant>
+    <Description>Doubleshot vanille</Description>
+    <Marque>STARBUCKS</Marque>
+    <Poids>444</Poids>
+    <Prix>2.0</Prix>
+    <Prix_ref>0.45/100ML</Prix_ref>
+    <Popularité>10</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>195</index>
+    <Identifiant>90</Identifiant>
+    <Description>Chocolate milk partly skimmed lactose free 1%</Description>
+    <Marque>NATREL</Marque>
+    <Poids>400</Poids>
+    <Prix>4.99</Prix>
+    <Prix_ref>0.25/100ML</Prix_ref>
+    <Popularité>4</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>196</index>
+    <Identifiant>825</Identifiant>
+    <Description>Assouplisseur fraîcheur printanière</Description>
+    <Marque>BIO-VERT</Marque>
+    <Poids>400</Poids>
+    <Prix>4.99</Prix>
+    <Prix_ref>0.36/100ML</Prix_ref>
+    <Popularité>10</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>197</index>
+    <Identifiant>271</Identifiant>
+    <Description>Café torrefaction française infuse</Description>
+    <Marque>STARBUCKS</Marque>
+    <Poids>340</Poids>
+    <Prix>9.99</Prix>
+    <Prix_ref>2.94/100Gr</Prix_ref>
+    <Popularité>3</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>198</index>
+    <Identifiant>548</Identifiant>
+    <Description>Chandelle parfumée citrouilles et épices </Description>
+    <Marque>GLADE</Marque>
+    <Poids>400</Poids>
+    <Prix>3.99</Prix>
+    <Prix_ref>3.99/UNITE</Prix_ref>
+    <Popularité>1</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>199</index>
+    <Identifiant>34</Identifiant>
+    <Description>Activia. yogourt probiotique nature</Description>
+    <Marque>DANONE</Marque>
+    <Poids>650</Poids>
+    <Prix>3.5</Prix>
+    <Prix_ref>0.54/100Gr</Prix_ref>
+    <Popularité>4</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>200</index>
+    <Identifiant>106</Identifiant>
+    <Description>Chandelle parfumée vanille </Description>
+    <Marque>GLADE</Marque>
+    <Poids>400</Poids>
+    <Prix>3.99</Prix>
+    <Prix_ref>3.99/UNITE</Prix_ref>
+    <Popularité>7</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>201</index>
+    <Identifiant>95</Identifiant>
+    <Description>Café torréfaction traditionnelle k-cup (12)</Description>
+    <Marque>FOLGERS</Marque>
+    <Poids>96</Poids>
+    <Prix>8.79</Prix>
+    <Prix_ref>9.16/100Gr</Prix_ref>
+    <Popularité>5</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>202</index>
+    <Identifiant>757</Identifiant>
+    <Description>Blonde de chambly 5%</Description>
+    <Marque>UNIBROUE</Marque>
+    <Poids>750</Poids>
+    <Prix>5.69</Prix>
+    <Prix_ref>0.76/100ML</Prix_ref>
+    <Popularité>1</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>203</index>
+    <Identifiant>394</Identifiant>
+    <Description>Wish for Joy vin blanc Australie</Description>
+    <Marque>WISH FOR</Marque>
+    <Poids>750</Poids>
+    <Prix>9.69</Prix>
+    <Prix_ref>1.29/100ML</Prix_ref>
+    <Popularité>2</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>204</index>
+    <Identifiant>617</Identifiant>
+    <Description>Canadian 67 légère</Description>
+    <Marque>MOLSON</Marque>
+    <Poids>235</Poids>
+    <Prix>14.99</Prix>
+    <Prix_ref>0.35/100ML</Prix_ref>
+    <Popularité>3</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>205</index>
+    <Identifiant>20</Identifiant>
+    <Description>Fromage frais minigo yogourtec banane</Description>
+    <Marque>YOPLAIT</Marque>
+    <Poids>475</Poids>
+    <Prix>2.49</Prix>
+    <Prix_ref>0.83/100Gr</Prix_ref>
+    <Popularité>5</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>206</index>
+    <Identifiant>875</Identifiant>
+    <Description>Sauce piment et coconut </Description>
+    <Marque>BLUE DRAGON</Marque>
+    <Poids>140</Poids>
+    <Prix>1.49</Prix>
+    <Prix_ref>1.06/100ML</Prix_ref>
+    <Popularité>9</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>207</index>
+    <Identifiant>107</Identifiant>
+    <Description>Nettoyant liquide au citron avec Febreze</Description>
+    <Marque>M.NET</Marque>
+    <Poids>800</Poids>
+    <Prix>2.5</Prix>
+    <Prix_ref>0.31/100ML</Prix_ref>
+    <Popularité>4</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>208</index>
+    <Identifiant>431</Identifiant>
+    <Description>Air effects gain original</Description>
+    <Marque>FEBREZE</Marque>
+    <Poids>275</Poids>
+    <Prix>3.5</Prix>
+    <Prix_ref>1.27/100Gr</Prix_ref>
+    <Popularité>8</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>209</index>
+    <Identifiant>8</Identifiant>
+    <Description>Serviettes de table (Boutique )</Description>
+    <Marque>KLEENEX</Marque>
+    <Poids>75</Poids>
+    <Prix>1.79</Prix>
+    <Prix_ref>0.02/UNITE</Prix_ref>
+    <Popularité>4</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>210</index>
+    <Identifiant>272</Identifiant>
+    <Description>Vin Rouge Canada - Fruité et Léger</Description>
+    <Marque>MEDITERRA</Marque>
+    <Poids>400</Poids>
+    <Prix>9.99</Prix>
+    <Prix_ref>1.00/100ML</Prix_ref>
+    <Popularité>1</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>211</index>
+    <Identifiant>79</Identifiant>
+    <Description>Pods Détergent à lessive en sachets (forest)</Description>
+    <Marque>TIDE</Marque>
+    <Poids>400</Poids>
+    <Prix>5.0</Prix>
+    <Prix_ref>0.36/BRASSEE</Prix_ref>
+    <Popularité>0</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>212</index>
+    <Identifiant>104</Identifiant>
+    <Description>Ultra bière légère 4%</Description>
+    <Marque>MICHELOB</Marque>
+    <Poids>340</Poids>
+    <Prix>14.99</Prix>
+    <Prix_ref>0.37/100ML</Prix_ref>
+    <Popularité>8</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>213</index>
+    <Identifiant>521</Identifiant>
+    <Description>Crème nettoyante avec javel</Description>
+    <Marque>VIM</Marque>
+    <Poids>500</Poids>
+    <Prix>2.99</Prix>
+    <Prix_ref>0.60/100ML</Prix_ref>
+    <Popularité>4</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>214</index>
+    <Identifiant>810</Identifiant>
+    <Description>Sauce aigre douce</Description>
+    <Marque>BLUE DRAGON</Marque>
+    <Poids>140</Poids>
+    <Prix>1.49</Prix>
+    <Prix_ref>1.06/100ML</Prix_ref>
+    <Popularité>5</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>215</index>
+    <Identifiant>551</Identifiant>
+    <Description>Récolte mondiale. tarrazu costaricain. café torréfié et moulu</Description>
+    <Marque>MELITTA</Marque>
+    <Poids>454</Poids>
+    <Prix>11.99</Prix>
+    <Prix_ref>2.64/100Gr</Prix_ref>
+    <Popularité>4</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>216</index>
+    <Identifiant>204</Identifiant>
+    <Description>Activia. yogourt probiotique cerise</Description>
+    <Marque>DANONE</Marque>
+    <Poids>650</Poids>
+    <Prix>3.5</Prix>
+    <Prix_ref>0.54/100Gr</Prix_ref>
+    <Popularité>4</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>217</index>
+    <Identifiant>569</Identifiant>
+    <Description>Bleue bières en canettes 4.9 %</Description>
+    <Marque>LABATT</Marque>
+    <Poids>380</Poids>
+    <Prix>23.99</Prix>
+    <Prix_ref>0.34/100ML</Prix_ref>
+    <Popularité>9</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>218</index>
+    <Identifiant>804</Identifiant>
+    <Description>Bouillon condensé boeuf</Description>
+    <Marque>CAMPBELL'S</Marque>
+    <Poids>284</Poids>
+    <Prix>1.25</Prix>
+    <Prix_ref>0.44/100ML</Prix_ref>
+    <Popularité>3</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>219</index>
+    <Identifiant>540</Identifiant>
+    <Description>Mélange marie 2 filtre</Description>
+    <Marque>BRÛLERIE SAINT-DENIS</Marque>
+    <Poids>225</Poids>
+    <Prix>8.99</Prix>
+    <Prix_ref>4.00/100Gr</Prix_ref>
+    <Popularité>10</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>220</index>
+    <Identifiant>61</Identifiant>
+    <Description>Croustilles ketchup</Description>
+    <Marque>OLD DUTCH</Marque>
+    <Poids>270</Poids>
+    <Prix>2.75</Prix>
+    <Prix_ref>1.02/100Gr</Prix_ref>
+    <Popularité>9</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>221</index>
+    <Identifiant>841</Identifiant>
+    <Description>Crème 25% moins de sel (champignons)</Description>
+    <Marque>CAMPBELL'S</Marque>
+    <Poids>284</Poids>
+    <Prix>1.25</Prix>
+    <Prix_ref>0.44/100ML</Prix_ref>
+    <Popularité>10</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>222</index>
+    <Identifiant>859</Identifiant>
+    <Description>Café moulu noissette</Description>
+    <Marque>MAXWELL HOUSE</Marque>
+    <Poids>311</Poids>
+    <Prix>5.99</Prix>
+    <Prix_ref>1.93/100Gr</Prix_ref>
+    <Popularité>8</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>223</index>
+    <Identifiant>424</Identifiant>
+    <Description>Brûleur pour cube de cire </Description>
+    <Marque>GLADE</Marque>
+    <Poids>400</Poids>
+    <Prix>11.99</Prix>
+    <Prix_ref>11.99/UNITE</Prix_ref>
+    <Popularité>7</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>224</index>
+    <Identifiant>775</Identifiant>
+    <Description>Boisson aux amandes vanille</Description>
+    <Marque>ALMOND FRESH</Marque>
+    <Poids>200</Poids>
+    <Prix>3.79</Prix>
+    <Prix_ref>0.20/100ML</Prix_ref>
+    <Popularité>1</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>225</index>
+    <Identifiant>692</Identifiant>
+    <Description>Détergent parfum original</Description>
+    <Marque>DAWN</Marque>
+    <Poids>709</Poids>
+    <Prix>2.5</Prix>
+    <Prix_ref>0.35/100ML</Prix_ref>
+    <Popularité>5</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>226</index>
+    <Identifiant>267</Identifiant>
+    <Description>Wish for Gold vin blanc Etatis</Description>
+    <Marque>WISH FOR</Marque>
+    <Poids>750</Poids>
+    <Prix>9.69</Prix>
+    <Prix_ref>1.29/100ML</Prix_ref>
+    <Popularité>10</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>227</index>
+    <Identifiant>621</Identifiant>
+    <Description>Bière Crown 6%</Description>
+    <Marque>BUDWEISER</Marque>
+    <Poids>235</Poids>
+    <Prix>14.99</Prix>
+    <Prix_ref>0.35/100ML</Prix_ref>
+    <Popularité>8</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>228</index>
+    <Identifiant>528</Identifiant>
+    <Description>Mélange à café saule infuse</Description>
+    <Marque>STARBUCKS</Marque>
+    <Poids>340</Poids>
+    <Prix>9.99</Prix>
+    <Prix_ref>2.94/100Gr</Prix_ref>
+    <Popularité>3</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>229</index>
+    <Identifiant>355</Identifiant>
+    <Description>Crème nettoyante (lime)</Description>
+    <Marque>VIM</Marque>
+    <Poids>750</Poids>
+    <Prix>3.49</Prix>
+    <Prix_ref>0.47/100ML</Prix_ref>
+    <Popularité>0</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>230</index>
+    <Identifiant>400</Identifiant>
+    <Description>Café moulu noir soyeux</Description>
+    <Marque>FOLGERS</Marque>
+    <Poids>400</Poids>
+    <Prix>8.79</Prix>
+    <Prix_ref>9.16/100Gr</Prix_ref>
+    <Popularité>6</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>231</index>
+    <Identifiant>410</Identifiant>
+    <Description>Cire de fond recharge tarte citrouille</Description>
+    <Marque>GLADE</Marque>
+    <Poids>400</Poids>
+    <Prix>3.99</Prix>
+    <Prix_ref>0.67/UNITE</Prix_ref>
+    <Popularité>2</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>232</index>
+    <Identifiant>360</Identifiant>
+    <Description>Café moulu vanille-française</Description>
+    <Marque>MAXWELL HOUSE</Marque>
+    <Poids>311</Poids>
+    <Prix>5.99</Prix>
+    <Prix_ref>1.93/100Gr</Prix_ref>
+    <Popularité>6</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>233</index>
+    <Identifiant>295</Identifiant>
+    <Description>Boisson aux amandes originale</Description>
+    <Marque>ALMOND FRESH</Marque>
+    <Poids>200</Poids>
+    <Prix>3.79</Prix>
+    <Prix_ref>0.20/100ML</Prix_ref>
+    <Popularité>1</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>234</index>
+    <Identifiant>237</Identifiant>
+    <Description>Oxy gel nettoyant à plancher (pur mer)</Description>
+    <Marque>VIM</Marque>
+    <Poids>400</Poids>
+    <Prix>3.99</Prix>
+    <Prix_ref>0.40/100ML</Prix_ref>
+    <Popularité>7</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>235</index>
+    <Identifiant>819</Identifiant>
+    <Description>Activia. yogourt probiotique pruneau</Description>
+    <Marque>DANONE</Marque>
+    <Poids>650</Poids>
+    <Prix>3.5</Prix>
+    <Prix_ref>0.54/100Gr</Prix_ref>
+    <Popularité>2</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>236</index>
+    <Identifiant>860</Identifiant>
+    <Description>Wish for Luck vin rouge Chili</Description>
+    <Marque>WISH FOR</Marque>
+    <Poids>750</Poids>
+    <Prix>9.69</Prix>
+    <Prix_ref>1.29/100ML</Prix_ref>
+    <Popularité>1</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>237</index>
+    <Identifiant>361</Identifiant>
+    <Description>Thé glacé (citron)</Description>
+    <Marque>PURELIFE</Marque>
+    <Poids>400</Poids>
+    <Prix>2.99</Prix>
+    <Prix_ref>0.17/100ML</Prix_ref>
+    <Popularité>6</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>238</index>
+    <Identifiant>84</Identifiant>
+    <Description>Bière blonde de luxe 5.2%</Description>
+    <Marque>STELLA ARTOIS</Marque>
+    <Poids>330</Poids>
+    <Prix>19.99</Prix>
+    <Prix_ref>0.50/100ML</Prix_ref>
+    <Popularité>10</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>239</index>
+    <Identifiant>752</Identifiant>
+    <Description>Fromage cheddar mi-fort en tranches</Description>
+    <Marque>CRACKER BARREL</Marque>
+    <Poids>240</Poids>
+    <Prix>4.99</Prix>
+    <Prix_ref>2.08/100Gr</Prix_ref>
+    <Popularité>3</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>240</index>
+    <Identifiant>694</Identifiant>
+    <Description>Trempette nuoc cham </Description>
+    <Marque>BLUE DRAGON</Marque>
+    <Poids>190</Poids>
+    <Prix>2.79</Prix>
+    <Prix_ref>1.47/100ML</Prix_ref>
+    <Popularité>3</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>241</index>
+    <Identifiant>386</Identifiant>
+    <Description>Yogourt méditerranée moka</Description>
+    <Marque>LIBERTÉ</Marque>
+    <Poids>500</Poids>
+    <Prix>2.99</Prix>
+    <Prix_ref>0.60/100Gr</Prix_ref>
+    <Popularité>9</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>242</index>
+    <Identifiant>330</Identifiant>
+    <Description>Bière Silver Creek en canette 5% alcool</Description>
+    <Marque>SLEEMAN</Marque>
+    <Poids>235</Poids>
+    <Prix>14.99</Prix>
+    <Prix_ref>0.35/100ML</Prix_ref>
+    <Popularité>7</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>243</index>
+    <Identifiant>761</Identifiant>
+    <Description>Bière 5% en canette</Description>
+    <Marque>SAPPORO</Marque>
+    <Poids>235</Poids>
+    <Prix>19.99</Prix>
+    <Prix_ref>0.47/100ML</Prix_ref>
+    <Popularité>1</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+  <produit>
+    <index>244</index>
+    <Identifiant>99</Identifiant>
+    <Description>Yogourt moment gousse de vanille 8%</Description>
+    <Marque>IOGO</Marque>
+    <Poids>500</Poids>
+    <Prix>2.99</Prix>
+    <Prix_ref>0.60/100Gr</Prix_ref>
+    <Popularité>7</Popularité>
+    <Disponible>non</Disponible>
+  </produit>
+  <produit>
+    <index>245</index>
+    <Identifiant>275</Identifiant>
+    <Description>Yogourtec source vanille </Description>
+    <Marque>YOPLAIT</Marque>
+    <Poids>400</Poids>
+    <Prix>2.99</Prix>
+    <Prix_ref>0.75/100Gr</Prix_ref>
+    <Popularité>8</Popularité>
+    <Disponible>oui</Disponible>
+  </produit>
+</produits>

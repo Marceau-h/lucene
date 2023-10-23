@@ -1,0 +1,20 @@
+[
+    "dc:source",
+    "dc:identifier",
+    "dc:description",
+    "dc:coverage",
+    "dc:publisher",
+    "dc:subject",
+    "dc:rights",
+    "dc:relation",
+    "dc:contributor",
+    "dc:creator",
+    "dc:language",
+    "dc:date",
+    "datestamp",
+    "identifier",
+    "dc:type",
+    "dc:title",
+    "setSpec",
+    "dcterms:accessRights"
+]
