@@ -148,8 +148,8 @@ def json_2_smaller_1(data: dict) -> tuple[dict, set, set]:
 
 
 def main():
-    # jsons = Path("/home/marceau/PycharmProjects/cartographie/scripts/EIH_oai/records_full").glob('**/*.json')
-    jsons = Path('test').glob('*.json')
+    jsons = Path("/home/marceau/PycharmProjects/cartographie/scripts/EIH_oai/records_full").glob('**/*.json')
+    # jsons = Path('test').glob('*.json')
     new_jsons = Path('smaller')
     # new_jsons.mkdir(exist_ok=True)
     redo_folder(new_jsons)
