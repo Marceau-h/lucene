@@ -14,9 +14,8 @@ Solr uses the managed-schema.xml file to define the schema of the index.
                required="true"/> <!-- Date of last collection -->
         <field name="origin" type="origin" indexed="true" stored="true" multiValued="false" required="true"
                docValues="true"/> <!-- Origin of the record hal, cairn or open editions -->
-        <fieldType name="origin" class="solr.EnumFieldType" docValues="true"
-                   enumsConfig="/home/marceau/Téléchargements/solr-9.4.0/server/solr/projet/conf/emumsConfig.xml"
-                   enumName="origin"/>
+        <fieldType name="origin" class="solr.EnumFieldType" docValues="true" enumName="origin"
+                   enumsConfig="/home/marceau/Téléchargements/solr-9.4.0/server/solr/projet/conf/emumsConfig.xml"/>
 
         <!-- Titles -->
         <field name="best_title" type="text_general" indexed="true" stored="true" multiValued="false"
@@ -84,9 +83,8 @@ Solr uses the managed-schema.xml file to define the schema of the index.
 
         <!-- Languages -->
         <field name="languages" type="languages" indexed="true" stored="true" multiValued="true" docValues="true"/>
-        <fieldType name="languages" class="solr.EnumFieldType" docValues="true"
-                   enumsConfig="/home/marceau/Téléchargements/solr-9.4.0/server/solr/projet/conf/emumsConfig.xml"
-                   enumName="languages"/>
+        <fieldType name="languages" class="solr.EnumFieldType" docValues="true" enumName="languages"
+                   enumsConfig="/home/marceau/Téléchargements/solr-9.4.0/server/solr/projet/conf/emumsConfig.xml"/>
 
         <!-- Sets, the groups of publications a publication belongs to -->
         <field name="sets" type="string" indexed="true" stored="true" multiValued="true" docValues="true"/>
