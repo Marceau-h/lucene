@@ -1,3 +1,5 @@
+<?xml version="1.0" ?>
+
 <!--
 This file is used to define the schema of the index.
 It is not the real schema, but only the part to be added to the default schema.
@@ -15,13 +17,13 @@ Solr uses the managed-schema.xml file to define the schema of the index.
         <field name="origin" type="origin" indexed="true" stored="true" multiValued="false" required="true"
                docValues="true"/> <!-- Origin of the record hal, cairn or open editions -->
         <fieldType name="origin" class="solr.EnumFieldType" docValues="true" enumName="origin"
-                   enumsConfig="/home/marceau/Téléchargements/solr-9.4.0/server/solr/projet/conf/emumsConfig.xml"/>
+                   enumsConfig="/home/marceau/Téléchargements/solr-9.4.0/server/solr/projet/conf/enumsConfig.xml"/>
 
         <!-- Titles -->
         <field name="best_title" type="text_general" indexed="true" stored="true" multiValued="false"
                termVectors="true" termPositions="true" termOffsets="true" required="true"/>
 
-        <field name="title" type="text_general" indexed="true" stored="false" multiValued="true"
+        <field name="titles" type="text_general" indexed="true" stored="false" multiValued="true"
                termVectors="true" termPositions="true" termOffsets="true"/>
         <field name="title_Fr" type="text_fr" indexed="true" stored="false" multiValued="false"
                termVectors="true" termPositions="true" termOffsets="true"/>
@@ -34,9 +36,6 @@ Solr uses the managed-schema.xml file to define the schema of the index.
         <field name="title_It" type="text_it" indexed="true" stored="false" multiValued="false"
                termVectors="true" termPositions="true" termOffsets="true"/>
         <field name="title_Ru" type="text_ru" indexed="true" stored="false" multiValued="false"
-               termVectors="true" termPositions="true" termOffsets="true"/>
-
-        <field name="titles" type="text_general" indexed="true" stored="true" multiValued="true"
                termVectors="true" termPositions="true" termOffsets="true"/>
         <copyField source="title_*" dest="titles" maxChars="4000"/>
 
@@ -84,7 +83,7 @@ Solr uses the managed-schema.xml file to define the schema of the index.
         <!-- Languages -->
         <field name="languages" type="languages" indexed="true" stored="true" multiValued="true" docValues="true"/>
         <fieldType name="languages" class="solr.EnumFieldType" docValues="true" enumName="languages"
-                   enumsConfig="/home/marceau/Téléchargements/solr-9.4.0/server/solr/projet/conf/emumsConfig.xml"/>
+                   enumsConfig="/home/marceau/Téléchargements/solr-9.4.0/server/solr/projet/conf/enumsConfig.xml"/>
 
         <!-- Sets, the groups of publications a publication belongs to -->
         <field name="sets" type="string" indexed="true" stored="true" multiValued="true" docValues="true"/>
@@ -138,12 +137,35 @@ Solr uses the managed-schema.xml file to define the schema of the index.
 
     <enumsConfig>
         <enum name="languages">
-            <value>fr</value>
-            <value>en</value>
+            <value>ar</value>
+            <value>be</value>
+            <value>bs</value>
+            <value>ca</value>
+            <value>cs</value>
             <value>de</value>
+            <value>el</value>
+            <value>en</value>
             <value>es</value>
+            <value>et</value>
+            <value>fr</value>
+            <value>hu</value>
             <value>it</value>
+            <value>ja</value>
+            <value>ko</value>
+            <value>la</value>
+            <value>mn</value>
+            <value>nl</value>
+            <value>pl</value>
+            <value>pt</value>
+            <value>ro</value>
             <value>ru</value>
+            <value>sk</value>
+            <value>sr</value>
+            <value>sv</value>
+            <value>tr</value>
+            <value>uk</value>
+            <value>vi</value>
+            <value>zh</value>
         </enum>
         <enum name="origin">
             <value>cairn</value>
