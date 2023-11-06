@@ -1,10 +1,10 @@
 from pathlib import Path
 import json
 
-import pandas as pd
+import polars as pl
 
 
-def json_to_df(data: dict) -> pd.DataFrame:
+def json_to_df(data: dict) -> pl.DataFrame:
     """Converts a json file to a pandas DataFrame"""
 
     # print(json.dumps(data, indent=4, sort_keys=True))
@@ -67,28 +67,57 @@ def json_to_df(data: dict) -> pd.DataFrame:
     new_data['best_title'] = best_title
     print(best_title)
 
-    for key, value in new_data.items():
-        if isinstance(value, list):
-            if any(isinstance(v, dict) for v in value):
-                new = [
-                    f"{v['#text']}@LANG_CODE=({v['@xml:lang']})"
-                    if isinstance(v, dict) else v
-                    for v in value
-                    if v is not None
-                ]
-            else:
-                new = [v for v in value if v is not None]
+    # for key, value in new_data.items():
+    #     if isinstance(value, list):
+    #         if any(isinstance(v, dict) for v in value):
+    #             new = [
+    #                 f"{v['#text']}@LANG_CODE=({v['@xml:lang']})"
+    #                 if isinstance(v, dict) else v
+    #                 for v in value
+    #                 if v is not None
+    #             ]
+    #         else:
+    #             new = [v for v in value if v is not None]
+    #
+    #         new_data[key] = '|'.join(new)
+    #
+    #     elif isinstance(value, dict):
+    #         new_data[key] = f"{value['#text']}@LANG_CODE=({value['@xml:lang']})"
 
-            new_data[key] = '|'.join(new)
+    temp = {}
+    for key in ("titles", "descriptions", "subjects"):
+        if isinstance(new_data[key], dict):
+            addtemp(temp, key, new_data[key])
+            del new_data[key]
+        elif isinstance(new_data[key], list):
+            for item in new_data[key]:
+                if isinstance(item, dict):
+                    addtemp(temp, key, item)
+                    new_data[key].remove(item)
+                elif isinstance(item, str):
+                    pass
+                else:
+                    raise TypeError(f"Unexpected type {type(item)} for {item}")
+        elif isinstance(new_data[key], str):
+            pass
+        else:
+            raise TypeError(f"Unexpected type {type(new_data[key])} for {new_data[key]}")
 
-        elif isinstance(value, dict):
-            new_data[key] = f"{value['#text']}@LANG_CODE=({value['@xml:lang']})"
-
-
+    new_data.update(temp)
 
     # print(json.dumps(new_data, indent=4, sort_keys=True))
 
-    return pd.DataFrame.from_records([new_data])
+    return pl.from_records([new_data])
+
+
+def addtemp(data: dict, key: str, temp: dict) -> None:
+    lang = temp['@xml:lang']
+    text = temp['#text']
+    newkey = f"{key[:-1]}_{lang}"
+    if newkey in data:
+        data[newkey].append(text)
+    else:
+        data[newkey] = [text]
 
 
 def main():
@@ -111,9 +140,9 @@ def main():
 
         dfs.append(json_to_df(data))
 
-    df = pd.concat(dfs, ignore_index=True)
+    df = pl.concat(dfs)  # , ignore_index=True)
 
-    df.to_csv('data.csv', index=False)
+    df.to_csv('data.csv')  # , index=False)
 
 
 if __name__ == '__main__':
