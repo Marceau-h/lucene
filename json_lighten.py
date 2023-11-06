@@ -43,6 +43,78 @@ def format_lang_n_types(text: dict) -> dict | str:
     raise ValueError(f"Unknown format: {text}")
 
 
+def addtemp(data: dict, key: str, temp: dict) -> tuple[list, str]:
+    lang = clean_lang(temp['lang'])
+    if len(lang) not in (0, 2):
+        print(f"Unexpected lang {lang}")
+        print(temp)
+        raise ValueError
+
+    text = temp['text']
+    # We remove the 's' at the end of the key and add the lang if it exists (e.g. 'titles' -> 'title_fr')
+    # In the rares cases where leng is just an empty string, we add back the 's' (e.g. 'titles' -> 'titles')
+    # To ensure the value to go back in the dict
+    newkey = f"{key[:-1]}{f'_{lang}' if lang else 's'}"
+    value = data.get(newkey, [])
+    value.append(text)
+
+    return value, newkey
+
+
+def make_dates_great_again(bad_date: str) -> str:
+    if not bad_date:
+        return ""  # Can't do anything with an empty string
+
+    if bad_date.startswith("info:eu-repo/date/embargoEnd/"):
+        bad_date = bad_date[29:]  # We remove the prefix
+
+    if len(bad_date) == 4:
+        try:
+            date = datetime.strptime(bad_date, "%Y")
+            return date.strftime("%Y-%m-%dT%H:%M:%SZ")
+        except ValueError:
+            raise
+
+    if len(bad_date) == 7:
+        try:
+            date = datetime.strptime(bad_date, "%Y-%m")
+            return date.strftime("%Y-%m-%dT%H:%M:%SZ")
+        except ValueError:
+            raise
+
+    if len(bad_date) == 10:
+        try:
+            date = datetime.strptime(bad_date, "%Y-%m-%d")
+            return date.strftime("%Y-%m-%dT%H:%M:%SZ")
+        except ValueError:
+            raise
+
+    try:
+        date = datetime.fromisoformat(bad_date)
+        return date.strftime("%Y-%m-%dT%H:%M:%SZ")
+    except ValueError:
+        print(bad_date)
+        return ""
+
+
+def clean_lang(lang: str) -> str:
+    match lang:
+        case "eng":
+            return "en"
+        case "ang":
+            return "en"
+        case "fre":
+            return "fr"
+        case "fra":
+            return "fr"
+        case _:
+            if len(lang) in (0, 2):
+                return lang
+            else:
+                print(f"Unexpected lang {lang}")
+                raise ValueError
+
+
 def json_2_smaller_1(data: dict) -> tuple[dict, set, set]:
     """Converts a json file to a pandas DataFrame"""
 
@@ -86,6 +158,7 @@ def json_2_smaller_1(data: dict) -> tuple[dict, set, set]:
             "nb_publishers": len(new_data['publishers']),
             "nb_subjects": len(new_data['subjects']),
             "nb_titles": len(new_data['titles']),
+            "nb_languages": len(new_data['languages']),
         }
     )
 
@@ -107,7 +180,7 @@ def json_2_smaller_1(data: dict) -> tuple[dict, set, set]:
     else:
         best_title = new_data['titles']
 
-    new_data['best_title'] = best_title
+    new_data['best_title'] = best_title['#text'] if isinstance(best_title, dict) else best_title
     # print(best_title)
 
     for key, value in new_data.items():
@@ -140,9 +213,56 @@ def json_2_smaller_1(data: dict) -> tuple[dict, set, set]:
                 print(value)
                 raise
 
-    allkeys_out = {k for k in new_data.keys()}
+    temp = {}
+    toremove = []
+    for key in ("titles", "descriptions", "subjects"):
+        if isinstance(new_data[key], dict):
+            value, newkey = addtemp(temp, key, new_data[key])
+            temp[newkey] = value
+            toremove.append(key)
+        elif isinstance(new_data[key], list):
+            for item in new_data[key]:
+                if isinstance(item, dict):
+                    value, newkey = addtemp(temp, key, item)
+                    temp[newkey] = value
+                    toremove.append((key, item))
+                elif isinstance(item, str):
+                    pass
+                else:
+                    raise TypeError(f"Unexpected type {type(item)} for {item}")
+        elif isinstance(new_data[key], str):
+            pass
+        else:
+            raise TypeError(f"Unexpected type {type(new_data[key])} for {new_data[key]}")
+
+    for item in toremove:
+        if isinstance(item, str):
+            del new_data[item]
+        elif isinstance(item, tuple):
+            new_data[item[0]].remove(item[1])
+        else:
+            raise TypeError(f"Unexpected type {type(item)} for {item}")
+
+    if isinstance(new_data['languages'], list):
+        new_data['languages'] = [clean_lang(lang) for lang in new_data['languages']]
+    elif isinstance(new_data['languages'], str):
+        new_data['languages'] = clean_lang(new_data['languages'])
+    else:
+        raise TypeError(f"Unexpected type {type(new_data['languages'])} for {new_data['languages']}")
+
+    new_data.update(temp)
 
     # print(json.dumps(new_data, indent=4, sort_keys=True))
+
+    for key in ("dates", "datestamp"):
+        if isinstance(new_data[key], list):
+            new_data[key] = [make_dates_great_again(date) for date in new_data[key]]
+        elif isinstance(new_data[key], str):
+            new_data[key] = make_dates_great_again(new_data[key])
+        else:
+            raise TypeError(f"Unexpected type {type(new_data[key])} for {new_data[key]}")
+
+    allkeys_out = {k for k in new_data.keys()}
 
     return new_data, allkeys, allkeys_out
 
@@ -160,15 +280,14 @@ def main():
     for file in jsons:
         # print(file)
 
-        with open(file) as f:
-            with open(new_jsons / file.name, 'w') as new_f:
+        with open(file, encoding="utf-8") as f:
+            with open(new_jsons / file.name, 'w', encoding="utf-8") as new_f:
                 data = json.load(f)
                 new_data, keys, keys_out = json_2_smaller_1(data)
-                json.dump(new_data, new_f, indent=4, sort_keys=True)
+                json.dump(new_data, new_f, indent=4, sort_keys=True, ensure_ascii=False)
 
                 allkeys |= keys
                 allkeys_out |= keys_out
-
 
     with open('allkeys.json', 'w') as f:
         json.dump(list(allkeys), f, indent=4, sort_keys=True)
@@ -176,7 +295,12 @@ def main():
     with open('allkeys_out.json', 'w') as f:
         json.dump(list(allkeys_out), f, indent=4, sort_keys=True)
 
-    allkeys_out = {match[k] for k in allkeys_out if not k.startswith('nb_') and k != 'best_title'}
+    try:
+        allkeys_out = {match[k] for k in allkeys_out if
+                       not k.startswith('nb_') and k != 'best_title' and not k[-3] == '_'}
+    except KeyError:
+        print(allkeys_out)
+        raise
 
     with open('allkeys_out_match.json', 'w') as f:
         json.dump(list(allkeys_out), f, indent=4, sort_keys=True)
