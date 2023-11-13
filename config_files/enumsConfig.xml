@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- To be placed in server/solr/projet/conf/enumsConfig.xml -->
+<!--
+This file is used to define the enums of the index.
+This is the real configuration, the whole file must be copied in the server/solr/projet/conf directory.
+
+Solr uses the enumsConfig.xml file to define the enums of the index.
+-->
+
+    <enumsConfig>
+        <enum name="languages">
+            <value>af</value>
+            <value>ar</value>
+            <value>be</value>
+            <value>bn</value>
+            <value>bs</value>
+            <value>ca</value>
+            <value>cs</value>
+            <value>da</value>
+            <value>de</value>
+            <value>el</value>
+            <value>en</value>
+            <value>es</value>
+            <value>et</value>
+            <value>eu</value>
+            <value>fi</value>
+            <value>fr</value>
+            <value>gl</value>
+            <value>he</value>
+            <value>hr</value>
+            <value>hu</value>
+            <value>id</value>
+            <value>it</value>
+            <value>ja</value>
+            <value>ko</value>
+            <value>la</value>
+            <value>lt</value>
+            <value>lv</value>
+            <value>mk</value>
+            <value>mn</value>
+            <value>nl</value>
+            <value>no</value>
+            <value>oc</value>
+            <value>pl</value>
+            <value>pt</value>
+            <value>ro</value>
+            <value>ru</value>
+            <value>sk</value>
+            <value>sl</value>
+            <value>so</value>
+            <value>sq</value>
+            <value>sr</value>
+            <value>sv</value>
+            <value>tl</value>
+            <value>tr</value>
+            <value>uk</value>
+            <value>vi</value>
+            <value>zh</value>
+        </enum>
+        <enum name="origin">
+            <value>cairn</value>
+            <value>hal</value>
+            <value>open editions</value>
+            <value>toto</value>
+        </enum>
+    </enumsConfig>
