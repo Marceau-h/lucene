@@ -15,9 +15,9 @@ Solr uses the managed-schema.xml file to define the schema of the index.
         <field name="datestamp" type="pdate" indexed="true" stored="true" multiValued="false"
                required="true"/> <!-- Date of last collection -->
         <field name="origin" type="origin" indexed="true" stored="true" multiValued="false" required="true"
-               docValues="true"/> <!-- Origin of the record hal, cairn or open editions -->
+               docValues="true" default="toto"/> <!-- Origin of the record hal, cairn or open editions -->
         <fieldType name="origin" class="solr.EnumFieldType" docValues="true" enumName="origin"
-                   enumsConfig="/home/marceau/Téléchargements/solr-9.4.0/server/solr/projet/conf/enumsConfig.xml"/>
+                   enumsConfig="enumsConfig.xml"/>
 
         <!-- Titles -->
         <field name="best_title" type="text_general" indexed="true" stored="true" multiValued="false"
@@ -83,7 +83,7 @@ Solr uses the managed-schema.xml file to define the schema of the index.
         <!-- Languages -->
         <field name="languages" type="languages" indexed="true" stored="true" multiValued="true" docValues="true"/>
         <fieldType name="languages" class="solr.EnumFieldType" docValues="true" enumName="languages"
-                   enumsConfig="/home/marceau/Téléchargements/solr-9.4.0/server/solr/projet/conf/enumsConfig.xml"/>
+                   enumsConfig="enumsConfig.xml"/>
 
         <!-- Sets, the groups of publications a publication belongs to -->
         <field name="sets" type="string" indexed="true" stored="true" multiValued="true" docValues="true"/>
@@ -137,31 +137,49 @@ Solr uses the managed-schema.xml file to define the schema of the index.
 
     <enumsConfig>
         <enum name="languages">
+            <value>af</value>
             <value>ar</value>
             <value>be</value>
+            <value>bn</value>
             <value>bs</value>
             <value>ca</value>
             <value>cs</value>
+            <value>da</value>
             <value>de</value>
             <value>el</value>
             <value>en</value>
             <value>es</value>
             <value>et</value>
+            <value>eu</value>
+            <value>fi</value>
             <value>fr</value>
+            <value>gl</value>
+            <value>he</value>
+            <value>hr</value>
             <value>hu</value>
+            <value>id</value>
             <value>it</value>
             <value>ja</value>
             <value>ko</value>
             <value>la</value>
+            <value>lt</value>
+            <value>lv</value>
+            <value>mk</value>
             <value>mn</value>
             <value>nl</value>
+            <value>no</value>
+            <value>oc</value>
             <value>pl</value>
             <value>pt</value>
             <value>ro</value>
             <value>ru</value>
             <value>sk</value>
+            <value>sl</value>
+            <value>so</value>
+            <value>sq</value>
             <value>sr</value>
             <value>sv</value>
+            <value>tl</value>
             <value>tr</value>
             <value>uk</value>
             <value>vi</value>
@@ -171,6 +189,7 @@ Solr uses the managed-schema.xml file to define the schema of the index.
             <value>cairn</value>
             <value>hal</value>
             <value>open editions</value>
+            <value>toto</value>
         </enum>
     </enumsConfig>
 </root>
