@@ -44,7 +44,7 @@ def format_lang_n_types(text: dict) -> dict | str:
     raise ValueError(f"Unknown format: {text}")
 
 
-def addtemp(data: dict, key: str, temp: dict) -> tuple[list, str]:
+def addtemp(data: dict, key: str, temp: dict) -> tuple[list, str, str]:
     lang = clean_lang(temp['lang'])
     if len(lang) not in (0, 2):
         print(f"Unexpected lang {lang}")
@@ -59,7 +59,7 @@ def addtemp(data: dict, key: str, temp: dict) -> tuple[list, str]:
     value = data.get(newkey, [])
     value.append(text)
 
-    return value, newkey
+    return value, newkey, lang
 
 
 def make_dates_great_again(bad_date: str) -> str:
@@ -122,6 +122,7 @@ def json_2_smaller_1(data: dict) -> tuple[dict, set, set]:
     # print(json.dumps(data, indent=4, sort_keys=True))
 
     # Shortcuts to make the dictionary creation below more readable
+    langages = set()
     header = data['header']
     oai = data['metadata']['oai_dc:dc']
 
@@ -218,13 +219,17 @@ def json_2_smaller_1(data: dict) -> tuple[dict, set, set]:
     toremove = []
     for key in ("titles", "descriptions", "subjects"):
         if isinstance(new_data[key], dict):
-            value, newkey = addtemp(temp, key, new_data[key])
+            value, newkey, lang = addtemp(temp, key, new_data[key])
+            if lang:
+                langages.add(lang)
             temp[newkey] = value
             toremove.append(key)
         elif isinstance(new_data[key], list):
             for item in new_data[key]:
                 if isinstance(item, dict):
-                    value, newkey = addtemp(temp, key, item)
+                    value, newkey, lang = addtemp(temp, key, item)
+                    if lang:
+                        langages.add(lang)
                     temp[newkey] = value
                     toremove.append((key, item))
                 elif isinstance(item, str):
@@ -247,9 +252,18 @@ def json_2_smaller_1(data: dict) -> tuple[dict, set, set]:
     if isinstance(new_data['languages'], list):
         new_data['languages'] = [clean_lang(lang) for lang in new_data['languages']]
     elif isinstance(new_data['languages'], str):
-        new_data['languages'] = clean_lang(new_data['languages'])
+        new_data['languages'] = [clean_lang(new_data['languages'])]
     else:
         raise TypeError(f"Unexpected type {type(new_data['languages'])} for {new_data['languages']}")
+
+    new_data['languages'] = list(set(new_data['languages']) | langages)
+
+    if len(new_data['languages']) == 0:
+        new_data['languages'] = ""
+    elif len(new_data['languages']) == 1:
+        new_data['languages'] = new_data['languages'][0]
+
+    new_data['nb_languages'] = len(new_data['languages'])
 
     new_data.update(temp)
 
