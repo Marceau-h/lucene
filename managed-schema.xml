@@ -16,7 +16,7 @@ Solr uses the managed-schema.xml file to define the schema of the index.
         <field name="identifiers" type="strings" indexed="true" stored="true" multiValued="true" required="true"
                docValues="true"/>
         <field name="datestamp" type="pdate" indexed="true" stored="true" multiValued="false"
-               required="true"/> <!-- Date of last collection -->
+               required="false"/> <!-- Date of last collection -->
         <field name="origin" type="origin" indexed="true" stored="true" multiValued="false" required="true"
                docValues="true" default="toto"/> <!-- Origin of the record hal, cairn or open editions -->
         <fieldType name="origin" class="solr.EnumFieldType" docValues="true" enumName="origin"
