@@ -10,6 +10,9 @@ Solr uses the managed-schema.xml file to define the schema of the index.
     <managed-schema>
         <!-- Identifiers -->
         <field name="id" type="string" indexed="true" stored="true" multiValued="false" required="true"/>
+        <field name="identifier" type="string" indexed="true" stored="true" multiValued="false" required="true"/>
+        <!--        <copyField source="identifier" dest="id"/>-->
+
         <field name="identifiers" type="strings" indexed="true" stored="true" multiValued="true" required="true"
                docValues="true"/>
         <field name="datestamp" type="pdate" indexed="true" stored="true" multiValued="false"
@@ -114,7 +117,6 @@ Solr uses the managed-schema.xml file to define the schema of the index.
 
 
         <uniqueKey>id</uniqueKey>
-        <uniqueKey>identifiants</uniqueKey>
 
         <copyField source="descriptions" dest="catchall"/>
         <copyField source="titles" dest="catchall"/>

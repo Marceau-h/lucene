@@ -7,6 +7,7 @@ from redo_folder import main as redo_folder
 match = {
     "datestamp": "datestamp",
     "identifier": "identifier",
+    "id": "identifier",
     "sets": "setSpec",
     "contributors": "dc:contributor",
     "creators": "dc:creator",
@@ -262,6 +263,8 @@ def json_2_smaller_1(data: dict) -> tuple[dict, set, set]:
         else:
             raise TypeError(f"Unexpected type {type(new_data[key])} for {new_data[key]}")
 
+    new_data["id"] = new_data["identifier"]
+
     allkeys_out = {k for k in new_data.keys()}
 
     return new_data, allkeys, allkeys_out
@@ -296,8 +299,11 @@ def main():
         json.dump(list(allkeys_out), f, indent=4, sort_keys=True)
 
     try:
-        allkeys_out = {match[k] for k in allkeys_out if
-                       not k.startswith('nb_') and k != 'best_title' and not k[-3] == '_'}
+        # checking k == 'id' prevents IndexError, checking k[-3] == '_' for lang specific keys
+        # but "id"[-3] doesn't exist, so chexking it forst prevents python from checking the second,
+        # longer to compute, condition
+        allkeys_out = {match[k] for k in allkeys_out if k != 'id' and not any((
+            k.startswith('nb_'), k == 'best_title', k[-3] == '_'))}
     except KeyError:
         print(allkeys_out)
         raise
