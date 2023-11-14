@@ -1,3 +1,4 @@
+import re
 from pathlib import Path
 import json
 from datetime import datetime
@@ -25,6 +26,36 @@ match = {
     "couvertures": "dc:coverage",
     "accessibilites": "dcterms:accessRights"
 }
+
+openess = {
+    "All rights reserved": False,
+    "Cairn": False,
+    "copyrighted": False,
+    "http://creativecommons.org/licenses/by-nc-nd/": True,
+    "http://creativecommons.org/licenses/by-nc-sa/": True,
+    "http://creativecommons.org/licenses/by-nc/": True,
+    "http://creativecommons.org/licenses/by-nd/": True,
+    "http://creativecommons.org/licenses/by-sa/": True,
+    "http://creativecommons.org/licenses/by/": True,
+    "http://creativecommons.org/publicdomain/zero/1.0/": True,
+    "http://hal.archives-ouvertes.fr/licences/copyright/": False,
+    "http://hal.archives-ouvertes.fr/licences/etalab/": True,
+    "http://hal.archives-ouvertes.fr/licences/publicDomain/": True,
+    "https://creativecommons.org/licenses/by-nc-nd/4.0/": True,
+    "https://creativecommons.org/licenses/by-nc-sa/4.0/": True,
+    "https://creativecommons.org/licenses/by-nc/4.0/": True,
+    "https://creativecommons.org/licenses/by-nd/4.0/": True,
+    "https://creativecommons.org/licenses/by-sa/4.0/": True,
+    "https://creativecommons.org/licenses/by/4.0/": True,
+    "https://www.gnu.org/licenses/gpl-3.0-standalone.html": True,
+    "https://www.openedition.org/12554": False,
+    "info:eu-repo/semantics/OpenAccess": True,
+    "info:eu-repo/semantics/embargoedAccess": True,
+    "info:eu-repo/semantics/openAccess": True,
+    "info:eu-repo/semantics/restrictedAccess": False,
+}
+
+openedition = re.compile("oai:\w+.openedition.org:")
 
 
 def format_lang_n_types(text: dict) -> dict | str:
@@ -114,6 +145,14 @@ def clean_lang(lang: str) -> str:
             else:
                 print(f"Unexpected lang {lang}")
                 raise ValueError
+
+
+def is_open(rights: str) -> bool:
+    if rights in openess:
+        return openess[rights]
+    else:
+        print(f"Unexpected rights {rights}")
+        raise ValueError
 
 
 def json_2_smaller_1(data: dict) -> tuple[dict, set, set]:
@@ -277,7 +316,43 @@ def json_2_smaller_1(data: dict) -> tuple[dict, set, set]:
         else:
             raise TypeError(f"Unexpected type {type(new_data[key])} for {new_data[key]}")
 
+    if "identifier" not in new_data:
+        raise KeyError(f"No identifier in {new_data}")
+
+    if new_data['identifier'].startswith('oai:cairn.info:'):
+        new_data["origin"] = "cairn"
+    elif new_data['identifier'].startswith('oai:revues.org:'):
+        new_data["origin"] = "open editions"
+    elif new_data['identifier'].startswith('oai:HAL:'):
+        new_data["origin"] = "HAL"
+    elif re.match(openedition, new_data['identifier']):
+        new_data["origin"] = "open editions"
+    else:
+        new_data["origin"] = "unknown"
+
     new_data["id"] = new_data["identifier"]
+
+    new_data["open_access"] = None
+
+    if "rights" in new_data:
+        # Checking for both because if empty, we want to keep none
+        if isinstance(new_data["rights"], list):
+            new_data["open_access"] = any(is_open(v) for v in new_data["rights"] if v)
+
+        elif isinstance(new_data["rights"], str):
+            if new_data["rights"]:
+                new_data["open_access"] = is_open(new_data["rights"])
+
+        else:
+            raise TypeError(f"Unexpected type {type(new_data['rights'])} for {new_data['rights']}")
+
+    new_data["cairn_free_consultation"] = None
+    if "accessibilites" in new_data:
+        # Checking for both because if empty, we want to keep none
+        if new_data["accessibilites"] == "free access":
+            new_data["cairn_free_consultation"] = True
+        elif new_data["accessibilites"] == "restricted access":
+            new_data["cairn_free_consultation"] = False
 
     allkeys_out = {k for k in new_data.keys()}
 
@@ -316,8 +391,14 @@ def main():
         # checking k == 'id' prevents IndexError, checking k[-3] == '_' for lang specific keys
         # but "id"[-3] doesn't exist, so chexking it forst prevents python from checking the second,
         # longer to compute, condition
-        allkeys_out = {match[k] for k in allkeys_out if k != 'id' and not any((
-            k.startswith('nb_'), k == 'best_title', k[-3] == '_'))}
+        allkeys_out = {
+            match[k] for k in allkeys_out if k != 'id' and not any((
+                k.startswith('nb_'),
+                k in ('best_title', 'open_access', 'origin', 'cairn_free_consultation'),
+                k[-3] == '_'
+            ))
+        }
+
     except KeyError:
         print(allkeys_out)
         raise
