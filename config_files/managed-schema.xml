@@ -103,8 +103,9 @@ Solr uses the managed-schema.xml file to define the schema of the index.
     <!-- Coverage, maybe a useless field -->
     <field name="couvertures" type="text_general" indexed="true" stored="true" multiValued="true"/>
 
-    <!-- Access rights, maybe a useless field -->
+    <!-- Access rights, saying if you can raed it on Cairn without institutional or private account -->
     <field name="accessibilities" type="text_general" indexed="true" stored="false" multiValued="true"/>
+    <field name="cairn_free_consultation" type="boolean" indexed="true" stored="true" multiValued="false"/>
 
     <!-- Sources, the source of the publication, could be any journal, book, workshop, etc. -->
     <field name="sources" type="text_general" indexed="true" stored="true" multiValued="true"/>
@@ -114,15 +115,16 @@ Solr uses the managed-schema.xml file to define the schema of the index.
 
     <!-- Rights holders, the rights holders of the publication, could be any journal, book, workshop, etc. -->
     <field name="rights" type="text_general" indexed="true" stored="true" multiValued="true"/>
-
+    <field name="open_access" type="boolean" indexed="true" stored="true" multiValued="false"/>
 
     <uniqueKey>id</uniqueKey>
 
+    <field name="catchall" type="text_general" indexed="true" stored="false" multiValued="true"/>
     <copyField source="descriptions" dest="catchall"/>
     <copyField source="titles" dest="catchall"/>
     <copyField source="subjects" dest="catchall"/>
     <copyField source="creators" dest="catchall"/>
     <copyField source="contributors" dest="catchall"/>
     <copyField source="publishers" dest="catchall"/>
-    <field name="catchall" type="text_general" indexed="true" stored="false" multiValued="true"/>
+
 </managed-schema>

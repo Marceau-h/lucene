@@ -62,6 +62,7 @@ Solr uses the enumsConfig.xml file to define the enums of the index.
             <value>cairn</value>
             <value>hal</value>
             <value>open editions</value>
+            <value>unknown</value>
             <value>toto</value>
         </enum>
     </enumsConfig>
