@@ -1,5 +1,30 @@
 import json
 
+missing_langs = {
+    "af",
+    "be",
+    "bn",
+    "bs",
+    "cs",
+    "he",
+    "hr",
+    "la",
+    "lt",
+    "mk",
+    "mn",
+    "oc",
+    "pl",
+    "sk",
+    "sl",
+    "so",
+    "sq",
+    "sr",
+    "tl",
+    "uk",
+    "vi",
+    "zh"
+}
+
 end = """
 </managed-schema>
 """
@@ -24,9 +49,9 @@ with open("managed-schema.xml", 'w', encoding='utf-8') as f:
 
     for langage in langages:
         f.write(f"""
-    <field name="title_{langage.capitalize()}" type="text_{langage}" indexed="true" stored="false" multiValued="false"
+    <field name="title-{langage.capitalize()}" type="text_{f'{langage}' if langage not in missing_langs else 'general'}" indexed="true" stored="true" multiValued="true"
         termVectors="true" termPositions="true" termOffsets="true"/>
-    <copyField source="title_{langage.capitalize()}" dest="titles" maxChars="4000"/>""")
+    <copyField source="title-{langage.capitalize()}" dest="titles" maxChars="4000"/>""")
 
     # Descriptions part
     f.write("""
@@ -39,8 +64,8 @@ with open("managed-schema.xml", 'w', encoding='utf-8') as f:
 
     for langage in langages:
         f.write(f"""
-    <field name="description_{langage.capitalize()}" type="text_{langage}" indexed="true" stored="false" multiValued="false"/>
-    <copyField source="description_{langage.capitalize()}" dest="descriptions" maxChars="4000"/>""")
+    <field name="description-{langage.capitalize()}" type="text_{f'{langage}' if langage not in missing_langs else 'general'}" indexed="true" stored="true" multiValued="false"/>
+    <copyField source="description-{langage.capitalize()}" dest="descriptions" maxChars="4000"/>""")
 
     # Keywords part
     f.write("""
@@ -52,8 +77,8 @@ with open("managed-schema.xml", 'w', encoding='utf-8') as f:
 
     for langage in langages:
         f.write(f"""
-    <field name="subject_{langage.capitalize()}" type="text_{langage}" indexed="true" stored="false" multiValued="true"/>
-    <copyField source="subject_{langage.capitalize()}" dest="subjects" maxChars="4000"/>""")
+    <field name="subject-{langage.capitalize()}" type="text_{f'{langage}' if langage not in missing_langs else 'general'}" indexed="true" stored="true" multiValued="true"/>
+    <copyField source="subject-{langage.capitalize()}" dest="subjects" maxChars="4000"/>""")
 
     # End
     f.write(end)
