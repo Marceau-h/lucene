@@ -86,7 +86,7 @@ def addtemp(data: dict, key: str, temp: dict) -> tuple[list, str, str]:
     # We remove the 's' at the end of the key and add the lang if it exists (e.g. 'titles' -> 'title_fr')
     # In the rares cases where leng is just an empty string, we add back the 's' (e.g. 'titles' -> 'titles')
     # To ensure the value to go back in the dict
-    newkey = f"{key[:-1]}{f'_{lang}' if lang else 's'}"
+    newkey = f"{key[:-1]}{f'-{lang.capitalize()}' if lang else 's'}"
     value = data.get(newkey, [])
     value.append(text)
 
@@ -354,6 +354,13 @@ def json_2_smaller_1(data: dict) -> tuple[dict, set, set]:
         elif new_data["accessibilites"] == "restricted access":
             new_data["cairn_free_consultation"] = False
 
+    # new_data["datestamp"] = new_data["datestamp"] or None
+    for key, value in new_data.items():
+        if isinstance(value, list):
+            new_data[key] = [v for v in value if v != ""]
+        elif value == "":
+            new_data[key] = None
+
     allkeys_out = {k for k in new_data.keys()}
 
     return new_data, allkeys, allkeys_out
@@ -395,7 +402,7 @@ def main():
             match[k] for k in allkeys_out if k != 'id' and not any((
                 k.startswith('nb_'),
                 k in ('best_title', 'open_access', 'origin', 'cairn_free_consultation'),
-                k[-3] == '_'
+                k[-3] == '-'
             ))
         }
 

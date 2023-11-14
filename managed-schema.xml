@@ -92,344 +92,344 @@ Solr uses the managed-schema.xml file to define the schema of the index.
     <field name="titles" type="text_general" indexed="true" stored="false" multiValued="true"
     termVectors="true" termPositions="true" termOffsets="true"/>      
 
-    <field name="title_Af" type="text_af" indexed="true" stored="false" multiValued="false"
+    <field name="title-Af" type="text_general" indexed="true" stored="false" multiValued="true"
         termVectors="true" termPositions="true" termOffsets="true"/>
-    <copyField source="title_Af" dest="titles" maxChars="4000"/>
-    <field name="title_Ar" type="text_ar" indexed="true" stored="false" multiValued="false"
+    <copyField source="title-Af" dest="titles" maxChars="4000"/>
+    <field name="title-Ar" type="text_ar" indexed="true" stored="false" multiValued="true"
         termVectors="true" termPositions="true" termOffsets="true"/>
-    <copyField source="title_Ar" dest="titles" maxChars="4000"/>
-    <field name="title_Be" type="text_be" indexed="true" stored="false" multiValued="false"
+    <copyField source="title-Ar" dest="titles" maxChars="4000"/>
+    <field name="title-Be" type="text_general" indexed="true" stored="false" multiValued="true"
         termVectors="true" termPositions="true" termOffsets="true"/>
-    <copyField source="title_Be" dest="titles" maxChars="4000"/>
-    <field name="title_Bn" type="text_bn" indexed="true" stored="false" multiValued="false"
+    <copyField source="title-Be" dest="titles" maxChars="4000"/>
+    <field name="title-Bn" type="text_general" indexed="true" stored="false" multiValued="true"
         termVectors="true" termPositions="true" termOffsets="true"/>
-    <copyField source="title_Bn" dest="titles" maxChars="4000"/>
-    <field name="title_Bs" type="text_bs" indexed="true" stored="false" multiValued="false"
+    <copyField source="title-Bn" dest="titles" maxChars="4000"/>
+    <field name="title-Bs" type="text_general" indexed="true" stored="false" multiValued="true"
         termVectors="true" termPositions="true" termOffsets="true"/>
-    <copyField source="title_Bs" dest="titles" maxChars="4000"/>
-    <field name="title_Ca" type="text_ca" indexed="true" stored="false" multiValued="false"
+    <copyField source="title-Bs" dest="titles" maxChars="4000"/>
+    <field name="title-Ca" type="text_ca" indexed="true" stored="false" multiValued="true"
         termVectors="true" termPositions="true" termOffsets="true"/>
-    <copyField source="title_Ca" dest="titles" maxChars="4000"/>
-    <field name="title_Cs" type="text_cs" indexed="true" stored="false" multiValued="false"
+    <copyField source="title-Ca" dest="titles" maxChars="4000"/>
+    <field name="title-Cs" type="text_general" indexed="true" stored="false" multiValued="true"
         termVectors="true" termPositions="true" termOffsets="true"/>
-    <copyField source="title_Cs" dest="titles" maxChars="4000"/>
-    <field name="title_Da" type="text_da" indexed="true" stored="false" multiValued="false"
+    <copyField source="title-Cs" dest="titles" maxChars="4000"/>
+    <field name="title-Da" type="text_da" indexed="true" stored="false" multiValued="true"
         termVectors="true" termPositions="true" termOffsets="true"/>
-    <copyField source="title_Da" dest="titles" maxChars="4000"/>
-    <field name="title_De" type="text_de" indexed="true" stored="false" multiValued="false"
+    <copyField source="title-Da" dest="titles" maxChars="4000"/>
+    <field name="title-De" type="text_de" indexed="true" stored="false" multiValued="true"
         termVectors="true" termPositions="true" termOffsets="true"/>
-    <copyField source="title_De" dest="titles" maxChars="4000"/>
-    <field name="title_El" type="text_el" indexed="true" stored="false" multiValued="false"
+    <copyField source="title-De" dest="titles" maxChars="4000"/>
+    <field name="title-El" type="text_el" indexed="true" stored="false" multiValued="true"
         termVectors="true" termPositions="true" termOffsets="true"/>
-    <copyField source="title_El" dest="titles" maxChars="4000"/>
-    <field name="title_En" type="text_en" indexed="true" stored="false" multiValued="false"
+    <copyField source="title-El" dest="titles" maxChars="4000"/>
+    <field name="title-En" type="text_en" indexed="true" stored="false" multiValued="true"
         termVectors="true" termPositions="true" termOffsets="true"/>
-    <copyField source="title_En" dest="titles" maxChars="4000"/>
-    <field name="title_Es" type="text_es" indexed="true" stored="false" multiValued="false"
+    <copyField source="title-En" dest="titles" maxChars="4000"/>
+    <field name="title-Es" type="text_es" indexed="true" stored="false" multiValued="true"
         termVectors="true" termPositions="true" termOffsets="true"/>
-    <copyField source="title_Es" dest="titles" maxChars="4000"/>
-    <field name="title_Et" type="text_et" indexed="true" stored="false" multiValued="false"
+    <copyField source="title-Es" dest="titles" maxChars="4000"/>
+    <field name="title-Et" type="text_et" indexed="true" stored="false" multiValued="true"
         termVectors="true" termPositions="true" termOffsets="true"/>
-    <copyField source="title_Et" dest="titles" maxChars="4000"/>
-    <field name="title_Eu" type="text_eu" indexed="true" stored="false" multiValued="false"
+    <copyField source="title-Et" dest="titles" maxChars="4000"/>
+    <field name="title-Eu" type="text_eu" indexed="true" stored="false" multiValued="true"
         termVectors="true" termPositions="true" termOffsets="true"/>
-    <copyField source="title_Eu" dest="titles" maxChars="4000"/>
-    <field name="title_Fi" type="text_fi" indexed="true" stored="false" multiValued="false"
+    <copyField source="title-Eu" dest="titles" maxChars="4000"/>
+    <field name="title-Fi" type="text_fi" indexed="true" stored="false" multiValued="true"
         termVectors="true" termPositions="true" termOffsets="true"/>
-    <copyField source="title_Fi" dest="titles" maxChars="4000"/>
-    <field name="title_Fr" type="text_fr" indexed="true" stored="false" multiValued="false"
+    <copyField source="title-Fi" dest="titles" maxChars="4000"/>
+    <field name="title-Fr" type="text_fr" indexed="true" stored="false" multiValued="true"
         termVectors="true" termPositions="true" termOffsets="true"/>
-    <copyField source="title_Fr" dest="titles" maxChars="4000"/>
-    <field name="title_Gl" type="text_gl" indexed="true" stored="false" multiValued="false"
+    <copyField source="title-Fr" dest="titles" maxChars="4000"/>
+    <field name="title-Gl" type="text_gl" indexed="true" stored="false" multiValued="true"
         termVectors="true" termPositions="true" termOffsets="true"/>
-    <copyField source="title_Gl" dest="titles" maxChars="4000"/>
-    <field name="title_He" type="text_he" indexed="true" stored="false" multiValued="false"
+    <copyField source="title-Gl" dest="titles" maxChars="4000"/>
+    <field name="title-He" type="text_general" indexed="true" stored="false" multiValued="true"
         termVectors="true" termPositions="true" termOffsets="true"/>
-    <copyField source="title_He" dest="titles" maxChars="4000"/>
-    <field name="title_Hr" type="text_hr" indexed="true" stored="false" multiValued="false"
+    <copyField source="title-He" dest="titles" maxChars="4000"/>
+    <field name="title-Hr" type="text_general" indexed="true" stored="false" multiValued="true"
         termVectors="true" termPositions="true" termOffsets="true"/>
-    <copyField source="title_Hr" dest="titles" maxChars="4000"/>
-    <field name="title_Hu" type="text_hu" indexed="true" stored="false" multiValued="false"
+    <copyField source="title-Hr" dest="titles" maxChars="4000"/>
+    <field name="title-Hu" type="text_hu" indexed="true" stored="false" multiValued="true"
         termVectors="true" termPositions="true" termOffsets="true"/>
-    <copyField source="title_Hu" dest="titles" maxChars="4000"/>
-    <field name="title_Id" type="text_id" indexed="true" stored="false" multiValued="false"
+    <copyField source="title-Hu" dest="titles" maxChars="4000"/>
+    <field name="title-Id" type="text_id" indexed="true" stored="false" multiValued="true"
         termVectors="true" termPositions="true" termOffsets="true"/>
-    <copyField source="title_Id" dest="titles" maxChars="4000"/>
-    <field name="title_It" type="text_it" indexed="true" stored="false" multiValued="false"
+    <copyField source="title-Id" dest="titles" maxChars="4000"/>
+    <field name="title-It" type="text_it" indexed="true" stored="false" multiValued="true"
         termVectors="true" termPositions="true" termOffsets="true"/>
-    <copyField source="title_It" dest="titles" maxChars="4000"/>
-    <field name="title_Ja" type="text_ja" indexed="true" stored="false" multiValued="false"
+    <copyField source="title-It" dest="titles" maxChars="4000"/>
+    <field name="title-Ja" type="text_ja" indexed="true" stored="false" multiValued="true"
         termVectors="true" termPositions="true" termOffsets="true"/>
-    <copyField source="title_Ja" dest="titles" maxChars="4000"/>
-    <field name="title_Ko" type="text_ko" indexed="true" stored="false" multiValued="false"
+    <copyField source="title-Ja" dest="titles" maxChars="4000"/>
+    <field name="title-Ko" type="text_ko" indexed="true" stored="false" multiValued="true"
         termVectors="true" termPositions="true" termOffsets="true"/>
-    <copyField source="title_Ko" dest="titles" maxChars="4000"/>
-    <field name="title_La" type="text_la" indexed="true" stored="false" multiValued="false"
+    <copyField source="title-Ko" dest="titles" maxChars="4000"/>
+    <field name="title-La" type="text_general" indexed="true" stored="false" multiValued="true"
         termVectors="true" termPositions="true" termOffsets="true"/>
-    <copyField source="title_La" dest="titles" maxChars="4000"/>
-    <field name="title_Lt" type="text_lt" indexed="true" stored="false" multiValued="false"
+    <copyField source="title-La" dest="titles" maxChars="4000"/>
+    <field name="title-Lt" type="text_general" indexed="true" stored="false" multiValued="true"
         termVectors="true" termPositions="true" termOffsets="true"/>
-    <copyField source="title_Lt" dest="titles" maxChars="4000"/>
-    <field name="title_Lv" type="text_lv" indexed="true" stored="false" multiValued="false"
+    <copyField source="title-Lt" dest="titles" maxChars="4000"/>
+    <field name="title-Lv" type="text_lv" indexed="true" stored="false" multiValued="true"
         termVectors="true" termPositions="true" termOffsets="true"/>
-    <copyField source="title_Lv" dest="titles" maxChars="4000"/>
-    <field name="title_Mk" type="text_mk" indexed="true" stored="false" multiValued="false"
+    <copyField source="title-Lv" dest="titles" maxChars="4000"/>
+    <field name="title-Mk" type="text_general" indexed="true" stored="false" multiValued="true"
         termVectors="true" termPositions="true" termOffsets="true"/>
-    <copyField source="title_Mk" dest="titles" maxChars="4000"/>
-    <field name="title_Mn" type="text_mn" indexed="true" stored="false" multiValued="false"
+    <copyField source="title-Mk" dest="titles" maxChars="4000"/>
+    <field name="title-Mn" type="text_general" indexed="true" stored="false" multiValued="true"
         termVectors="true" termPositions="true" termOffsets="true"/>
-    <copyField source="title_Mn" dest="titles" maxChars="4000"/>
-    <field name="title_Nl" type="text_nl" indexed="true" stored="false" multiValued="false"
+    <copyField source="title-Mn" dest="titles" maxChars="4000"/>
+    <field name="title-Nl" type="text_nl" indexed="true" stored="false" multiValued="true"
         termVectors="true" termPositions="true" termOffsets="true"/>
-    <copyField source="title_Nl" dest="titles" maxChars="4000"/>
-    <field name="title_No" type="text_no" indexed="true" stored="false" multiValued="false"
+    <copyField source="title-Nl" dest="titles" maxChars="4000"/>
+    <field name="title-No" type="text_no" indexed="true" stored="false" multiValued="true"
         termVectors="true" termPositions="true" termOffsets="true"/>
-    <copyField source="title_No" dest="titles" maxChars="4000"/>
-    <field name="title_Oc" type="text_oc" indexed="true" stored="false" multiValued="false"
+    <copyField source="title-No" dest="titles" maxChars="4000"/>
+    <field name="title-Oc" type="text_general" indexed="true" stored="false" multiValued="true"
         termVectors="true" termPositions="true" termOffsets="true"/>
-    <copyField source="title_Oc" dest="titles" maxChars="4000"/>
-    <field name="title_Pl" type="text_pl" indexed="true" stored="false" multiValued="false"
+    <copyField source="title-Oc" dest="titles" maxChars="4000"/>
+    <field name="title-Pl" type="text_general" indexed="true" stored="false" multiValued="true"
         termVectors="true" termPositions="true" termOffsets="true"/>
-    <copyField source="title_Pl" dest="titles" maxChars="4000"/>
-    <field name="title_Pt" type="text_pt" indexed="true" stored="false" multiValued="false"
+    <copyField source="title-Pl" dest="titles" maxChars="4000"/>
+    <field name="title-Pt" type="text_pt" indexed="true" stored="false" multiValued="true"
         termVectors="true" termPositions="true" termOffsets="true"/>
-    <copyField source="title_Pt" dest="titles" maxChars="4000"/>
-    <field name="title_Ro" type="text_ro" indexed="true" stored="false" multiValued="false"
+    <copyField source="title-Pt" dest="titles" maxChars="4000"/>
+    <field name="title-Ro" type="text_ro" indexed="true" stored="false" multiValued="true"
         termVectors="true" termPositions="true" termOffsets="true"/>
-    <copyField source="title_Ro" dest="titles" maxChars="4000"/>
-    <field name="title_Ru" type="text_ru" indexed="true" stored="false" multiValued="false"
+    <copyField source="title-Ro" dest="titles" maxChars="4000"/>
+    <field name="title-Ru" type="text_ru" indexed="true" stored="false" multiValued="true"
         termVectors="true" termPositions="true" termOffsets="true"/>
-    <copyField source="title_Ru" dest="titles" maxChars="4000"/>
-    <field name="title_Sk" type="text_sk" indexed="true" stored="false" multiValued="false"
+    <copyField source="title-Ru" dest="titles" maxChars="4000"/>
+    <field name="title-Sk" type="text_general" indexed="true" stored="false" multiValued="true"
         termVectors="true" termPositions="true" termOffsets="true"/>
-    <copyField source="title_Sk" dest="titles" maxChars="4000"/>
-    <field name="title_Sl" type="text_sl" indexed="true" stored="false" multiValued="false"
+    <copyField source="title-Sk" dest="titles" maxChars="4000"/>
+    <field name="title-Sl" type="text_general" indexed="true" stored="false" multiValued="true"
         termVectors="true" termPositions="true" termOffsets="true"/>
-    <copyField source="title_Sl" dest="titles" maxChars="4000"/>
-    <field name="title_So" type="text_so" indexed="true" stored="false" multiValued="false"
+    <copyField source="title-Sl" dest="titles" maxChars="4000"/>
+    <field name="title-So" type="text_general" indexed="true" stored="false" multiValued="true"
         termVectors="true" termPositions="true" termOffsets="true"/>
-    <copyField source="title_So" dest="titles" maxChars="4000"/>
-    <field name="title_Sq" type="text_sq" indexed="true" stored="false" multiValued="false"
+    <copyField source="title-So" dest="titles" maxChars="4000"/>
+    <field name="title-Sq" type="text_general" indexed="true" stored="false" multiValued="true"
         termVectors="true" termPositions="true" termOffsets="true"/>
-    <copyField source="title_Sq" dest="titles" maxChars="4000"/>
-    <field name="title_Sr" type="text_sr" indexed="true" stored="false" multiValued="false"
+    <copyField source="title-Sq" dest="titles" maxChars="4000"/>
+    <field name="title-Sr" type="text_general" indexed="true" stored="false" multiValued="true"
         termVectors="true" termPositions="true" termOffsets="true"/>
-    <copyField source="title_Sr" dest="titles" maxChars="4000"/>
-    <field name="title_Sv" type="text_sv" indexed="true" stored="false" multiValued="false"
+    <copyField source="title-Sr" dest="titles" maxChars="4000"/>
+    <field name="title-Sv" type="text_sv" indexed="true" stored="false" multiValued="true"
         termVectors="true" termPositions="true" termOffsets="true"/>
-    <copyField source="title_Sv" dest="titles" maxChars="4000"/>
-    <field name="title_Tl" type="text_tl" indexed="true" stored="false" multiValued="false"
+    <copyField source="title-Sv" dest="titles" maxChars="4000"/>
+    <field name="title-Tl" type="text_general" indexed="true" stored="false" multiValued="true"
         termVectors="true" termPositions="true" termOffsets="true"/>
-    <copyField source="title_Tl" dest="titles" maxChars="4000"/>
-    <field name="title_Tr" type="text_tr" indexed="true" stored="false" multiValued="false"
+    <copyField source="title-Tl" dest="titles" maxChars="4000"/>
+    <field name="title-Tr" type="text_tr" indexed="true" stored="false" multiValued="true"
         termVectors="true" termPositions="true" termOffsets="true"/>
-    <copyField source="title_Tr" dest="titles" maxChars="4000"/>
-    <field name="title_Uk" type="text_uk" indexed="true" stored="false" multiValued="false"
+    <copyField source="title-Tr" dest="titles" maxChars="4000"/>
+    <field name="title-Uk" type="text_general" indexed="true" stored="false" multiValued="true"
         termVectors="true" termPositions="true" termOffsets="true"/>
-    <copyField source="title_Uk" dest="titles" maxChars="4000"/>
-    <field name="title_Vi" type="text_vi" indexed="true" stored="false" multiValued="false"
+    <copyField source="title-Uk" dest="titles" maxChars="4000"/>
+    <field name="title-Vi" type="text_general" indexed="true" stored="false" multiValued="true"
         termVectors="true" termPositions="true" termOffsets="true"/>
-    <copyField source="title_Vi" dest="titles" maxChars="4000"/>
-    <field name="title_Zh" type="text_zh" indexed="true" stored="false" multiValued="false"
+    <copyField source="title-Vi" dest="titles" maxChars="4000"/>
+    <field name="title-Zh" type="text_general" indexed="true" stored="false" multiValued="true"
         termVectors="true" termPositions="true" termOffsets="true"/>
-    <copyField source="title_Zh" dest="titles" maxChars="4000"/>
+    <copyField source="title-Zh" dest="titles" maxChars="4000"/>
     
     
     <!-- Descriptions -->
     <field name="best_description" type="text_general" indexed="true" stored="true" multiValued="false"/>
     <field name="descriptions" type="text_general" indexed="true" stored="false" multiValued="true"/>
 
-    <field name="description_Af" type="text_af" indexed="true" stored="false" multiValued="false"/>
-    <copyField source="description_Af" dest="descriptions" maxChars="4000"/>
-    <field name="description_Ar" type="text_ar" indexed="true" stored="false" multiValued="false"/>
-    <copyField source="description_Ar" dest="descriptions" maxChars="4000"/>
-    <field name="description_Be" type="text_be" indexed="true" stored="false" multiValued="false"/>
-    <copyField source="description_Be" dest="descriptions" maxChars="4000"/>
-    <field name="description_Bn" type="text_bn" indexed="true" stored="false" multiValued="false"/>
-    <copyField source="description_Bn" dest="descriptions" maxChars="4000"/>
-    <field name="description_Bs" type="text_bs" indexed="true" stored="false" multiValued="false"/>
-    <copyField source="description_Bs" dest="descriptions" maxChars="4000"/>
-    <field name="description_Ca" type="text_ca" indexed="true" stored="false" multiValued="false"/>
-    <copyField source="description_Ca" dest="descriptions" maxChars="4000"/>
-    <field name="description_Cs" type="text_cs" indexed="true" stored="false" multiValued="false"/>
-    <copyField source="description_Cs" dest="descriptions" maxChars="4000"/>
-    <field name="description_Da" type="text_da" indexed="true" stored="false" multiValued="false"/>
-    <copyField source="description_Da" dest="descriptions" maxChars="4000"/>
-    <field name="description_De" type="text_de" indexed="true" stored="false" multiValued="false"/>
-    <copyField source="description_De" dest="descriptions" maxChars="4000"/>
-    <field name="description_El" type="text_el" indexed="true" stored="false" multiValued="false"/>
-    <copyField source="description_El" dest="descriptions" maxChars="4000"/>
-    <field name="description_En" type="text_en" indexed="true" stored="false" multiValued="false"/>
-    <copyField source="description_En" dest="descriptions" maxChars="4000"/>
-    <field name="description_Es" type="text_es" indexed="true" stored="false" multiValued="false"/>
-    <copyField source="description_Es" dest="descriptions" maxChars="4000"/>
-    <field name="description_Et" type="text_et" indexed="true" stored="false" multiValued="false"/>
-    <copyField source="description_Et" dest="descriptions" maxChars="4000"/>
-    <field name="description_Eu" type="text_eu" indexed="true" stored="false" multiValued="false"/>
-    <copyField source="description_Eu" dest="descriptions" maxChars="4000"/>
-    <field name="description_Fi" type="text_fi" indexed="true" stored="false" multiValued="false"/>
-    <copyField source="description_Fi" dest="descriptions" maxChars="4000"/>
-    <field name="description_Fr" type="text_fr" indexed="true" stored="false" multiValued="false"/>
-    <copyField source="description_Fr" dest="descriptions" maxChars="4000"/>
-    <field name="description_Gl" type="text_gl" indexed="true" stored="false" multiValued="false"/>
-    <copyField source="description_Gl" dest="descriptions" maxChars="4000"/>
-    <field name="description_He" type="text_he" indexed="true" stored="false" multiValued="false"/>
-    <copyField source="description_He" dest="descriptions" maxChars="4000"/>
-    <field name="description_Hr" type="text_hr" indexed="true" stored="false" multiValued="false"/>
-    <copyField source="description_Hr" dest="descriptions" maxChars="4000"/>
-    <field name="description_Hu" type="text_hu" indexed="true" stored="false" multiValued="false"/>
-    <copyField source="description_Hu" dest="descriptions" maxChars="4000"/>
-    <field name="description_Id" type="text_id" indexed="true" stored="false" multiValued="false"/>
-    <copyField source="description_Id" dest="descriptions" maxChars="4000"/>
-    <field name="description_It" type="text_it" indexed="true" stored="false" multiValued="false"/>
-    <copyField source="description_It" dest="descriptions" maxChars="4000"/>
-    <field name="description_Ja" type="text_ja" indexed="true" stored="false" multiValued="false"/>
-    <copyField source="description_Ja" dest="descriptions" maxChars="4000"/>
-    <field name="description_Ko" type="text_ko" indexed="true" stored="false" multiValued="false"/>
-    <copyField source="description_Ko" dest="descriptions" maxChars="4000"/>
-    <field name="description_La" type="text_la" indexed="true" stored="false" multiValued="false"/>
-    <copyField source="description_La" dest="descriptions" maxChars="4000"/>
-    <field name="description_Lt" type="text_lt" indexed="true" stored="false" multiValued="false"/>
-    <copyField source="description_Lt" dest="descriptions" maxChars="4000"/>
-    <field name="description_Lv" type="text_lv" indexed="true" stored="false" multiValued="false"/>
-    <copyField source="description_Lv" dest="descriptions" maxChars="4000"/>
-    <field name="description_Mk" type="text_mk" indexed="true" stored="false" multiValued="false"/>
-    <copyField source="description_Mk" dest="descriptions" maxChars="4000"/>
-    <field name="description_Mn" type="text_mn" indexed="true" stored="false" multiValued="false"/>
-    <copyField source="description_Mn" dest="descriptions" maxChars="4000"/>
-    <field name="description_Nl" type="text_nl" indexed="true" stored="false" multiValued="false"/>
-    <copyField source="description_Nl" dest="descriptions" maxChars="4000"/>
-    <field name="description_No" type="text_no" indexed="true" stored="false" multiValued="false"/>
-    <copyField source="description_No" dest="descriptions" maxChars="4000"/>
-    <field name="description_Oc" type="text_oc" indexed="true" stored="false" multiValued="false"/>
-    <copyField source="description_Oc" dest="descriptions" maxChars="4000"/>
-    <field name="description_Pl" type="text_pl" indexed="true" stored="false" multiValued="false"/>
-    <copyField source="description_Pl" dest="descriptions" maxChars="4000"/>
-    <field name="description_Pt" type="text_pt" indexed="true" stored="false" multiValued="false"/>
-    <copyField source="description_Pt" dest="descriptions" maxChars="4000"/>
-    <field name="description_Ro" type="text_ro" indexed="true" stored="false" multiValued="false"/>
-    <copyField source="description_Ro" dest="descriptions" maxChars="4000"/>
-    <field name="description_Ru" type="text_ru" indexed="true" stored="false" multiValued="false"/>
-    <copyField source="description_Ru" dest="descriptions" maxChars="4000"/>
-    <field name="description_Sk" type="text_sk" indexed="true" stored="false" multiValued="false"/>
-    <copyField source="description_Sk" dest="descriptions" maxChars="4000"/>
-    <field name="description_Sl" type="text_sl" indexed="true" stored="false" multiValued="false"/>
-    <copyField source="description_Sl" dest="descriptions" maxChars="4000"/>
-    <field name="description_So" type="text_so" indexed="true" stored="false" multiValued="false"/>
-    <copyField source="description_So" dest="descriptions" maxChars="4000"/>
-    <field name="description_Sq" type="text_sq" indexed="true" stored="false" multiValued="false"/>
-    <copyField source="description_Sq" dest="descriptions" maxChars="4000"/>
-    <field name="description_Sr" type="text_sr" indexed="true" stored="false" multiValued="false"/>
-    <copyField source="description_Sr" dest="descriptions" maxChars="4000"/>
-    <field name="description_Sv" type="text_sv" indexed="true" stored="false" multiValued="false"/>
-    <copyField source="description_Sv" dest="descriptions" maxChars="4000"/>
-    <field name="description_Tl" type="text_tl" indexed="true" stored="false" multiValued="false"/>
-    <copyField source="description_Tl" dest="descriptions" maxChars="4000"/>
-    <field name="description_Tr" type="text_tr" indexed="true" stored="false" multiValued="false"/>
-    <copyField source="description_Tr" dest="descriptions" maxChars="4000"/>
-    <field name="description_Uk" type="text_uk" indexed="true" stored="false" multiValued="false"/>
-    <copyField source="description_Uk" dest="descriptions" maxChars="4000"/>
-    <field name="description_Vi" type="text_vi" indexed="true" stored="false" multiValued="false"/>
-    <copyField source="description_Vi" dest="descriptions" maxChars="4000"/>
-    <field name="description_Zh" type="text_zh" indexed="true" stored="false" multiValued="false"/>
-    <copyField source="description_Zh" dest="descriptions" maxChars="4000"/>
+    <field name="description-Af" type="text_general" indexed="true" stored="false" multiValued="false"/>
+    <copyField source="description-Af" dest="descriptions" maxChars="4000"/>
+    <field name="description-Ar" type="text_ar" indexed="true" stored="false" multiValued="false"/>
+    <copyField source="description-Ar" dest="descriptions" maxChars="4000"/>
+    <field name="description-Be" type="text_general" indexed="true" stored="false" multiValued="false"/>
+    <copyField source="description-Be" dest="descriptions" maxChars="4000"/>
+    <field name="description-Bn" type="text_general" indexed="true" stored="false" multiValued="false"/>
+    <copyField source="description-Bn" dest="descriptions" maxChars="4000"/>
+    <field name="description-Bs" type="text_general" indexed="true" stored="false" multiValued="false"/>
+    <copyField source="description-Bs" dest="descriptions" maxChars="4000"/>
+    <field name="description-Ca" type="text_ca" indexed="true" stored="false" multiValued="false"/>
+    <copyField source="description-Ca" dest="descriptions" maxChars="4000"/>
+    <field name="description-Cs" type="text_general" indexed="true" stored="false" multiValued="false"/>
+    <copyField source="description-Cs" dest="descriptions" maxChars="4000"/>
+    <field name="description-Da" type="text_da" indexed="true" stored="false" multiValued="false"/>
+    <copyField source="description-Da" dest="descriptions" maxChars="4000"/>
+    <field name="description-De" type="text_de" indexed="true" stored="false" multiValued="false"/>
+    <copyField source="description-De" dest="descriptions" maxChars="4000"/>
+    <field name="description-El" type="text_el" indexed="true" stored="false" multiValued="false"/>
+    <copyField source="description-El" dest="descriptions" maxChars="4000"/>
+    <field name="description-En" type="text_en" indexed="true" stored="false" multiValued="false"/>
+    <copyField source="description-En" dest="descriptions" maxChars="4000"/>
+    <field name="description-Es" type="text_es" indexed="true" stored="false" multiValued="false"/>
+    <copyField source="description-Es" dest="descriptions" maxChars="4000"/>
+    <field name="description-Et" type="text_et" indexed="true" stored="false" multiValued="false"/>
+    <copyField source="description-Et" dest="descriptions" maxChars="4000"/>
+    <field name="description-Eu" type="text_eu" indexed="true" stored="false" multiValued="false"/>
+    <copyField source="description-Eu" dest="descriptions" maxChars="4000"/>
+    <field name="description-Fi" type="text_fi" indexed="true" stored="false" multiValued="false"/>
+    <copyField source="description-Fi" dest="descriptions" maxChars="4000"/>
+    <field name="description-Fr" type="text_fr" indexed="true" stored="false" multiValued="false"/>
+    <copyField source="description-Fr" dest="descriptions" maxChars="4000"/>
+    <field name="description-Gl" type="text_gl" indexed="true" stored="false" multiValued="false"/>
+    <copyField source="description-Gl" dest="descriptions" maxChars="4000"/>
+    <field name="description-He" type="text_general" indexed="true" stored="false" multiValued="false"/>
+    <copyField source="description-He" dest="descriptions" maxChars="4000"/>
+    <field name="description-Hr" type="text_general" indexed="true" stored="false" multiValued="false"/>
+    <copyField source="description-Hr" dest="descriptions" maxChars="4000"/>
+    <field name="description-Hu" type="text_hu" indexed="true" stored="false" multiValued="false"/>
+    <copyField source="description-Hu" dest="descriptions" maxChars="4000"/>
+    <field name="description-Id" type="text_id" indexed="true" stored="false" multiValued="false"/>
+    <copyField source="description-Id" dest="descriptions" maxChars="4000"/>
+    <field name="description-It" type="text_it" indexed="true" stored="false" multiValued="false"/>
+    <copyField source="description-It" dest="descriptions" maxChars="4000"/>
+    <field name="description-Ja" type="text_ja" indexed="true" stored="false" multiValued="false"/>
+    <copyField source="description-Ja" dest="descriptions" maxChars="4000"/>
+    <field name="description-Ko" type="text_ko" indexed="true" stored="false" multiValued="false"/>
+    <copyField source="description-Ko" dest="descriptions" maxChars="4000"/>
+    <field name="description-La" type="text_general" indexed="true" stored="false" multiValued="false"/>
+    <copyField source="description-La" dest="descriptions" maxChars="4000"/>
+    <field name="description-Lt" type="text_general" indexed="true" stored="false" multiValued="false"/>
+    <copyField source="description-Lt" dest="descriptions" maxChars="4000"/>
+    <field name="description-Lv" type="text_lv" indexed="true" stored="false" multiValued="false"/>
+    <copyField source="description-Lv" dest="descriptions" maxChars="4000"/>
+    <field name="description-Mk" type="text_general" indexed="true" stored="false" multiValued="false"/>
+    <copyField source="description-Mk" dest="descriptions" maxChars="4000"/>
+    <field name="description-Mn" type="text_general" indexed="true" stored="false" multiValued="false"/>
+    <copyField source="description-Mn" dest="descriptions" maxChars="4000"/>
+    <field name="description-Nl" type="text_nl" indexed="true" stored="false" multiValued="false"/>
+    <copyField source="description-Nl" dest="descriptions" maxChars="4000"/>
+    <field name="description-No" type="text_no" indexed="true" stored="false" multiValued="false"/>
+    <copyField source="description-No" dest="descriptions" maxChars="4000"/>
+    <field name="description-Oc" type="text_general" indexed="true" stored="false" multiValued="false"/>
+    <copyField source="description-Oc" dest="descriptions" maxChars="4000"/>
+    <field name="description-Pl" type="text_general" indexed="true" stored="false" multiValued="false"/>
+    <copyField source="description-Pl" dest="descriptions" maxChars="4000"/>
+    <field name="description-Pt" type="text_pt" indexed="true" stored="false" multiValued="false"/>
+    <copyField source="description-Pt" dest="descriptions" maxChars="4000"/>
+    <field name="description-Ro" type="text_ro" indexed="true" stored="false" multiValued="false"/>
+    <copyField source="description-Ro" dest="descriptions" maxChars="4000"/>
+    <field name="description-Ru" type="text_ru" indexed="true" stored="false" multiValued="false"/>
+    <copyField source="description-Ru" dest="descriptions" maxChars="4000"/>
+    <field name="description-Sk" type="text_general" indexed="true" stored="false" multiValued="false"/>
+    <copyField source="description-Sk" dest="descriptions" maxChars="4000"/>
+    <field name="description-Sl" type="text_general" indexed="true" stored="false" multiValued="false"/>
+    <copyField source="description-Sl" dest="descriptions" maxChars="4000"/>
+    <field name="description-So" type="text_general" indexed="true" stored="false" multiValued="false"/>
+    <copyField source="description-So" dest="descriptions" maxChars="4000"/>
+    <field name="description-Sq" type="text_general" indexed="true" stored="false" multiValued="false"/>
+    <copyField source="description-Sq" dest="descriptions" maxChars="4000"/>
+    <field name="description-Sr" type="text_general" indexed="true" stored="false" multiValued="false"/>
+    <copyField source="description-Sr" dest="descriptions" maxChars="4000"/>
+    <field name="description-Sv" type="text_sv" indexed="true" stored="false" multiValued="false"/>
+    <copyField source="description-Sv" dest="descriptions" maxChars="4000"/>
+    <field name="description-Tl" type="text_general" indexed="true" stored="false" multiValued="false"/>
+    <copyField source="description-Tl" dest="descriptions" maxChars="4000"/>
+    <field name="description-Tr" type="text_tr" indexed="true" stored="false" multiValued="false"/>
+    <copyField source="description-Tr" dest="descriptions" maxChars="4000"/>
+    <field name="description-Uk" type="text_general" indexed="true" stored="false" multiValued="false"/>
+    <copyField source="description-Uk" dest="descriptions" maxChars="4000"/>
+    <field name="description-Vi" type="text_general" indexed="true" stored="false" multiValued="false"/>
+    <copyField source="description-Vi" dest="descriptions" maxChars="4000"/>
+    <field name="description-Zh" type="text_general" indexed="true" stored="false" multiValued="false"/>
+    <copyField source="description-Zh" dest="descriptions" maxChars="4000"/>
     
     
     <!-- Keywords (subjects) -->
     <field name="subjects" type="text_general" indexed="true" stored="false" multiValued="true"/>
 
-    <field name="subject_Af" type="text_af" indexed="true" stored="false" multiValued="true"/>
-    <copyField source="subject_Af" dest="subjects" maxChars="4000"/>
-    <field name="subject_Ar" type="text_ar" indexed="true" stored="false" multiValued="true"/>
-    <copyField source="subject_Ar" dest="subjects" maxChars="4000"/>
-    <field name="subject_Be" type="text_be" indexed="true" stored="false" multiValued="true"/>
-    <copyField source="subject_Be" dest="subjects" maxChars="4000"/>
-    <field name="subject_Bn" type="text_bn" indexed="true" stored="false" multiValued="true"/>
-    <copyField source="subject_Bn" dest="subjects" maxChars="4000"/>
-    <field name="subject_Bs" type="text_bs" indexed="true" stored="false" multiValued="true"/>
-    <copyField source="subject_Bs" dest="subjects" maxChars="4000"/>
-    <field name="subject_Ca" type="text_ca" indexed="true" stored="false" multiValued="true"/>
-    <copyField source="subject_Ca" dest="subjects" maxChars="4000"/>
-    <field name="subject_Cs" type="text_cs" indexed="true" stored="false" multiValued="true"/>
-    <copyField source="subject_Cs" dest="subjects" maxChars="4000"/>
-    <field name="subject_Da" type="text_da" indexed="true" stored="false" multiValued="true"/>
-    <copyField source="subject_Da" dest="subjects" maxChars="4000"/>
-    <field name="subject_De" type="text_de" indexed="true" stored="false" multiValued="true"/>
-    <copyField source="subject_De" dest="subjects" maxChars="4000"/>
-    <field name="subject_El" type="text_el" indexed="true" stored="false" multiValued="true"/>
-    <copyField source="subject_El" dest="subjects" maxChars="4000"/>
-    <field name="subject_En" type="text_en" indexed="true" stored="false" multiValued="true"/>
-    <copyField source="subject_En" dest="subjects" maxChars="4000"/>
-    <field name="subject_Es" type="text_es" indexed="true" stored="false" multiValued="true"/>
-    <copyField source="subject_Es" dest="subjects" maxChars="4000"/>
-    <field name="subject_Et" type="text_et" indexed="true" stored="false" multiValued="true"/>
-    <copyField source="subject_Et" dest="subjects" maxChars="4000"/>
-    <field name="subject_Eu" type="text_eu" indexed="true" stored="false" multiValued="true"/>
-    <copyField source="subject_Eu" dest="subjects" maxChars="4000"/>
-    <field name="subject_Fi" type="text_fi" indexed="true" stored="false" multiValued="true"/>
-    <copyField source="subject_Fi" dest="subjects" maxChars="4000"/>
-    <field name="subject_Fr" type="text_fr" indexed="true" stored="false" multiValued="true"/>
-    <copyField source="subject_Fr" dest="subjects" maxChars="4000"/>
-    <field name="subject_Gl" type="text_gl" indexed="true" stored="false" multiValued="true"/>
-    <copyField source="subject_Gl" dest="subjects" maxChars="4000"/>
-    <field name="subject_He" type="text_he" indexed="true" stored="false" multiValued="true"/>
-    <copyField source="subject_He" dest="subjects" maxChars="4000"/>
-    <field name="subject_Hr" type="text_hr" indexed="true" stored="false" multiValued="true"/>
-    <copyField source="subject_Hr" dest="subjects" maxChars="4000"/>
-    <field name="subject_Hu" type="text_hu" indexed="true" stored="false" multiValued="true"/>
-    <copyField source="subject_Hu" dest="subjects" maxChars="4000"/>
-    <field name="subject_Id" type="text_id" indexed="true" stored="false" multiValued="true"/>
-    <copyField source="subject_Id" dest="subjects" maxChars="4000"/>
-    <field name="subject_It" type="text_it" indexed="true" stored="false" multiValued="true"/>
-    <copyField source="subject_It" dest="subjects" maxChars="4000"/>
-    <field name="subject_Ja" type="text_ja" indexed="true" stored="false" multiValued="true"/>
-    <copyField source="subject_Ja" dest="subjects" maxChars="4000"/>
-    <field name="subject_Ko" type="text_ko" indexed="true" stored="false" multiValued="true"/>
-    <copyField source="subject_Ko" dest="subjects" maxChars="4000"/>
-    <field name="subject_La" type="text_la" indexed="true" stored="false" multiValued="true"/>
-    <copyField source="subject_La" dest="subjects" maxChars="4000"/>
-    <field name="subject_Lt" type="text_lt" indexed="true" stored="false" multiValued="true"/>
-    <copyField source="subject_Lt" dest="subjects" maxChars="4000"/>
-    <field name="subject_Lv" type="text_lv" indexed="true" stored="false" multiValued="true"/>
-    <copyField source="subject_Lv" dest="subjects" maxChars="4000"/>
-    <field name="subject_Mk" type="text_mk" indexed="true" stored="false" multiValued="true"/>
-    <copyField source="subject_Mk" dest="subjects" maxChars="4000"/>
-    <field name="subject_Mn" type="text_mn" indexed="true" stored="false" multiValued="true"/>
-    <copyField source="subject_Mn" dest="subjects" maxChars="4000"/>
-    <field name="subject_Nl" type="text_nl" indexed="true" stored="false" multiValued="true"/>
-    <copyField source="subject_Nl" dest="subjects" maxChars="4000"/>
-    <field name="subject_No" type="text_no" indexed="true" stored="false" multiValued="true"/>
-    <copyField source="subject_No" dest="subjects" maxChars="4000"/>
-    <field name="subject_Oc" type="text_oc" indexed="true" stored="false" multiValued="true"/>
-    <copyField source="subject_Oc" dest="subjects" maxChars="4000"/>
-    <field name="subject_Pl" type="text_pl" indexed="true" stored="false" multiValued="true"/>
-    <copyField source="subject_Pl" dest="subjects" maxChars="4000"/>
-    <field name="subject_Pt" type="text_pt" indexed="true" stored="false" multiValued="true"/>
-    <copyField source="subject_Pt" dest="subjects" maxChars="4000"/>
-    <field name="subject_Ro" type="text_ro" indexed="true" stored="false" multiValued="true"/>
-    <copyField source="subject_Ro" dest="subjects" maxChars="4000"/>
-    <field name="subject_Ru" type="text_ru" indexed="true" stored="false" multiValued="true"/>
-    <copyField source="subject_Ru" dest="subjects" maxChars="4000"/>
-    <field name="subject_Sk" type="text_sk" indexed="true" stored="false" multiValued="true"/>
-    <copyField source="subject_Sk" dest="subjects" maxChars="4000"/>
-    <field name="subject_Sl" type="text_sl" indexed="true" stored="false" multiValued="true"/>
-    <copyField source="subject_Sl" dest="subjects" maxChars="4000"/>
-    <field name="subject_So" type="text_so" indexed="true" stored="false" multiValued="true"/>
-    <copyField source="subject_So" dest="subjects" maxChars="4000"/>
-    <field name="subject_Sq" type="text_sq" indexed="true" stored="false" multiValued="true"/>
-    <copyField source="subject_Sq" dest="subjects" maxChars="4000"/>
-    <field name="subject_Sr" type="text_sr" indexed="true" stored="false" multiValued="true"/>
-    <copyField source="subject_Sr" dest="subjects" maxChars="4000"/>
-    <field name="subject_Sv" type="text_sv" indexed="true" stored="false" multiValued="true"/>
-    <copyField source="subject_Sv" dest="subjects" maxChars="4000"/>
-    <field name="subject_Tl" type="text_tl" indexed="true" stored="false" multiValued="true"/>
-    <copyField source="subject_Tl" dest="subjects" maxChars="4000"/>
-    <field name="subject_Tr" type="text_tr" indexed="true" stored="false" multiValued="true"/>
-    <copyField source="subject_Tr" dest="subjects" maxChars="4000"/>
-    <field name="subject_Uk" type="text_uk" indexed="true" stored="false" multiValued="true"/>
-    <copyField source="subject_Uk" dest="subjects" maxChars="4000"/>
-    <field name="subject_Vi" type="text_vi" indexed="true" stored="false" multiValued="true"/>
-    <copyField source="subject_Vi" dest="subjects" maxChars="4000"/>
-    <field name="subject_Zh" type="text_zh" indexed="true" stored="false" multiValued="true"/>
-    <copyField source="subject_Zh" dest="subjects" maxChars="4000"/>
+    <field name="subject-Af" type="text_general" indexed="true" stored="false" multiValued="true"/>
+    <copyField source="subject-Af" dest="subjects" maxChars="4000"/>
+    <field name="subject-Ar" type="text_ar" indexed="true" stored="false" multiValued="true"/>
+    <copyField source="subject-Ar" dest="subjects" maxChars="4000"/>
+    <field name="subject-Be" type="text_general" indexed="true" stored="false" multiValued="true"/>
+    <copyField source="subject-Be" dest="subjects" maxChars="4000"/>
+    <field name="subject-Bn" type="text_general" indexed="true" stored="false" multiValued="true"/>
+    <copyField source="subject-Bn" dest="subjects" maxChars="4000"/>
+    <field name="subject-Bs" type="text_general" indexed="true" stored="false" multiValued="true"/>
+    <copyField source="subject-Bs" dest="subjects" maxChars="4000"/>
+    <field name="subject-Ca" type="text_ca" indexed="true" stored="false" multiValued="true"/>
+    <copyField source="subject-Ca" dest="subjects" maxChars="4000"/>
+    <field name="subject-Cs" type="text_general" indexed="true" stored="false" multiValued="true"/>
+    <copyField source="subject-Cs" dest="subjects" maxChars="4000"/>
+    <field name="subject-Da" type="text_da" indexed="true" stored="false" multiValued="true"/>
+    <copyField source="subject-Da" dest="subjects" maxChars="4000"/>
+    <field name="subject-De" type="text_de" indexed="true" stored="false" multiValued="true"/>
+    <copyField source="subject-De" dest="subjects" maxChars="4000"/>
+    <field name="subject-El" type="text_el" indexed="true" stored="false" multiValued="true"/>
+    <copyField source="subject-El" dest="subjects" maxChars="4000"/>
+    <field name="subject-En" type="text_en" indexed="true" stored="false" multiValued="true"/>
+    <copyField source="subject-En" dest="subjects" maxChars="4000"/>
+    <field name="subject-Es" type="text_es" indexed="true" stored="false" multiValued="true"/>
+    <copyField source="subject-Es" dest="subjects" maxChars="4000"/>
+    <field name="subject-Et" type="text_et" indexed="true" stored="false" multiValued="true"/>
+    <copyField source="subject-Et" dest="subjects" maxChars="4000"/>
+    <field name="subject-Eu" type="text_eu" indexed="true" stored="false" multiValued="true"/>
+    <copyField source="subject-Eu" dest="subjects" maxChars="4000"/>
+    <field name="subject-Fi" type="text_fi" indexed="true" stored="false" multiValued="true"/>
+    <copyField source="subject-Fi" dest="subjects" maxChars="4000"/>
+    <field name="subject-Fr" type="text_fr" indexed="true" stored="false" multiValued="true"/>
+    <copyField source="subject-Fr" dest="subjects" maxChars="4000"/>
+    <field name="subject-Gl" type="text_gl" indexed="true" stored="false" multiValued="true"/>
+    <copyField source="subject-Gl" dest="subjects" maxChars="4000"/>
+    <field name="subject-He" type="text_general" indexed="true" stored="false" multiValued="true"/>
+    <copyField source="subject-He" dest="subjects" maxChars="4000"/>
+    <field name="subject-Hr" type="text_general" indexed="true" stored="false" multiValued="true"/>
+    <copyField source="subject-Hr" dest="subjects" maxChars="4000"/>
+    <field name="subject-Hu" type="text_hu" indexed="true" stored="false" multiValued="true"/>
+    <copyField source="subject-Hu" dest="subjects" maxChars="4000"/>
+    <field name="subject-Id" type="text_id" indexed="true" stored="false" multiValued="true"/>
+    <copyField source="subject-Id" dest="subjects" maxChars="4000"/>
+    <field name="subject-It" type="text_it" indexed="true" stored="false" multiValued="true"/>
+    <copyField source="subject-It" dest="subjects" maxChars="4000"/>
+    <field name="subject-Ja" type="text_ja" indexed="true" stored="false" multiValued="true"/>
+    <copyField source="subject-Ja" dest="subjects" maxChars="4000"/>
+    <field name="subject-Ko" type="text_ko" indexed="true" stored="false" multiValued="true"/>
+    <copyField source="subject-Ko" dest="subjects" maxChars="4000"/>
+    <field name="subject-La" type="text_general" indexed="true" stored="false" multiValued="true"/>
+    <copyField source="subject-La" dest="subjects" maxChars="4000"/>
+    <field name="subject-Lt" type="text_general" indexed="true" stored="false" multiValued="true"/>
+    <copyField source="subject-Lt" dest="subjects" maxChars="4000"/>
+    <field name="subject-Lv" type="text_lv" indexed="true" stored="false" multiValued="true"/>
+    <copyField source="subject-Lv" dest="subjects" maxChars="4000"/>
+    <field name="subject-Mk" type="text_general" indexed="true" stored="false" multiValued="true"/>
+    <copyField source="subject-Mk" dest="subjects" maxChars="4000"/>
+    <field name="subject-Mn" type="text_general" indexed="true" stored="false" multiValued="true"/>
+    <copyField source="subject-Mn" dest="subjects" maxChars="4000"/>
+    <field name="subject-Nl" type="text_nl" indexed="true" stored="false" multiValued="true"/>
+    <copyField source="subject-Nl" dest="subjects" maxChars="4000"/>
+    <field name="subject-No" type="text_no" indexed="true" stored="false" multiValued="true"/>
+    <copyField source="subject-No" dest="subjects" maxChars="4000"/>
+    <field name="subject-Oc" type="text_general" indexed="true" stored="false" multiValued="true"/>
+    <copyField source="subject-Oc" dest="subjects" maxChars="4000"/>
+    <field name="subject-Pl" type="text_general" indexed="true" stored="false" multiValued="true"/>
+    <copyField source="subject-Pl" dest="subjects" maxChars="4000"/>
+    <field name="subject-Pt" type="text_pt" indexed="true" stored="false" multiValued="true"/>
+    <copyField source="subject-Pt" dest="subjects" maxChars="4000"/>
+    <field name="subject-Ro" type="text_ro" indexed="true" stored="false" multiValued="true"/>
+    <copyField source="subject-Ro" dest="subjects" maxChars="4000"/>
+    <field name="subject-Ru" type="text_ru" indexed="true" stored="false" multiValued="true"/>
+    <copyField source="subject-Ru" dest="subjects" maxChars="4000"/>
+    <field name="subject-Sk" type="text_general" indexed="true" stored="false" multiValued="true"/>
+    <copyField source="subject-Sk" dest="subjects" maxChars="4000"/>
+    <field name="subject-Sl" type="text_general" indexed="true" stored="false" multiValued="true"/>
+    <copyField source="subject-Sl" dest="subjects" maxChars="4000"/>
+    <field name="subject-So" type="text_general" indexed="true" stored="false" multiValued="true"/>
+    <copyField source="subject-So" dest="subjects" maxChars="4000"/>
+    <field name="subject-Sq" type="text_general" indexed="true" stored="false" multiValued="true"/>
+    <copyField source="subject-Sq" dest="subjects" maxChars="4000"/>
+    <field name="subject-Sr" type="text_general" indexed="true" stored="false" multiValued="true"/>
+    <copyField source="subject-Sr" dest="subjects" maxChars="4000"/>
+    <field name="subject-Sv" type="text_sv" indexed="true" stored="false" multiValued="true"/>
+    <copyField source="subject-Sv" dest="subjects" maxChars="4000"/>
+    <field name="subject-Tl" type="text_general" indexed="true" stored="false" multiValued="true"/>
+    <copyField source="subject-Tl" dest="subjects" maxChars="4000"/>
+    <field name="subject-Tr" type="text_tr" indexed="true" stored="false" multiValued="true"/>
+    <copyField source="subject-Tr" dest="subjects" maxChars="4000"/>
+    <field name="subject-Uk" type="text_general" indexed="true" stored="false" multiValued="true"/>
+    <copyField source="subject-Uk" dest="subjects" maxChars="4000"/>
+    <field name="subject-Vi" type="text_general" indexed="true" stored="false" multiValued="true"/>
+    <copyField source="subject-Vi" dest="subjects" maxChars="4000"/>
+    <field name="subject-Zh" type="text_general" indexed="true" stored="false" multiValued="true"/>
+    <copyField source="subject-Zh" dest="subjects" maxChars="4000"/>
 </managed-schema>

@@ -10,7 +10,7 @@ Solr uses the solrconfig.xml file to define the configuration of the collection.
 
 <solrconfig>
     <schemaFactory class="ManagedIndexSchemaFactory">
-        <bool name="mutable">true</bool>
+        <bool name="mutable">false</bool>
         <str name="managedSchemaResourceName">managed-schema.xml</str>
     </schemaFactory>
     <queryResponseWriter name="velocity" class="solr.VelocityResponseWriter" startup="lazy">
