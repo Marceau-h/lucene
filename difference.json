@@ -1,8 +1,8 @@
 [
+    "@xmlns:dc",
+    "@xmlns:oai_dc",
+    "@xmlns:dcterms",
     "@xmlns:xsi",
     "@xmlns:tei",
-    "@xmlns:dc",
-    "@xmlns:dcterms",
-    "@xmlns:oai_dc",
     "@xsi:schemaLocation"
 ]
