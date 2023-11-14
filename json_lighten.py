@@ -324,7 +324,7 @@ def json_2_smaller_1(data: dict) -> tuple[dict, set, set]:
     elif new_data['identifier'].startswith('oai:revues.org:'):
         new_data["origin"] = "open editions"
     elif new_data['identifier'].startswith('oai:HAL:'):
-        new_data["origin"] = "HAL"
+        new_data["origin"] = "hal"
     elif re.match(openedition, new_data['identifier']):
         new_data["origin"] = "open editions"
     else:
