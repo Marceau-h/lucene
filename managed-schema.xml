@@ -63,7 +63,7 @@ Solr uses the managed-schema.xml file to define the schema of the index.
     <field name="couvertures" type="text_general" indexed="true" stored="true" multiValued="true"/>
 
     <!-- Access rights, saying if you can raed it on Cairn without institutional or private account -->
-    <field name="accessibilities" type="text_general" indexed="true" stored="false" multiValued="true"/>
+    <field name="accessibilites" type="text_general" indexed="true" stored="false" multiValued="true"/>
     <field name="cairn_free_consultation" type="boolean" indexed="true" stored="true" multiValued="false"/>
 
     <!-- Sources, the source of the publication, could be any journal, book, workshop, etc. -->
