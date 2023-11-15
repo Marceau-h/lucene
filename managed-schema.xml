@@ -34,7 +34,7 @@ Solr uses the managed-schema.xml file to define the schema of the index.
     <field name="nb_sets" type="pint" indexed="true" stored="true" multiValued="false" required="true"/>
 
     <!-- Creators -->
-    <field name="creators" type="text_general" indexed="true" stored="true" multiValued="true"/>
+    <field name="creators" type="string" indexed="true" stored="true" multiValued="true"/>
 
     <!-- Contributors -->
     <field name="contributors" type="text_general" indexed="true" stored="true" multiValued="true"/>
