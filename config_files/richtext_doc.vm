@@ -160,7 +160,7 @@
   Voir plus
 </a>
 
-
+#if($params.getBool('see_more', false) == true)
 <div class="see-more" id="see-more-$docId">
   #if($doc.getFieldValue('nb_contributors'))
     <p>Nombre de contributeurs : #field('nb_contributors')</p>
@@ -181,6 +181,7 @@
     Nombre d'éditeurs : #field('nb_publishers')
   #end
 </div>
+#end
 
 ## Display Similar Documents / MLT = More Like This
 <div class="mlt">
