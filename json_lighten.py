@@ -56,6 +56,7 @@ openess = {
 }
 
 openedition = re.compile("oai:\w+.openedition.org:")
+bad_subject = re.compile("^\d+$")
 
 
 def format_lang_n_types(text: dict) -> dict | str:
@@ -360,6 +361,34 @@ def json_2_smaller_1(data: dict) -> tuple[dict, set, set]:
             new_data[key] = [v for v in value if v != ""]
         elif value == "":
             new_data[key] = None
+
+    if isinstance(new_data['sets'], list):
+        ### Small cleaning in sets for searching
+        temp = set()
+        for e in new_data['sets']:
+            if re.fullmatch(bad_subject, e):
+                continue
+
+            if ":" in e:
+                e = ":".join(e.split(":")[1:])
+
+            e = e.lower()
+
+            temp.add(e)
+
+        new_data['sets'] = list(temp)
+
+    for key, value in new_data.items():
+        if key.startswith("subject"):
+            if isinstance(value, list):
+                ### Small cleaning in sets for searching
+                toremove = set()
+                for e in value:
+                    if re.fullmatch(bad_subject, e):
+                        toremove.add(e)
+                        # print(f"Removing {e}")
+
+                new_data[key] = [e for e in value if e not in toremove]
 
     allkeys_out = {k for k in new_data.keys()}
 
