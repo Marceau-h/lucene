@@ -225,6 +225,29 @@ def json_2_smaller_1(data: dict) -> tuple[dict, set, set]:
     new_data['best_title'] = best_title['#text'] if isinstance(best_title, dict) else best_title
     # print(best_title)
 
+    best_description = None
+    en_found = False
+    if isinstance(new_data['descriptions'], list):
+        for description in new_data['descriptions']:
+            if isinstance(description, dict):
+                if '#text' not in description:
+                    continue
+
+                if description['@xml:lang'] == 'en':
+                    best_description = description
+                    en_found = True
+                elif description['@xml:lang'] == 'fr':
+                    best_description = description
+                    break
+                elif not en_found:
+                    best_description = description
+            elif not en_found:
+                best_description = description
+    else:
+        best_description = new_data['descriptions']
+
+    new_data['best_description'] = best_description['#text'] if isinstance(best_description, dict) else best_description
+
     for key, value in new_data.items():
         if isinstance(value, list):
             if any(isinstance(v, dict) for v in value):
@@ -430,7 +453,7 @@ def main():
         allkeys_out = {
             match[k] for k in allkeys_out if k != 'id' and not any((
                 k.startswith('nb_'),
-                k in ('best_title', 'open_access', 'origin', 'cairn_free_consultation'),
+                k in ('best_title', 'best_description', 'open_access', 'origin', 'cairn_free_consultation'),
                 k[-3] == '-'
             ))
         }
