@@ -194,13 +194,13 @@ def json_2_smaller_1(data: dict) -> tuple[dict, set, set]:
 
     new_data.update(
         {
-            "nb_sets": len(new_data['sets']),
-            "nb_contributors": len(new_data['contributors']),
-            "nb_creators": len(new_data['creators']),
-            "nb_publishers": len(new_data['publishers']),
-            "nb_subjects": len(new_data['subjects']),
-            "nb_titles": len(new_data['titles']),
-            "nb_languages": len(new_data['languages']),
+            "nb_sets": len(new_data['sets']) if isinstance(new_data['sets'], list) else 1,
+            "nb_contributors": len(new_data['contributors']) if isinstance(new_data['contributors'], list) else 1,
+            "nb_creators": len(new_data['creators']) if isinstance(new_data['creators'], list) else 1,
+            "nb_publishers": len(new_data['publishers']) if isinstance(new_data['publishers'], list) else 1,
+            "nb_subjects": len(new_data['subjects']) if isinstance(new_data['subjects'], list) else 1,
+            "nb_titles": len(new_data['titles']) if isinstance(new_data['titles'], list) else 1,
+            "nb_languages": len(new_data['languages']) if isinstance(new_data['languages'], list) else 1,
         }
     )
 
