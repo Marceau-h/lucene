@@ -157,11 +157,12 @@
 
 ## Numbers
 <a class="see-more-button" id="see-more-link-$docId" href="#lensNoQ&q=id:%22$docId%22&see_more=true">
-  Voir plus
+  Voir infos chiffrées
 </a>
 
 #if($params.getBool('see_more', false) == true)
 <div class="see-more" id="see-more-$docId">
+  Informations chiffrées :
   #if($doc.getFieldValue('nb_contributors'))
     <p>Nombre de contributeurs : #field('nb_contributors')</p>
   #end
