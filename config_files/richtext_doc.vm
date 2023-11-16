@@ -10,23 +10,23 @@
 
 ## Title
 #if($doc.getFieldValue('best_title'))
-  #set($title = $esc.html($doc.getFirstValue('best_title')))
+    #set($title = $esc.html($doc.getFirstValue('best_title')))
 #else
-  #set($title = "["+$doc.getFieldValue('id')+"]")
+    #set($title = "["+$doc.getFieldValue('id')+"]")
 #end
 
 ## URL
 #if($doc.getFieldValue('url'))
-  #set($url = $doc.getFieldValue('url'))
+    #set($url = $doc.getFieldValue('url'))
 #elseif($doc.getFieldValue('resourcename'))
-  #set($url = "file:///$doc.getFieldValue('resourcename')")
+    #set($url = "file:///$doc.getFieldValue('resourcename')")
 #else
-  #set($url = "$doc.getFieldValue('id')")
+    #set($url = "$doc.getFieldValue('id')")
 #end
 
 ## doi link
 #if($doc.getFieldValue('doi_link'))
-  #set($doi_link = $doc.getFieldValue('doi_link'))
+    #set($doi_link = $doc.getFieldValue('doi_link'))
 #end
 
 
@@ -45,7 +45,7 @@
 ## (anything after the last dot).
 
 #if(!$filetype)
-  #set($filetype = $filename.substring($filename.lastIndexOf(".")).substring(1))
+    #set($filetype = $filename.substring($filename.lastIndexOf(".")).substring(1))
 #end
 
 ## #if(!$filetype)
@@ -57,188 +57,190 @@
 
 ## Row 1: Icon and Title and mlt link
 <div class="result-title">
-  ## Icon
-  ## Small file type icons from http://www.splitbrain.org/projects/file_icons (public domain)
-##  <img src="#{url_root}/img/filetypes/${filetype}.png" align="center">
+    ## Icon
+    ## Small file type icons from http://www.splitbrain.org/projects/file_icons (public domain)
+    ##  <img src="#{url_root}/img/filetypes/${filetype}.png" align="center">
 
-  ## Title, hyperlinked
-  <a href="${url}" target="_blank">
-    <b>$title</b></a>
+    ## Title, hyperlinked
+    <a href="${url}" target="_blank">
+        <b>$title</b></a>
 
-  ## Link for MLT / More Like This / Find Similar
-  <span class="mlt">
-    #if($params.getBool('mlt', false) == false)
+    ## Link for MLT / More Like This / Find Similar
+    <span class="mlt">
+        #if($params.getBool('mlt', false) == false)
       <a href="#lensNoQ&q=id:%22$docId%22&mlt=true">
         More Like This</a>
-    #end
-  </span>
+        #end
+    </span>
 
 </div>
 
 ## Row 2?: ID / URL
 <div>
-  OAI identifier : #field('id')
+    OAI identifier : #field('id')
 </div>
 
 #if($doc.getFieldValue('doi'))
-  <div>
-    DOI :   <a href="${doi_link}" target="_blank">
-        #field('doi')
-        </a>
-  </div>
+<div>
+    DOI : <a href="${doi_link}" target="_blank">
+    #field('doi')
+</a>
+</div>
 #end
 
 ## Resource Name
 <div>
-  #if($doc.getFieldValue('resourcename'))
-    Resource name : $filename
-  #elseif($url)
-    URL : $url
-  #end
-  #if($ct)
-    ($ct)
-  #end
+    #if($doc.getFieldValue('resourcename'))
+        Resource name : $filename
+    #elseif($url)
+        URL : <a href="${url}" target="_blank">
+        $url
+    </a>
+    #end
+    #if($ct)
+        ($ct)
+    #end
 </div>
 
 ## Author
 #if($doc.getFieldValue('creators'))
-  <div>
+<div>
     Auteur(s) :
     #foreach($creator in $doc.getFieldValues('creators'))
-      $creator #if($foreach.hasNext)‑ #end
+        $creator #if($foreach.hasNext)‑ #end
     #end
-  </div>
+</div>
 #end
 
 ## Last_Modified Date
 #if($doc.getFieldValue('datestamp'))
-  <div>
+<div>
     Actualisé le :
     #field('datestamp')
-  </div>
+</div>
 #end
 
 ## Keywords
 #if($doc.getFieldValue('subjects'))
-  <div>
+<div>
     Mots-clés :
-   #foreach($subject in $doc.getFieldValues('subjects'))
-      $subject #if($foreach.hasNext)‑ #end
+    #foreach($subject in $doc.getFieldValues('subjects'))
+        $subject #if($foreach.hasNext)‑ #end
     #end
-  </div>
+</div>
 #end
 
 ## Sets
 #if($doc.getFieldValue('sets'))
-  <div>
+<div>
     Collection(s) :
     #foreach($set in $doc.getFieldValues('sets'))
-      $set #if($foreach.hasNext)‑ #end
+        $set #if($foreach.hasNext)‑ #end
     #end
-  </div>
+</div>
 #end
 
 ## Langages
 #if($doc.getFieldValue('languages'))
-  <div>
+<div>
     Langage(s) :
     #foreach($language in $doc.getFieldValues('languages'))
-      $language #if($foreach.hasNext)‑ #end
+        $language #if($foreach.hasNext)‑ #end
     #end
-  </div>
+</div>
 #end
 
 ## Sources
 #if($doc.getFieldValue('sources'))
-  <div>
+<div>
     Source(s) :
     #foreach($source in $doc.getFieldValues('sources'))
-      $source #if($foreach.hasNext)‑ #end
+        $source #if($foreach.hasNext)‑ #end
     #end
-  </div>
+</div>
 #end
 
 
 ## Main content of doc
 #if($doc.getFieldValue('best_description'))
-  <div>
-  Abstract :
-  <div class="result-body">
-    #field('best_description')
-  </div>
+<div>
+    Abstract :
+    <div class="result-body">
+        #field('best_description')
     </div>
+</div>
 #end
 
 ## Numbers
 <a class="see-more-button" id="see-more-link-$docId" href="#lensNoQ&q=id:%22$docId%22&see_more=true">
-  Voir infos chiffrées
+    Voir infos chiffrées
 </a>
 
 #if($params.getBool('see_more', false) == true)
 <div class="see-more" id="see-more-$docId">
-  Informations chiffrées :
-  #if($doc.getFieldValue('nb_contributors'))
-    <p>Nombre de contributeurs : #field('nb_contributors')</p>
-  #end
-  #if($doc.getFieldValue('nb_creators'))
-    <p>Nombre de créateurs : #field('nb_creators')</p>
-  #end
-  #if($doc.getFieldValue('nb_subjects'))
-    <p>Nombre de sujets : #field('nb_subjects')</p>
-  #end
-  #if($doc.getFieldValue('nb_sets'))
-    <p>Nombre de collections : #field('nb_sets')</p>
-  #end
-  #if($doc.getFieldValue('nb_languages'))
-    <p>Nombre de langages : #field('nb_languages')</p>
-  #end
-  #if($doc.getFieldValue('nb_publishers'))
-    Nombre d'éditeurs : #field('nb_publishers')
-  #end
+    Informations chiffrées :
+    #if($doc.getFieldValue('nb_contributors'))
+        <p>Nombre de contributeurs : #field('nb_contributors')</p>
+    #end
+    #if($doc.getFieldValue('nb_creators'))
+        <p>Nombre de créateurs : #field('nb_creators')</p>
+    #end
+    #if($doc.getFieldValue('nb_subjects'))
+        <p>Nombre de sujets : #field('nb_subjects')</p>
+    #end
+    #if($doc.getFieldValue('nb_sets'))
+        <p>Nombre de collections : #field('nb_sets')</p>
+    #end
+    #if($doc.getFieldValue('nb_languages'))
+        <p>Nombre de langages : #field('nb_languages')</p>
+    #end
+    #if($doc.getFieldValue('nb_publishers'))
+        Nombre d'éditeurs : #field('nb_publishers')
+    #end
 </div>
 #end
 
 ## Display Similar Documents / MLT = More Like This
 <div class="mlt">
-  #set($mlt = $mltResults.get($docId))
-  #set($mltOn = $params.getBool('mlt'))
-  #if($mltOn == true)
-    <div class="field-name">
-      Similar Items
-    </div>
-  #end
-  ## If has MLT enabled An Entries to show
-  #if ($mltOn && $mlt && $mlt.size() > 0)
-    <ul>
-      #foreach($mltHit in $mlt)
-        #set($mltId = $mltHit.getFieldValue('id'))
-        <li>
-          <div>
-            <a href="#url_for_home?q=id:$mltId">
-              $mltId</a>
-          </div>
-          <div>
+    #set($mlt = $mltResults.get($docId))
+    #set($mltOn = $params.getBool('mlt'))
+    #if($mltOn == true)
+        <div class="field-name">
+            Similar Items
+        </div>
+    #end
+    ## If has MLT enabled An Entries to show
+    #if ($mltOn && $mlt && $mlt.size() > 0)
+        <ul>
+            #foreach($mltHit in $mlt)
+                #set($mltId = $mltHit.getFieldValue('id'))
+                <li>
+                    <div>
+                        <a href="#url_for_home?q=id:$mltId">
+                            $mltId</a>
+                    </div>
+                    <div>
             <span class="field-name">
               Title:
             </span>
-            $mltHit.getFieldValue('title')
-          </div>
-          <div>
+                        $mltHit.getFieldValue('title')
+                    </div>
+                    <div>
             <span class="field-name">
               Author:
             </span>
-            $mltHit.getFieldValue('author')
-            <span class="field-name">
+                        $mltHit.getFieldValue('author')
+                        <span class="field-name">
               Description:
             </span>
-            $mltHit.getFieldValue('description')
-          </div>
-        </li>
-      #end    ## end for each mltHit in $mlt
-    </ul>
-  ## Else MLT Enabled but no mlt results for this query
-  #elseif($mltOn && $mlt.size() == 0)
-    <div>No Similar Items Found</div>
-  #end
+                        $mltHit.getFieldValue('description')
+                    </div>
+                </li>
+            #end    ## end for each mltHit in $mlt
+        </ul>
+        ## Else MLT Enabled but no mlt results for this query
+    #elseif($mltOn && $mlt.size() == 0)
+        <div>No Similar Items Found</div>
+    #end
 </div>  ## div class=mlt
 #parse('debug.vm')
