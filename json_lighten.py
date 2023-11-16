@@ -436,8 +436,8 @@ def json_2_smaller_1(data: dict) -> tuple[dict, set, set]:
                 new_data["doi_link"] = f"https://doi.org/{identifier.split('doi.org/')[1]}"
                 new_data["doi"] = identifier.split('doi.org/')[1]
             elif identifier.startswith("DOI: "):
-                new_data["doi_link"] = f"https://doi.org/{identifier[6:]}"
-                new_data["doi"] = identifier[6:]
+                new_data["doi_link"] = f"https://doi.org/{identifier[5:].strip()}"
+                new_data["doi"] = identifier[5:].strip()
             elif identifier.startswith("urn:doi:"):
                 new_data["doi_link"] = f"https://doi.org/{identifier[8:]}"
                 new_data["doi"] = identifier[8:]

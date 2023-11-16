@@ -24,6 +24,12 @@
   #set($url = "$doc.getFieldValue('id')")
 #end
 
+## doi link
+#if($doc.getFieldValue('doi_link'))
+  #set($doi_link = $doc.getFieldValue('doi_link'))
+#end
+
+
 ## Sort out Mime-Type
 #set($ct = $doc.getFirstValue('content_type').split(";").get(0))
 #set($filename = $doc.getFieldValue('resourcename'))
@@ -73,6 +79,14 @@
 <div>
   OAI identifier : #field('id')
 </div>
+
+#if($doc.getFieldValue('doi'))
+  <div>
+    DOI :   <a href="${doi_link}" target="_blank">
+        #field('doi')
+        </a>
+  </div>
+#end
 
 ## Resource Name
 <div>
