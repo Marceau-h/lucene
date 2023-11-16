@@ -413,6 +413,43 @@ def json_2_smaller_1(data: dict) -> tuple[dict, set, set]:
 
                 new_data[key] = [e for e in value if e not in toremove]
 
+
+
+    if "identifiers" in new_data:
+        if isinstance(new_data['identifiers'], str):
+            new_data['identifiers'] = [new_data['identifiers']]
+
+        for identifier in new_data["identifiers"]:
+            if identifier.startswith("http"):
+                if "doi" in identifier:
+                    print(
+                        f"DOI found in identifiers for {new_data['identifier']}: {identifier}"
+                    )
+                    continue
+                new_data["url"] = identifier
+                break
+        else:
+            new_data["url"] = None
+
+        for identifier in new_data["identifiers"]:
+            if "doi.org/" in identifier:
+                new_data["doi_link"] = f"https://doi.org/{identifier.split('doi.org/')[1]}"
+                new_data["doi"] = identifier.split('doi.org/')[1]
+            elif identifier.startswith("DOI: "):
+                new_data["doi_link"] = f"https://doi.org/{identifier[6:]}"
+                new_data["doi"] = identifier[6:]
+            elif identifier.startswith("urn:doi:"):
+                new_data["doi_link"] = f"https://doi.org/{identifier[8:]}"
+                new_data["doi"] = identifier[8:]
+            else:
+                continue
+
+            break
+        else:
+            new_data["doi_link"] = None
+            new_data["doi"] = None
+
+
     allkeys_out = {k for k in new_data.keys()}
 
     return new_data, allkeys, allkeys_out
@@ -453,7 +490,16 @@ def main():
         allkeys_out = {
             match[k] for k in allkeys_out if k != 'id' and not any((
                 k.startswith('nb_'),
-                k in ('best_title', 'best_description', 'open_access', 'origin', 'cairn_free_consultation'),
+                k in (
+                    'best_title',
+                    'best_description',
+                    'open_access',
+                    'origin',
+                    'cairn_free_consultation',
+                    'url',
+                    "doi",
+                    "doi_link",
+                ),
                 k[-3] == '-'
             ))
         }

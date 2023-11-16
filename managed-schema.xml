@@ -13,6 +13,9 @@ Solr uses the managed-schema.xml file to define the schema of the index.
     <!-- Identifiers -->
     <field name="id" type="string" indexed="true" stored="true" multiValued="false" required="true"/>
     <field name="identifier" type="string" indexed="true" stored="true" multiValued="false" required="true"/>
+    <field name="doi" type="string" indexed="true" stored="true" multiValued="false" required="false"/>
+    <field name="doi_link" type="string" indexed="true" stored="true" multiValued="false" required="false"/>
+    <field name="url" type="string" indexed="true" stored="true" multiValued="false" required="true"/>
     <!--        <copyField source="identifier" dest="id"/>-->
 
     <field name="identifiers" type="strings" indexed="true" stored="true" multiValued="true" required="true"
