@@ -19,6 +19,7 @@ Solr uses the solrconfig.xml file to define the configuration of the collection.
 
     <lib dir="${solr.install.dir:../../../..}/contrib/velocity/lib" regex=".*\.jar"/>
     <lib dir="${solr.install.dir:../../../..}/dist/" regex="solr-velocity-\d.*\.jar"/>
+
     <requestHandler name="/select" class="solr.SearchHandler">
         <lst name="defaults">
             <str name="echoParams">explicit</str>
@@ -44,30 +45,32 @@ Solr uses the solrconfig.xml file to define the configuration of the collection.
             <str name="wt">velocity</str>
             <str name="v.template">browse</str>
             <str name="v.layout">layout</str>
-            <str name="title">Solritas</str>
+            <str name="title">Unified OAI-PMH browser</str>
 
             <!-- Query settings -->
             <str name="defType">edismax</str>
             <str name="qf">
-                id^50.0 best_title^25.0 identifiers^20.0
+                id^50.0 best_title^25.0 identifiers^20.0 best_description^15.0
                 titles^20.0 descriptions^15.0 subjects^10.0 creators^10.0 sets^5.0
             </str>
             <str name="mm">100%</str>
             <str name="q.alt">*:*</str>
-            <str name="rows">25</str>
+            <str name="rows">50</str>
             <str name="fl">*,score</str>
 
             <str name="mlt.qf">
-                id^50.0 best_title^25.0 identifiers^20.0
-                titles^20.0 descriptions^15.0 subjects^10.0 creators^10.0 sets^5.0c
+                id^50.0 best_title^25.0 identifiers^20.0 best_description^15.0
+                titles^20.0 descriptions^15.0 subjects^10.0 creators^10.0 sets^5.0
             </str>
-            <str name="mlt.fl">titles, creators, subjects, descriptions, id</str>
+            <str name="mlt.fl">
+                best_title, best_description, creators, subjects, descriptions, sets, id, identifiers, titles
+            </str>
             <int name="mlt.count">5</int>
 
             <!-- Faceting defaults -->
             <str name="facet">on</str>
             <str name="facet.missing">true</str>
-            <str name="facet.exists">true</str>
+            <!--            <str name="facet.exists">true</str>--> <!-- BREAKS EVERYTHING -->
             <str name="facet.mincount">1</str>
             <str name="facet.contains.ignoreCase">true</str>
 
@@ -88,7 +91,8 @@ Solr uses the solrconfig.xml file to define the configuration of the collection.
 
             <str name="facet.field">subjects</str>
             <str name="f.subjects.facet.limit">50</str>
-            <str name="facet.excludeTerms">and,of,the,or,de,shs.geo,shs.art,q,et,du,la,siècle,cs,se,shs.phil,shs.anthro,des,shs.langue,ex,sdv,shs.archeo,info.info,hbjd,hep,dsb,shs.hisphiloso,shs.relig,p,hb,ds,à,en,13000,his000000,sde.en,en,lit000000,le,ph,shs.info,des,shs.musiq,shs.hist,shs.lit,shs.class,gev,sde,hblc,lit004150,shs.archi
+            <str name="facet.excludeTerms">
+                and,of,the,or,de,shs.geo,shs.art,q,et,du,la,siècle,cs,se,shs.phil,shs.anthro,des,shs.langue,ex,sdv,shs.archeo,info.info,hbjd,hep,dsb,shs.hisphiloso,shs.relig,p,hb,ds,à,en,13000,his000000,sde.en,en,lit000000,le,ph,shs.info,des,shs.musiq,shs.hist,shs.lit,shs.class,gev,sde,hblc,lit004150,shs.archi
             </str>
             <str name="f.subjects.facet.missing">false</str>
 
@@ -118,38 +122,37 @@ Solr uses the solrconfig.xml file to define the configuration of the collection.
             <!-- Faceting pivots -->
             <str name="facet.pivot">origin,open_access</str>
 
-            <!--                &lt;!&ndash; Highlighting defaults &ndash;&gt;-->
-            <!--                <str name="hl">on</str>-->
-            <!--                <str name="hl.fl">auteur id mots_cles titre contenu</str>-->
-            <!--                <str name="hl.preserveMulti">true</str>-->
-            <!--                <str name="hl.encoder">html</str>-->
-            <!--                <str name="hl.simple.pre">&lt;span class="highlighted"&gt;</str>-->
-            <!--                <str name="hl.simple.post">&lt;/span&gt;</str>-->
-            <!--                <str name="f.title.hl.fragsize">0</str>-->
-            <!--                <str name="f.title.hl.alternateField">titre</str>-->
-            <!--                <str name="f.name.hl.fragsize">0</str>-->
-            <!--                <str name="f.name.hl.alternateField">auteur</str>-->
-            <!--                <str name="f.content.hl.snippets">10</str>-->
-            <!--                <str name="f.content.hl.fragsize">500</str>-->
-            <!--                <str name="f.content.hl.alternateField">contenu</str>-->
-            <!--                <str name="f.content.hl.maxAlternateFieldLength">1500</str>-->
+            <!-- Highlighting defaults -->
+            <str name="hl">on</str>
+            <str name="hl.preserveMulti">true</str>
+            <str name="hl.encoder">html</str>
+            <str name="hl.simple.pre">&lt;span class="sous-les-feux-des-projecteurs"&gt;</str>
+            <str name="hl.simple.post">&lt;/span&gt;</str>
 
-            <!--                &lt;!&ndash; Spell checking defaults &ndash;&gt;-->
-            <!--                <str name="spellcheck">on</str>-->
-            <!--                <str name="spellcheck.extendedResults">false</str>-->
-            <!--                <str name="spellcheck.count">5</str>-->
-            <!--                <str name="spellcheck.alternativeTermCount">2</str>-->
-            <!--                <str name="spellcheck.maxResultsForSuggest">5</str>-->
-            <!--                <str name="spellcheck.collate">true</str>-->
-            <!--                <str name="spellcheck.collateExtendedResults">true</str>-->
-            <!--                <str name="spellcheck.maxCollationTries">5</str>-->
-            <!--                <str name="spellcheck.maxCollations">3</str>-->
+
+<!--            <str name="hl.fl">-->
+<!--                best_title,best_description,creators,subjects,sets,id,identifiers-->
+<!--            </str>-->
+
+
+            <str name="hl.snippets">10</str>
+            <str name="hl.fragsize">500</str>
+
+            <!-- Spell checking defaults -->
+            <str name="spellcheck">on</str>
+            <str name="spellcheck.extendedResults">false</str>
+            <str name="spellcheck.count">5</str>
+            <str name="spellcheck.alternativeTermCount">2</str>
+            <str name="spellcheck.maxResultsForSuggest">5</str>
+            <str name="spellcheck.collate">true</str>
+            <str name="spellcheck.collateExtendedResults">true</str>
+            <str name="spellcheck.maxCollationTries">5</str>
+            <str name="spellcheck.maxCollations">3</str>
         </lst>
 
-        <!--            &lt;!&ndash; append spellchecking to our list of components &ndash;&gt;-->
-        <!--            <arr name="last-components">-->
-        <!--                <str>spellcheck</str>-->
-        <!--            </arr>-->
+        <!-- append spellchecking to our list of components -->
+        <arr name="last-components">
+            <str>spellcheck</str>
+        </arr>
     </requestHandler>
-
 </solrconfig>
