@@ -339,7 +339,7 @@ Solr uses the managed-schema.xml file to define the schema of the index.
     
     
     <!-- Keywords (subjects) -->
-    <field name="subjects" type="text_general" indexed="true" stored="false" multiValued="true"/>
+    <field name="subjects" type="text_general" indexed="true" stored="true" multiValued="true"/>
 
     <field name="subject-Af" type="text_general" indexed="true" stored="true" multiValued="true"/>
     <copyField source="subject-Af" dest="subjects" maxChars="4000"/>
