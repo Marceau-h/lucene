@@ -221,20 +221,25 @@
                     </div>
                     <div>
             <span class="field-name">
-              Title:
+              Titre:
             </span>
-                        $mltHit.getFieldValue('title')
+                        $mltHit.getFieldValue('best_title')
                     </div>
                     <div>
             <span class="field-name">
-              Author:
+              Auteur(s):
             </span>
-                        $mltHit.getFieldValue('author')
+                        $mltHit.getFieldValue('creators')
+                    </div>
+                    <div>
+
                         <span class="field-name">
+
               Description:
             </span>
-                        $mltHit.getFieldValue('description')
+                        $mltHit.getFieldValue('best_description')
                     </div>
+
                 </li>
             #end    ## end for each mltHit in $mlt
         </ul>
