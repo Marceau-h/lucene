@@ -1,0 +1,15 @@
+#**
+ *  Render the bottom section of the page visible to users
+ *#
+
+<hr/>
+
+<div>
+  Généré par <a href="http://wiki.apache.org/solr/VelocityResponseWriter">VelocityResponseWriter</a>
+</div>
+<div>
+  <span>Documentation: </span>
+  <a href="http://lucene.apache.org/solr">Page d'accueil Solr</a>, <a href="http://wiki.apache.org/solr">
+    Wiki Solr</a>
+  </div>
+
