@@ -36,7 +36,7 @@ body {
 }
 
 a {
-  color: #43a4b1;
+  color: #4362b1;
 }
 
 .navigators {
@@ -46,7 +46,7 @@ a {
   width: 185px;
   padding: 5px;
   top: -20px;
-  position: relative;  
+  position: relative;
 }
 
 .tabs-bar {
@@ -73,7 +73,7 @@ a {
 }
 
 .navigators h2 {
-  background: #FEC293;
+  background: #93a1fe;
   padding: 2px 5px;
 }
 
@@ -142,11 +142,11 @@ a {
 }
 
 .query-box {
-  
+
 }
 
 .query-boost {
-  
+
   top: 10px;
   left: 50px;
   position: relative;
@@ -156,7 +156,7 @@ a {
 .query-box .inputs{
   left: 180px;
   position: relative;
-  
+
 }
 
 #logo {
@@ -167,7 +167,7 @@ a {
 
 .pagination {
   padding-left: 33%;
-  background: #eee;
+  background: rgba(0, 255, 50, 0.56);
   margin: 5px;
   margin-left: 210px;
   padding-top: 5px;
@@ -192,21 +192,21 @@ a {
 
 .result-body{
   margin-top: .5em;
-  background: rgba(221, 221, 221, 0.29);
+  background-color: rgba(0, 200, 200, 0.1);
 }
 
 .mlt{
-  
+
 }
 
 .map{
   float: right;
   position: relative;
-  top: -25px;  
+  top: -25px;
 }
 
 .result-document:nth-child(2n+1) {
-  background-color: #eee;
+  background-color: rgba(0, 0, 255, 0.1);
 }
 
 
@@ -236,3 +236,9 @@ li.show {
   margin: 5px;
   margin-left: 210px;
 }
+
+.sous-les-feux-des-projecteurs {
+  font-size: 1.5em;
+  color: rgba(185, 0, 0, 0.69);
+}
+
