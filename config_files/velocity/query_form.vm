@@ -7,7 +7,7 @@
 
     <div class="inputs">
       <span #annTitle("Add the query using the &q= parameter")>
-        Find:
+        Chercher :
         <input type="text" id="q" name="q" value="$!esc.html($params.get('q'))"/>
         <input type="submit" id="querySubmit"/>
         <input type="reset"/>

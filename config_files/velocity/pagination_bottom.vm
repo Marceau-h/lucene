@@ -16,7 +16,7 @@
   Page <span class="page-num">$page.current_page_number</span>
     sur <span class="page-count">$page.page_count</span>
 
-  #link_to_next_page("next")
+  #link_to_next_page("Page suivante")
 
 #end
 <br/>

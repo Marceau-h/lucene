@@ -9,21 +9,21 @@
 
 <div class="tabs-bar" #annTitle("Click the link to demonstrate various Solr capabilities")>
 
-  <span>Type of Search:</span>
-
-  ##queryOpts=$queryOpts
-
-  ## return to Simple Search
-  ##set( $selected = ($queryOpts && $queryOpts != "") )
-  #set( $selected = ! $queryOpts )
-  <span class="tab #if($selected)selected#end">
-    #if($selected)
-      Simple
-    #else
-      <a href="#url_for_home/?#debug#annotate">
-        Simple</a>
-    #end
-  </span>
+##  <span>Type of Search:</span>
+##
+##  ##queryOpts=$queryOpts
+##
+##  ## return to Simple Search
+##  ##set( $selected = ($queryOpts && $queryOpts != "") )
+##  #set( $selected = ! $queryOpts )
+##  <span class="tab #if($selected)selected#end">
+##    #if($selected)
+##      Simple
+##    #else
+##      <a href="#url_for_home/?#debug#annotate">
+##        Simple</a>
+##    #end
+##  </span>
 
 ##  ## GEO-Spatial / Location Based
 ##  #set( $selected = ($queryOpts == "spatial") )
