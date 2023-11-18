@@ -8,7 +8,7 @@
   ## pass
 #else
 
-  #link_to_previous_page("previous")
+  #link_to_previous_page("Page précédente")
 
   <span class="results-found">$page.results_found</span>
   résultats trouvés.

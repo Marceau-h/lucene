@@ -178,19 +178,19 @@
 <div class="see-more" id="see-more-$docId">
     Informations chiffrées :
     #if($doc.getFieldValue('nb_contributors'))
-        <p>Nombre de contributeurs : #field('nb_contributors')</p>
+        <p>Nombre d'auteurs : #field('nb_contributors')</p>
     #end
     #if($doc.getFieldValue('nb_creators'))
         <p>Nombre de créateurs : #field('nb_creators')</p>
     #end
     #if($doc.getFieldValue('nb_subjects'))
-        <p>Nombre de sujets : #field('nb_subjects')</p>
+        <p>Nombre de mots-clés : #field('nb_subjects')</p>
     #end
     #if($doc.getFieldValue('nb_sets'))
         <p>Nombre de collections : #field('nb_sets')</p>
     #end
     #if($doc.getFieldValue('nb_languages'))
-        <p>Nombre de langages : #field('nb_languages')</p>
+        <p>Nombre de langues : #field('nb_languages')</p>
     #end
     #if($doc.getFieldValue('nb_publishers'))
         Nombre d'éditeurs : #field('nb_publishers')
