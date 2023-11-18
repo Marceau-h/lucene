@@ -86,6 +86,9 @@ Solr uses the managed-schema.xml file to define the schema of the index.
     <copyField source="creators" dest="catchall"/>
     <copyField source="contributors" dest="catchall"/>
     <copyField source="publishers" dest="catchall"/>
+    <copyField source="sets" dest="catchall"/>
+    <copyField source="sources" dest="catchall"/>
+    <copyField source="identifiers" dest="catchall"/>
 
 
     
