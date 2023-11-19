@@ -56,7 +56,7 @@ openess = {
 }
 
 openedition = re.compile("oai:\w+.openedition.org:")
-bad_subject = re.compile("^\d+$")
+bad_subject = re.compile(r"(?:^\d+$)|(?:^$)|(?:^\[\w+\.?\w+\])")
 
 
 def format_lang_n_types(text: dict) -> dict | str:
@@ -407,7 +407,7 @@ def json_2_smaller_1(data: dict) -> tuple[dict, set, set]:
                 ### Small cleaning in sets for searching
                 toremove = set()
                 for e in value:
-                    if re.fullmatch(bad_subject, e):
+                    if re.match(bad_subject, e):
                         toremove.add(e)
                         # print(f"Removing {e}")
 
