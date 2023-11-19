@@ -207,7 +207,7 @@ def json_2_smaller_1(data: dict) -> tuple[dict, set, set]:
     best_title = None
     en_found = False
     if isinstance(new_data['titles'], list):
-        for title in new_data['titles']:
+        for title in new_data['titles'][::-1]:
             if isinstance(title, dict):
                 if title['@xml:lang'] == 'en':
                     best_title = title
@@ -228,7 +228,7 @@ def json_2_smaller_1(data: dict) -> tuple[dict, set, set]:
     best_description = None
     en_found = False
     if isinstance(new_data['descriptions'], list):
-        for description in new_data['descriptions']:
+        for description in new_data['descriptions'][::-1]:
             if isinstance(description, dict):
                 if '#text' not in description:
                     continue
