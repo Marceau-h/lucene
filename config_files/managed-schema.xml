@@ -16,10 +16,10 @@ Solr uses the managed-schema.xml file to define the schema of the index.
     <field name="doi" type="string" indexed="true" stored="true" multiValued="false" required="false"/>
     <field name="doi_link" type="string" indexed="true" stored="true" multiValued="false" required="false"/>
     <field name="url" type="string" indexed="true" stored="true" multiValued="false" required="true"/>
-    <!--        <copyField source="identifier" dest="id"/>-->
-
     <field name="identifiers" type="strings" indexed="true" stored="true" multiValued="true" required="true"
            docValues="true"/>
+
+    <!-- Infos on the harvest -->
     <field name="datestamp" type="pdate" indexed="true" stored="true" multiValued="false"
            required="false"/> <!-- Date of last collection -->
     <field name="origin" type="origin" indexed="true" stored="true" multiValued="false" required="true"
@@ -62,7 +62,7 @@ Solr uses the managed-schema.xml file to define the schema of the index.
     <!-- Formats, the format of the publication, could be pdf, epub, etc. -->
     <field name="formats" type="string" indexed="true" stored="true" multiValued="true"/>
 
-    <!-- Coverage, maybe a useless field -->
+    <!-- Coverage, locations linked to the publication -->
     <field name="couvertures" type="text_general" indexed="true" stored="true" multiValued="true"/>
 
     <!-- Access rights, saying if you can raed it on Cairn without institutional or private account -->
