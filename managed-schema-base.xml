@@ -13,10 +13,13 @@ Solr uses the managed-schema.xml file to define the schema of the index.
     <!-- Identifiers -->
     <field name="id" type="string" indexed="true" stored="true" multiValued="false" required="true"/>
     <field name="identifier" type="string" indexed="true" stored="true" multiValued="false" required="true"/>
-    <!--        <copyField source="identifier" dest="id"/>-->
-
+    <field name="doi" type="string" indexed="true" stored="true" multiValued="false" required="false"/>
+    <field name="doi_link" type="string" indexed="true" stored="true" multiValued="false" required="false"/>
+    <field name="url" type="string" indexed="true" stored="true" multiValued="false" required="true"/>
     <field name="identifiers" type="strings" indexed="true" stored="true" multiValued="true" required="true"
            docValues="true"/>
+
+    <!-- Infos on the harvest -->
     <field name="datestamp" type="pdate" indexed="true" stored="true" multiValued="false"
            required="false"/> <!-- Date of last collection -->
     <field name="origin" type="origin" indexed="true" stored="true" multiValued="false" required="true"
@@ -34,7 +37,7 @@ Solr uses the managed-schema.xml file to define the schema of the index.
     <field name="nb_sets" type="pint" indexed="true" stored="true" multiValued="false" required="true"/>
 
     <!-- Creators -->
-    <field name="creators" type="text_general" indexed="true" stored="true" multiValued="true"/>
+    <field name="creators" type="string" indexed="true" stored="true" multiValued="true"/>
 
     <!-- Contributors -->
     <field name="contributors" type="text_general" indexed="true" stored="true" multiValued="true"/>
@@ -59,7 +62,7 @@ Solr uses the managed-schema.xml file to define the schema of the index.
     <!-- Formats, the format of the publication, could be pdf, epub, etc. -->
     <field name="formats" type="string" indexed="true" stored="true" multiValued="true"/>
 
-    <!-- Coverage, maybe a useless field -->
+    <!-- Coverage, locations linked to the publication -->
     <field name="couvertures" type="text_general" indexed="true" stored="true" multiValued="true"/>
 
     <!-- Access rights, saying if you can raed it on Cairn without institutional or private account -->
@@ -83,5 +86,8 @@ Solr uses the managed-schema.xml file to define the schema of the index.
     <copyField source="creators" dest="catchall"/>
     <copyField source="contributors" dest="catchall"/>
     <copyField source="publishers" dest="catchall"/>
+    <copyField source="sets" dest="catchall"/>
+    <copyField source="sources" dest="catchall"/>
+    <copyField source="identifiers" dest="catchall"/>
 
 </managed-schema>
