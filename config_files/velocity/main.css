@@ -167,7 +167,7 @@ a {
 
 .pagination {
   padding-left: 33%;
-  background: rgba(0, 255, 50, 0.56);
+  background: rgba(0, 255, 75, 0.56);
   margin: 5px;
   margin-left: 210px;
   padding-top: 5px;
@@ -239,5 +239,8 @@ li.show {
 
 .sous-les-feux-des-projecteurs {
   font-size: 1.5em;
-  color: rgba(185, 0, 0, 0.69);
+  color: rgba(220, 0, 0, 0.85);
+  background-color: rgba(0, 0, 50, 0.3);
+  margin: 5px;
+  border: #0a6aa1;
 }
